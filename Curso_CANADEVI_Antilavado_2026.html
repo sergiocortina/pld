@@ -1881,10 +1881,13 @@ function initChecklist(host, data){
   }
   function markIndex(){
     var links = elIndex.querySelectorAll('.idx-slide');
+    var act = null;
     for(var i=0;i<links.length;i++){
-      links[i].classList.toggle('actual', Number(links[i].getAttribute('data-i')) === cur);
-      links[i].scrollIntoView({block:'nearest'});
+      var es = Number(links[i].getAttribute('data-i')) === cur;
+      links[i].classList.toggle('actual', es);
+      if(es) act = links[i];
     }
+    if(act) act.scrollIntoView({block:'nearest'});
   }
 
   function goFull(){
@@ -1926,6 +1929,13 @@ function initChecklist(host, data){
   document.getElementById('btn-index').addEventListener('click', toggleIndex);
   document.getElementById('btn-full').addEventListener('click', goFull);
   document.getElementById('index-close').addEventListener('click', toggleIndex);
+  elIndex.addEventListener('click', function(e){
+    var b = e.target.closest ? e.target.closest('.idx-slide') : null;
+    if(!b) return;
+    var n = Number(b.getAttribute('data-i'));
+    go(isNaN(n) ? 0 : n);
+    toggleIndex();
+  });
 
   // timer
   var start = Date.now();
