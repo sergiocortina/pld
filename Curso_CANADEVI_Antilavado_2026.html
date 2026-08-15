@@ -1957,5 +1957,28 @@ function initChecklist(host, data){
   go(0, true);
 })();
 </script>
+<script>
+(function(){
+  var v = document.getElementById('slide-intro');
+  if(!v) return;
+  var vid = v.querySelector('video');
+  if(!vid) return;
+  vid.loop = true;
+  var restart = function(){
+    vid.currentTime = 0;
+    var p = vid.play();
+    if(p && p.catch){ p.catch(function(){}); }
+  };
+  vid.addEventListener('ended', restart);
+  vid.addEventListener('pause', function(){
+    if(!vid.ended) restart();
+  });
+  if(navigator.userAgent.toLowerCase().indexOf('safari') !== -1){
+    setInterval(function(){
+      if(vid.ended){ restart(); }
+    }, 500);
+  }
+})();
+</script>
 </body>
 </html>
