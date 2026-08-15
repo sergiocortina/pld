@@ -93,6 +93,9 @@ h1{
 .portada-meta{display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-top:10px}
 .chip{background:var(--surface); border:1px solid var(--border); border-radius:999px; padding:8px 18px; font-size:16px; color:var(--text)}
 .portada-hint{margin-top:26px; font-size:15px; color:var(--dim)}
+.portada-video{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.4; pointer-events:none; z-index:0}
+.slide#slide-portada .portada-inner{position:relative; z-index:1}
+.slide#slide-portada .portada-inner>*{text-shadow:0 2px 14px rgba(0,0,0,.85)}
 /* modulo */
 .modulo-inner{height:100%; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:14px}
 .modulo-num{font-size:20px; letter-spacing:5px; text-transform:uppercase; color:var(--mcolor); font-weight:700}
@@ -330,6 +333,7 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <div class="stage">
 
 <section class="slide" id="slide-portada" data-id="portada" data-tipo="portada" data-modulo="0" style="--mcolor:#d69e2e">
+  <video class="portada-video" src="promo_face.mp4" autoplay muted loop playsinline preload="auto"></video>
   <div class="slide-inner">
     
     <div class="portada-inner">
