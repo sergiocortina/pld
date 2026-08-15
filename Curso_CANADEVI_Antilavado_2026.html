@@ -260,15 +260,6 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 .cierre-t{font-size:20px; line-height:1.5}
 .cierre-contacto{margin-top:6px; font-size:17px; color:var(--gold2)}
 .cierre-gracias{font-family:var(--font-serif); font-size:30px; color:var(--gold); margin-top:6px}
-/* notes panel */
-.notes-panel{
-  position:fixed; left:0; right:0; bottom:0; z-index:50; max-height:38vh; overflow-y:auto;
-  background:rgba(14,26,46,.97); border-top:2px solid var(--gold); padding:14px 60px 18px;
-  display:none; backdrop-filter:blur(6px);
-}
-.notes-panel.show{display:block}
-.notes-panel .np-titulo{font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); font-weight:700; margin-bottom:6px}
-.notes-panel .np-texto{font-size:18px; line-height:1.55; color:var(--text); white-space:pre-wrap}
 /* index overlay */
 .index-overlay{
   position:fixed; inset:0; z-index:60; background:rgba(7,13,24,.94); display:none;
@@ -297,8 +288,8 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 .nav-prev{left:12px}
 .nav-next{right:12px}
 /* scrollbars */
-.slide-inner *::-webkit-scrollbar, .widget::-webkit-scrollbar, .notes-panel::-webkit-scrollbar, .index-overlay::-webkit-scrollbar{width:8px}
-.slide-inner *::-webkit-scrollbar-thumb, .widget::-webkit-scrollbar-thumb, .notes-panel::-webkit-scrollbar-thumb, .index-overlay::-webkit-scrollbar-thumb{background:var(--border); border-radius:4px}
+.slide-inner *::-webkit-scrollbar, .widget::-webkit-scrollbar, .index-overlay::-webkit-scrollbar{width:8px}
+.slide-inner *::-webkit-scrollbar-thumb, .widget::-webkit-scrollbar-thumb, .index-overlay::-webkit-scrollbar-thumb{background:var(--border); border-radius:4px}
 /* responsive */
 @media (max-width:900px){
   body{font-size:18px}
@@ -317,7 +308,6 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
   <span class="tb-timer" id="tb-timer">0:00:00</span>
   <span class="tb-counter" id="tb-counter"></span>
   <button class="tb-btn" id="btn-index">Índice (I)</button>
-  <button class="tb-btn" id="btn-notes">Notas (N)</button>
   <button class="tb-btn" id="btn-full">Pantalla completa (F)</button>
 </div>
 <div class="progress" id="tb-progress"></div>
@@ -341,7 +331,7 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
         <span class="chip">Manual de Cumplimiento de la Ley Antilavado (1a ed., 2026)</span>
         <span class="chip">UMA 2026 = $117.31 · DOF 09-ene-2026, vigente desde 01-feb-2026</span>
       </div>
-      <div class="portada-hint">Navega con ← → · Índice con I · Notas con N · Pantalla completa con F</div>
+      <div class="portada-hint">Navega con ← → · Índice con I · Pantalla completa con F</div>
     </div>
     
   </div>
@@ -1656,12 +1646,6 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 
 </div>
 
-<div class="notes-panel" id="notes-panel">
-  <div class="np-titulo">Notas del presentador</div>
-  <div class="np-texto" id="notes-texto"></div>
-</div>
-
-
 <div class="index-overlay" id="index-overlay">
   <button class="index-close" id="index-close">×</button>
   <h2>Índice del curso</h2>
@@ -1937,9 +1921,6 @@ function initChecklist(host, data){
   var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
   var total = slides.length;
   var cur = 0;
-  var NOTES_ACTIVE = false;
-  var elNotes = document.getElementById('notes-panel');
-  var elNotesText = document.getElementById('notes-texto');
   var elIndex = document.getElementById('index-overlay');
   var elCounter = document.getElementById('tb-counter');
   var elProgress = document.getElementById('tb-progress');
@@ -1971,15 +1952,7 @@ function initChecklist(host, data){
     elCounter.textContent = (cur + 1) + ' / ' + total;
     elProgress.style.width = ((cur + 1) / total * 100) + '%';
     elMod.textContent = moduleNameOf(cur);
-    var nota = slides[cur].querySelector('.notes');
-    var texto = nota ? nota.textContent.trim() : '';
-    elNotesText.textContent = texto || 'Sin notas del presentador para esta diapositiva.';
     if(elIndex.classList.contains('show')) markIndex();
-  }
-
-  function toggleNotes(){
-    NOTES_ACTIVE = !NOTES_ACTIVE;
-    elNotes.classList.toggle('show', NOTES_ACTIVE);
   }
 
   function toggleIndex(){
@@ -2014,7 +1987,6 @@ function initChecklist(host, data){
       case 'ArrowLeft': case 'ArrowUp': case 'PageUp': e.preventDefault(); prev(); break;
       case 'Home': go(0); break;
       case 'End': go(total - 1); break;
-      case 'n': case 'N': toggleNotes(); break;
       case 'f': case 'F': goFull(); break;
       case 'i': case 'I': case 'm': case 'M': toggleIndex(); break;
     }
@@ -2033,7 +2005,6 @@ function initChecklist(host, data){
   document.getElementById('nav-prev').addEventListener('click', prev);
   document.getElementById('nav-next').addEventListener('click', next);
   document.getElementById('btn-index').addEventListener('click', toggleIndex);
-  document.getElementById('btn-notes').addEventListener('click', toggleNotes);
   document.getElementById('btn-full').addEventListener('click', goFull);
   document.getElementById('index-close').addEventListener('click', toggleIndex);
 
