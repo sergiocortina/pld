@@ -112,6 +112,13 @@ tr.step-item{transform:none}
 .slide-pie{position:absolute; left:0; right:0; bottom:10px; text-align:center; font-size:13px; color:var(--dim); letter-spacing:.5px; pointer-events:none}
 /* modulo */
 .modulo-inner{height:100%; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:14px}
+.modulo-cols{height:100%; display:flex; align-items:center; justify-content:space-between; gap:60px}
+.modulo-main{display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:14px}
+.modulo-lateral{background:linear-gradient(160deg, var(--surface2), var(--surface)); border:1px solid var(--border); border-left:5px solid var(--gold); border-radius:12px; padding:24px 30px; min-width:330px}
+.mod-lat-titulo{font-size:13px; letter-spacing:3px; text-transform:uppercase; color:var(--gold2); font-weight:700; margin-bottom:14px}
+.mod-lat-item{font-size:22px; color:var(--text); padding:10px 0; border-bottom:1px solid rgba(255,255,255,.07)}
+.mod-lat-item:last-of-type{border-bottom:none}
+.mod-lat-nota{margin-top:16px; padding-top:14px; border-top:1px dashed var(--border); font-size:18px; color:var(--gold); font-style:italic}
 .modulo-num{font-size:20px; letter-spacing:5px; text-transform:uppercase; color:var(--mcolor); font-weight:700}
 .modulo-titulo{font-size:56px; color:var(--text); border-left:6px solid var(--mcolor); padding-left:22px}
 .modulo-duracion{font-size:20px; color:var(--muted)}
@@ -376,13 +383,20 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m0-div" data-id="m0-div" data-tipo="modulo" data-modulo="0" style="--mcolor:#d69e2e">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#d69e2e">
-      <div class="modulo-num">Módulo 0</div>
-      <h1 class="modulo-titulo">Apertura</h1>
-      <div class="modulo-duracion">~10 minutos</div>
-      <ul class="modulo-agenda"><li>El caso que abre el curso</li><li>Por qué esta ley te toca a ti</li><li>De dónde vienen estas reglas</li><li>Quién vigila y cómo</li><li>Línea base: encuesta rápida</li></ul>
-    </div>
-    
+        <div class="modulo-cols" style="--mcolor:#d69e2e">
+          <div class="modulo-main">
+            <div class="modulo-num">Módulo 0</div>
+            <h1 class="modulo-titulo">Apertura</h1>
+            <div class="modulo-duracion">~10 minutos</div>
+            <ul class="modulo-agenda"><li>El caso que abre el curso</li><li>Por qué esta ley te toca a ti</li><li>De dónde vienen estas reglas</li><li>Quién vigila y cómo</li><li>Línea base: encuesta rápida</li></ul>
+          </div>
+          <div class="modulo-lateral">
+            <div class="mod-lat-titulo">Delitos que generan recursos ilícitos</div>
+            <div class="mod-lat-item">Narcotráfico</div><div class="mod-lat-item">Corrupción</div><div class="mod-lat-item">Terrorismo</div><div class="mod-lat-item">Armas de Destrucción Masiva</div>
+            <div class="mod-lat-nota">Actividad hermana: facturas falsas</div>
+          </div>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
@@ -483,13 +497,13 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m1-div" data-id="m1-div" data-tipo="modulo" data-modulo="1" style="--mcolor:#1a9e76">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#1a9e76">
-      <div class="modulo-num">Módulo 1</div>
-      <h1 class="modulo-titulo">¿Eres sujeto obligado?</h1>
-      <div class="modulo-duracion">~40 minutos</div>
-      <ul class="modulo-agenda"><li>Artículo 17: las 16 fracciones y la V Bis</li><li>Actividades vecinas: revisa tu grupo completo</li><li>Los umbrales que te tocan (UMA 2026)</li><li>Obligaciones del Art. 18 y Art. 20</li><li>El Representante Encargado (Art. 20)</li><li>Padrón de AV y FIEL</li><li>Actividad: autodiagnóstico ¿Soy sujeto obligado?</li></ul>
-    </div>
-    
+        <div class="modulo-inner" style="--mcolor:#1a9e76">
+          <div class="modulo-num">Módulo 1</div>
+          <h1 class="modulo-titulo">¿Eres sujeto obligado?</h1>
+          <div class="modulo-duracion">~40 minutos</div>
+          <ul class="modulo-agenda"><li>Artículo 17: las 16 fracciones y la V Bis</li><li>Actividades vecinas: revisa tu grupo completo</li><li>Los umbrales que te tocan (UMA 2026)</li><li>Obligaciones del Art. 18 y Art. 20</li><li>El Representante Encargado (Art. 20)</li><li>Padrón de AV y FIEL</li><li>Actividad: autodiagnóstico ¿Soy sujeto obligado?</li></ul>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
@@ -748,13 +762,13 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m2-div" data-id="m2-div" data-tipo="modulo" data-modulo="2" style="--mcolor:#3b82f6">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#3b82f6">
-      <div class="modulo-num">Módulo 2</div>
-      <h1 class="modulo-titulo">KYC: conoce a tu cliente</h1>
-      <div class="modulo-duracion">~35 minutos</div>
-      <ul class="modulo-agenda"><li>Casos: el cliente que no era quien decía ser</li><li>Documentos válidos para personas físicas</li><li>Perfil de riesgo del cliente y relación de negocios</li><li>Personas morales y beneficiario controlador</li><li>El umbral del 25% y la cascada de propiedad</li><li>Fideicomisos, offshore y empresas extranjeras</li><li>PEPs y listas de personas sancionadas</li><li>Actividades: cotejo y cascada</li></ul>
-    </div>
-    
+        <div class="modulo-inner" style="--mcolor:#3b82f6">
+          <div class="modulo-num">Módulo 2</div>
+          <h1 class="modulo-titulo">KYC: conoce a tu cliente</h1>
+          <div class="modulo-duracion">~35 minutos</div>
+          <ul class="modulo-agenda"><li>Casos: el cliente que no era quien decía ser</li><li>Documentos válidos para personas físicas</li><li>Perfil de riesgo del cliente y relación de negocios</li><li>Personas morales y beneficiario controlador</li><li>El umbral del 25% y la cascada de propiedad</li><li>Fideicomisos, offshore y empresas extranjeras</li><li>PEPs y listas de personas sancionadas</li><li>Actividades: cotejo y cascada</li></ul>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
@@ -1064,13 +1078,13 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m3-div" data-id="m3-div" data-tipo="modulo" data-modulo="3" style="--mcolor:#e24b4b">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#e24b4b">
-      <div class="modulo-num">Módulo 3</div>
-      <h1 class="modulo-titulo">Tus 2 actividades: Fracción V y V Bis</h1>
-      <div class="modulo-duracion">~35 minutos</div>
-      <ul class="modulo-agenda"><li>Caso Laura: la operación sin preguntas</li><li>Fracción V: comercialización de inmuebles</li><li>Caso Don Raúl: los inversionistas</li><li>Fracción V Bis: desarrollo inmobiliario</li><li>Red flags del comprador, el pago y el inversionista</li><li>Fr XV arrendamiento y Fr XII-A notarios</li><li>Caso: la nave industrial de Tlalnepantla</li><li>Actividad: 4 escenarios ¿qué harías?</li></ul>
-    </div>
-    
+        <div class="modulo-inner" style="--mcolor:#e24b4b">
+          <div class="modulo-num">Módulo 3</div>
+          <h1 class="modulo-titulo">Tus 2 actividades: Fracción V y V Bis</h1>
+          <div class="modulo-duracion">~35 minutos</div>
+          <ul class="modulo-agenda"><li>Caso Laura: la operación sin preguntas</li><li>Fracción V: comercialización de inmuebles</li><li>Caso Don Raúl: los inversionistas</li><li>Fracción V Bis: desarrollo inmobiliario</li><li>Red flags del comprador, el pago y el inversionista</li><li>Fr XV arrendamiento y Fr XII-A notarios</li><li>Caso: la nave industrial de Tlalnepantla</li><li>Actividad: 4 escenarios ¿qué harías?</li></ul>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
@@ -1294,13 +1308,13 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m4-div" data-id="m4-div" data-tipo="modulo" data-modulo="4" style="--mcolor:#7c5cd6">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#7c5cd6">
-      <div class="modulo-num">Módulo 4</div>
-      <h1 class="modulo-titulo">Avisos, multas y el SAT en tu puerta</h1>
-      <div class="modulo-duracion">~40 minutos</div>
-      <ul class="modulo-agenda"><li>Tipos de aviso y plazos</li><li>El día 17, el aviso de 24 horas y el informe en ceros</li><li>Tabla de multas 2026</li><li>Suspensión (54 Bis) y autocorrección (55)</li><li>El día que llegó el SAT</li><li>Tipos de visita y calendario</li><li>Formatos oficiales y desvirtuación</li><li>Actividad: simulación de visita</li></ul>
-    </div>
-    
+        <div class="modulo-inner" style="--mcolor:#7c5cd6">
+          <div class="modulo-num">Módulo 4</div>
+          <h1 class="modulo-titulo">Avisos, multas y el SAT en tu puerta</h1>
+          <div class="modulo-duracion">~40 minutos</div>
+          <ul class="modulo-agenda"><li>Tipos de aviso y plazos</li><li>El día 17, el aviso de 24 horas y el informe en ceros</li><li>Tabla de multas 2026</li><li>Suspensión (54 Bis) y autocorrección (55)</li><li>El día que llegó el SAT</li><li>Tipos de visita y calendario</li><li>Formatos oficiales y desvirtuación</li><li>Actividad: simulación de visita</li></ul>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
@@ -1563,13 +1577,13 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m5-div" data-id="m5-div" data-tipo="modulo" data-modulo="5" style="--mcolor:#14b8a6">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#14b8a6">
-      <div class="modulo-num">Módulo 5</div>
-      <h1 class="modulo-titulo">Implementa: Manual y Checklist</h1>
-      <div class="modulo-duracion">~15 minutos</div>
-      <ul class="modulo-agenda"><li>Para qué sirve el Manual de Cumplimiento</li><li>Estructura del Manual</li><li>Actividad: Checklist Ejecutivo A-L</li><li>El cumplimiento no termina</li></ul>
-    </div>
-    
+        <div class="modulo-inner" style="--mcolor:#14b8a6">
+          <div class="modulo-num">Módulo 5</div>
+          <h1 class="modulo-titulo">Implementa: Manual y Checklist</h1>
+          <div class="modulo-duracion">~15 minutos</div>
+          <ul class="modulo-agenda"><li>Para qué sirve el Manual de Cumplimiento</li><li>Estructura del Manual</li><li>Actividad: Checklist Ejecutivo A-L</li><li>El cumplimiento no termina</li></ul>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
@@ -1659,13 +1673,13 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m6-div" data-id="m6-div" data-tipo="modulo" data-modulo="6" style="--mcolor:#e0a020">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#e0a020">
-      <div class="modulo-num">Módulo 6</div>
-      <h1 class="modulo-titulo">Novedades Acuerdo 115/2026</h1>
-      <div class="modulo-duracion">~15 minutos</div>
-      <ul class="modulo-agenda"><li>Lo que cambió</li><li>Enfoque Basado en Riesgo (EBR)</li><li>Grados de riesgo y perfil transaccional</li><li>Capacitación y selección de personal</li><li>Auditoría anual dictaminada</li><li>Mecanismos automatizados</li><li>Nuevas definiciones</li></ul>
-    </div>
-    
+        <div class="modulo-inner" style="--mcolor:#e0a020">
+          <div class="modulo-num">Módulo 6</div>
+          <h1 class="modulo-titulo">Novedades Acuerdo 115/2026</h1>
+          <div class="modulo-duracion">~15 minutos</div>
+          <ul class="modulo-agenda"><li>Lo que cambió</li><li>Enfoque Basado en Riesgo (EBR)</li><li>Grados de riesgo y perfil transaccional</li><li>Capacitación y selección de personal</li><li>Auditoría anual dictaminada</li><li>Mecanismos automatizados</li><li>Nuevas definiciones</li></ul>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
@@ -1806,13 +1820,13 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 <section class="slide" id="slide-m7-div" data-id="m7-div" data-tipo="modulo" data-modulo="7" style="--mcolor:#d69e2e">
   <div class="slide-inner">
     
-    <div class="modulo-inner" style="--mcolor:#d69e2e">
-      <div class="modulo-num">Módulo 7</div>
-      <h1 class="modulo-titulo">Cierre</h1>
-      <div class="modulo-duracion">~5 minutos</div>
-      <ul class="modulo-agenda"><li>Plan de acción 30 días</li><li>Recursos del libro y formularios</li><li>Contacto y despedida</li></ul>
-    </div>
-    
+        <div class="modulo-inner" style="--mcolor:#d69e2e">
+          <div class="modulo-num">Módulo 7</div>
+          <h1 class="modulo-titulo">Cierre</h1>
+          <div class="modulo-duracion">~5 minutos</div>
+          <ul class="modulo-agenda"><li>Plan de acción 30 días</li><li>Recursos del libro y formularios</li><li>Contacto y despedida</li></ul>
+        </div>
+        
   </div>
   <div class="slide-pie">sergiocortina@hotmail.com</div>
 </section>
