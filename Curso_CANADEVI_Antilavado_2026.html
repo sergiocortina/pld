@@ -28,6 +28,9 @@ body{
 .topbar .tb-title{font-family:var(--font-serif); color:var(--gold); font-size:16px; white-space:nowrap}
 .topbar .tb-mod{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex:1}
 .topbar .tb-timer{font-variant-numeric:tabular-nums; white-space:nowrap}
+.tb-counter{cursor:pointer; white-space:nowrap; font-variant-numeric:tabular-nums; padding:2px 8px; border-radius:6px; transition:background .15s,color .15s; user-select:none}
+.tb-counter:hover{background:rgba(227,179,65,.14); color:var(--gold)}
+.tb-counter-input{width:46px; background:var(--surface2); border:1px solid var(--gold); color:var(--gold); font-size:14px; text-align:center; border-radius:6px; padding:2px 4px; font-family:var(--font-sans); outline:none}
 .tb-btn{
   background:transparent; border:1px solid var(--border); color:var(--muted);
   border-radius:6px; padding:4px 10px; font-size:13px; cursor:pointer;
@@ -320,7 +323,7 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
   <span class="tb-title">Cumplimiento Antilavado para el Sector Inmobiliario</span>
   <span class="tb-mod" id="tb-mod"></span>
   <span class="tb-timer" id="tb-timer">0:00:00</span>
-  <span class="tb-counter" id="tb-counter"></span>
+  <span class="tb-counter" id="tb-counter" title="Haz clic y escribe el número para ir a esa diapositiva"></span>
   <button class="tb-btn" id="btn-index">Índice (I)</button>
   <span class="tb-step" id="tb-step"></span>
   <button class="tb-btn" id="btn-unit-index">Unidad (U)</button>
@@ -351,7 +354,7 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
         <span class="chip">Manual de Cumplimiento de la Ley Antilavado (1a ed., 2026)</span>
         <span class="chip">UMA 2026 = $117.31 · DOF 09-ene-2026, vigente desde 01-feb-2026</span>
       </div>
-      <div class="portada-hint">Navega con ← → · Índice con I · Notas con N · Pantalla completa con F</div>
+      <div class="portada-hint">Navega con ← → · Índice con I · Pantalla completa con F · Clic en el contador para saltar a una diapositiva</div>
     </div>
     
   </div>
@@ -2060,6 +2063,7 @@ function initChecklist(host, data){
   var elProgress = document.getElementById('tb-progress');
   var elMod = document.getElementById('tb-mod');
   var elTimer = document.getElementById('tb-timer');
+  var counterEditing = false;
 
   function moduleNameOf(idx){
     var s = slides[idx];
@@ -2128,7 +2132,7 @@ function initChecklist(host, data){
     var shown = buildShown();
     elStep.textContent = cnt > 1 ? shown + ' / ' + cnt : '';
     elStep.style.display = cnt > 1 ? 'inline-flex' : 'none';
-    elCounter.textContent = (cur + 1) + ' / ' + total;
+    if(!counterEditing){ elCounter.textContent = (cur + 1) + ' / ' + total; }
     elProgress.style.width = ((cur + 1) / total * 100) + '%';
     elMod.textContent = moduleNameOf(cur);
     if(elIndex.classList.contains('show')) markIndex();
@@ -2165,8 +2169,46 @@ function initChecklist(host, data){
     }
   }
 
+  // contador editable: clic en el número y escribe a qué diapositiva ir
+  function startCounterEdit(){
+    if(counterEditing) return;
+    counterEditing = true;
+    var inp = document.createElement('input');
+    inp.type = 'text';
+    inp.className = 'tb-counter-input';
+    inp.value = cur + 1;
+    inp.setAttribute('aria-label', 'Ir a la diapositiva');
+    elCounter.textContent = '';
+    elCounter.appendChild(inp);
+    inp.focus();
+    inp.select();
+    function done(jump){
+      // guard anti re-entrada: removeChild del input enfocado dispara blur
+      // sincrónico que volvería a llamar a done(null) a mitad de camino
+      if(inp._done) return;
+      inp._done = true;
+      if(inp.parentNode === elCounter){ elCounter.removeChild(inp); }
+      counterEditing = false;
+      if(jump !== null){
+        var v = parseInt(inp.value, 10);
+        if(!isNaN(v)){ v = Math.max(1, Math.min(total, v)); go(v - 1); }
+        else { updateChrome(); }
+      } else {
+        updateChrome();
+      }
+    }
+    inp.addEventListener('keydown', function(e){
+      e.stopPropagation();
+      if(e.key === 'Enter'){ e.preventDefault(); done(inp.value); }
+      else if(e.key === 'Escape'){ e.preventDefault(); done(null); }
+    });
+    inp.addEventListener('blur', function(){ done(null); });
+  }
+  elCounter.addEventListener('click', startCounterEdit);
+
   // keyboard
   document.addEventListener('keydown', function(e){
+    if(e.target && e.target.tagName === 'INPUT') return;
     if(elIndex.classList.contains('show')){
       if(e.key === 'Escape' || e.key === 'i' || e.key === 'I' || e.key === 'm' || e.key === 'M'){ toggleIndex(); }
       return;
