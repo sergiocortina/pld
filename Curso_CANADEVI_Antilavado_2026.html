@@ -258,6 +258,14 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 .qz-feedback.bien{background:rgba(46,204,143,.12); border-left:4px solid var(--green); color:#d6f8e8}
 .qz-feedback.mal{background:rgba(224,93,93,.12); border-left:4px solid var(--red); color:#fbdcdc}
 /* checklist */
+.widget-checklist.cl-cols-2, .widget-checklist.cl-cols-3{display:grid; gap:10px 18px; align-content:start}
+.widget-checklist.cl-cols-2{grid-template-columns:1fr 1fr}
+.widget-checklist.cl-cols-3{grid-template-columns:1fr 1fr 1fr}
+.widget-checklist.cl-cols-2 .cl-intro, .widget-checklist.cl-cols-2 .cl-progress,
+.widget-checklist.cl-cols-3 .cl-intro, .widget-checklist.cl-cols-3 .cl-progress{grid-column:1/-1}
+.widget-checklist.cl-cols-2 .cl-grupo, .widget-checklist.cl-cols-3 .cl-grupo{margin-bottom:0}
+.widget-checklist.cl-cols-2 .cl-gt, .widget-checklist.cl-cols-3 .cl-gt{font-size:14px; padding:5px 11px}
+.widget-checklist.cl-cols-2 .cl-item, .widget-checklist.cl-cols-3 .cl-item{font-size:14.5px; padding:4px 11px; line-height:1.28}
 .cl-intro{font-size:19px; color:var(--muted); margin-bottom:10px}
 .cl-progress{display:flex; align-items:center; gap:14px; margin-bottom:14px}
 .cl-progress .cl-bar{flex:1; height:16px; background:var(--bg2); border:1px solid var(--border); border-radius:8px; overflow:hidden}
@@ -1997,6 +2005,9 @@ function initQuiz(host, data){
 }
 
 function initChecklist(host, data){
+  var n = data.grupos.length;
+  if(n >= 10){ host.classList.add('cl-cols-3'); }
+  else if(n >= 4){ host.classList.add('cl-cols-2'); }
   var html = '<div class="cl-intro">'+escHtml(data.entrada)+'</div>';
   html += '<div class="cl-progress"><span class="cl-bar"><span class="cl-fill" id="cl-fill"></span></span>'+
           '<span class="cl-pct" id="cl-pct">0%</span></div>';
