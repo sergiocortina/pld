@@ -286,6 +286,7 @@ table.tabla{width:100%; border-collapse:collapse; font-size:18px}
 .cl-item{display:flex; align-items:flex-start; gap:10px; padding:7px 16px; font-size:17px; line-height:1.4}
 .cl-item:nth-child(odd){background:rgba(255,255,255,.02)}
 .cl-item input{width:20px; height:20px; margin-top:2px; accent-color:var(--gold); cursor:pointer}
+.cl-item .cl-num{flex:none; min-width:26px; color:var(--gold); font-weight:700; font-variant-numeric:tabular-nums}
 .cl-item label{cursor:pointer}
 .cl-item.marcado label{color:var(--dim); text-decoration:line-through}
 /* cierre */
@@ -2153,11 +2154,14 @@ function initChecklist(host, data){
   var html = '<div class="cl-intro">'+escHtml(data.entrada)+'</div>';
   html += '<div class="cl-progress"><span class="cl-bar"><span class="cl-fill" id="cl-fill"></span></span>'+
           '<span class="cl-pct" id="cl-pct">0%</span></div>';
+  var num = 0;
   for(var g=0;g<data.grupos.length;g++){
     var grp = data.grupos[g];
     html += '<div class="cl-grupo"><div class="cl-gt">'+escHtml(grp.titulo)+'</div>';
     for(var i=0;i<grp.items.length;i++){
+      num++;
       html += '<div class="cl-item"><input type="checkbox" data-g="'+g+'" data-i="'+i+'" id="cl-'+g+'-'+i+'">'+
+              '<span class="cl-num">'+num+'.</span>'+
               '<label for="cl-'+g+'-'+i+'">'+escHtml(grp.items[i])+'</label></div>';
     }
     html += '</div>';
