@@ -1,0 +1,2702 @@
+[
+ {
+  "n": 1,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con el documento de la CNBV relativo al LD, ¿cuál de las siguientes NO es una de las actividades ilegales generadoras de lavado de dinero mencionadas expresamente?",
+  "opciones": {
+   "A": "Evasión fiscal",
+   "B": "Tráfico de drogas o estupefacientes",
+   "C": "Corrupción",
+   "D": "Delitos ambientales"
+  },
+  "correcta": "D",
+  "argumentacion": "El documento CNBV (T1.1 líneas 8-11) enumera como actividades generadoras: tráfico de drogas, contrabando de armas, corrupción, fraude, trata de personas, lenocinio, extorsión, piratería, evasión fiscal y terrorismo. Los \"delitos ambientales\" no se mencionan en esa lista. ---"
+ },
+ {
+  "n": 2,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la Recomendación 3 del GAFI, ¿en qué convenciones internacionales deben basar los países la tipificación del delito de lavado de activos?",
+  "opciones": {
+   "A": "Convención de Ginebra y Convención de la Haya",
+   "B": "Convención de Mérida (2003) y Convención de Caracas (1997)",
+   "C": "Convención Anti-cohecho de la OCDE y Convención de la ONU contra la Delincuencia Organizada",
+   "D": "Convención de Viena (1988) y Convención de Palermo (2000)"
+  },
+  "correcta": "D",
+  "argumentacion": "La Nota Interpretativa de la R.3 del GAFI (T1.5 líneas 1826-1829) establece que los países deben tipificar el lavado de activos con base en la Convención de Viena (contra el Tráfico Ilícito de Estupefacientes, 1988) y la Convención de Palermo (contra la Delincuencia Transnacional Organizada, 2000). ---"
+ },
+ {
+  "n": 3,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "Conforme a la Nota Interpretativa de la Recomendación 5 del GAFI, ¿cuál de las siguientes afirmaciones sobre el delito de financiamiento al terrorismo es correcta?",
+  "opciones": {
+   "A": "Los fondos deben haber sido realmente utilizados para cometer un acto terrorista",
+   "B": "Los fondos deben provenir exclusivamente de fuentes ilegítimas",
+   "C": "Solo es punible cuando el acto terrorista se consuma",
+   "D": "El delito se extiende al financiamiento de organizaciones terroristas y terroristas individuales, aún sin vínculo con un acto específico"
+  },
+  "correcta": "D",
+  "argumentacion": "La R.5 del GAFI (T1.5 líneas 648-654) establece que los países deben tipificar el FT no solo de actos terroristas, sino también de organizaciones terroristas y terroristas individuales, aún en ausencia de un vínculo con un acto o actos terroristas específicos. Además (T1.5 líneas 2038-2043), los fondos pueden provenir de fuente legítima o ilegítima, y no se exige que hayan sido realmente utilizados. ---"
+ },
+ {
+  "n": 4,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Completamiento",
+  "q": "La diferencia fundamental entre el lavado de dinero y el financiamiento al terrorismo es que en el LD se investiga el ______ de los fondos, mientras que en el FT se investiga el ______ del dinero.",
+  "opciones": {
+   "A": "origen / destino",
+   "B": "titular / movimiento",
+   "C": "monto / beneficiario",
+   "D": "destino / origen"
+  },
+  "correcta": "A",
+  "argumentacion": "Conforme a la Guía Oficial 2025 (líneas 195-199), \"la diferencia entre ambos conceptos es que en el caso del lavado de dinero lo importante es investigar el origen de los fondos, mientras que en el financiamiento al terrorismo lo más relevante es determinar el destino del dinero. Cabe señalar que una característica del lavado de dinero es que el origen del capital es siempre ilícito, mientras que el financiamiento al terrorismo puede ocurrir con recursos lícitos o ilícitos.\" ---"
+ },
+ {
+  "n": 5,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Relación de elementos",
+  "q": "Relacione cada etapa del lavado de dinero con su descripción:\n\n| Etapa | Descripción |\n|-------|-------------|\n| 1. Colocación | a) Serie de operaciones para ocultar el origen e impedir el rastreo de los recursos ilícitos |\n| 2. Estratificación | b) Reinserción de los fondos ilegales en la economía como legítimos |\n| 3. Integración | c) Introducción de recursos de procedencia ilícita al sistema financiero |",
+  "opciones": {
+   "A": "1a, 2b, 3c",
+   "B": "1c, 2b, 3a",
+   "C": "1c, 2a, 3b",
+   "D": "1b, 2c, 3a"
+  },
+  "correcta": "C",
+  "argumentacion": "La CNBV (T1.1 esquema) describe la Colocación (1c) como la introducción de ganancias ilícitas al sistema financiero; la Estratificación (2a) como el envío de dinero a través de transacciones para cambiar su forma y dificultar el rastreo; y la Integración (3b) como la reinserción de los fondos en la economía como legítimos. ---"
+ },
+ {
+  "n": 6,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál es la pena prevista en el artículo 400 Bis del Código Penal Federal para el delito de operaciones con recursos de procedencia ilícita?",
+  "opciones": {
+   "A": "Prisión de 5 a 15 años y multa de 1,000 a 5,000 días",
+   "B": "Prisión de 10 a 20 años y multa de 500 a 2,000 días",
+   "C": "Prisión de 15 a 40 años y multa de 400 a 1,200 veces la UMA",
+   "D": "Prisión de 1 a 9 años y multa de 100 a 300 días"
+  },
+  "correcta": "A",
+  "argumentacion": "El artículo 400 Bis del CPF (T1.2 línea 8818) establece la pena de 5 a 15 años de prisión y de 1,000 a 5,000 días multa. La opción A corresponde al terrorismo (art. 139 CPF). La opción C corresponde al encubrimiento del FT (art. 139 Quinquies). ---"
+ },
+ {
+  "n": 7,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con el artículo 400 Bis 1 del Código Penal Federal, ¿cómo se agravan las penas del delito de LD cuando quien lo comete es un servidor público encargado de prevenir, detectar o investigar estos delitos?",
+  "opciones": {
+   "A": "Se aumentan en un tercio",
+   "B": "Se aumentan en una mitad",
+   "C": "Se duplican",
+   "D": "Se triplican"
+  },
+  "correcta": "C",
+  "argumentacion": "El artículo 400 Bis 1, párrafo tercero del CPF (T1.2 líneas 8870-8875) establece que las penas se **duplicarán** si la conducta es cometida por servidores públicos encargados de prevenir, detectar, denunciar, investigar o juzgar delitos o ejecutar sanciones penales, así como ex servidores en los dos años posteriores. Además, se impone inhabilitación hasta por un tiempo igual al de la pena de prisión. ---"
+ },
+ {
+  "n": 8,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Relación de elementos",
+  "q": "Relacione cada Convención Internacional contra la Corrupción con su característica distintiva:\n\n| Convención | Característica |\n|------------|----------------|\n| 1. Convención Interamericana contra la Corrupción (Caracas) | a) Adoptada en Mérida, México (2003). Aborda prevención, cooperación y recuperación de activos |\n| 2. Convención Anti-cohecho de la OCDE | b) Primer instrumento jurídico internacional en la materia (1997). Énfasis en medidas preventivas |\n| 3. UNCAC (Convención de Mérida) | c) Combate el cohecho de servidores públicos extranjeros en transacciones comerciales internacionales |",
+  "opciones": {
+   "A": "1c, 2a, 3b",
+   "B": "1a, 2b, 3c",
+   "C": "1b, 2a, 3c",
+   "D": "1b, 2c, 3a"
+  },
+  "correcta": "D",
+  "argumentacion": "La Convención de Caracas (1b) fue el primer instrumento internacional (T1.10 líneas 264-277). La Convención Anti-cohecho de la OCDE (2c) se centra en el cohecho de servidores públicos extranjeros (T1.10 líneas 280-298). La UNCAC (3a) fue adoptada en Mérida, México (T1.10 líneas 301-320). ---"
+ },
+ {
+  "n": 9,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "Conforme a la clasificación de Transparencia Internacional, ¿cuál de los siguientes es un tipo de corrupción?",
+  "opciones": {
+   "A": "Corrupción judicial",
+   "B": "Corrupción empresarial",
+   "C": "Corrupción mediática",
+   "D": "Corrupción política"
+  },
+  "correcta": "D",
+  "argumentacion": "Transparencia Internacional clasifica la corrupción en tres tipos: corrupción a gran escala, actos de corrupción menores y corrupción política (T1.10 líneas 346-363). La \"corrupción política\" se define como la manipulación de políticas, instituciones y normas en la asignación de recursos por decisores políticos. ---"
+ },
+ {
+  "n": 10,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con el GAFI (Recomendación 5), ¿cuál es la base normativa internacional para la tipificación del financiamiento al terrorismo?",
+  "opciones": {
+   "A": "Convención de Mérida (2003)",
+   "B": "Convenio Internacional para la Represión de la Financiación del Terrorismo",
+   "C": "Convención de Palermo (2000)",
+   "D": "Convención de Viena (1988)"
+  },
+  "correcta": "B",
+  "argumentacion": "La Recomendación 5 del GAFI (T1.5 líneas 648-654) establece que los países deben tipificar el FT \"en base al Convenio Internacional para la Represión de la Financiación del Terrorismo\". Adicionalmente, el FT debe ser designado como delito determinante del lavado de activos. ---"
+ },
+ {
+  "n": 11,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Elección de elementos",
+  "q": "Identifique cuáles de las siguientes son características del delito de financiamiento al terrorismo conforme a la Nota Interpretativa de la R.5 del GAFI:\n\n1. Los fondos deben provenir exclusivamente de fuentes ilegítimas\n2. No exige que los fondos hayan sido realmente utilizados para un acto terrorista\n3. El delito se aplica independientemente de si el presunto delincuente está en país diferente al del acto terrorista\n4. El intento debe constituir delito\n5. Solo se aplica cuando el acto terrorista se consuma\n6. Incluye la financiación del viaje de individuos para recibir entrenamiento terrorista",
+  "opciones": {
+   "A": "2, 4, 6",
+   "B": "1, 2, 3, 4",
+   "C": "1, 3, 5",
+   "D": "2, 3, 4, 6"
+  },
+  "correcta": "D",
+  "argumentacion": "Según la Nota Interpretativa de la R.5 (T1.5 líneas 2031-2084): los fondos pueden ser de fuente legítima o ilegítima (descarta 1); no exige uso real (2 correcto); aplica extraterritorialmente (3 correcto); el intento debe ser delito (4 correcto); incluye financiación de viajes para entrenamiento (6 correcto). Las afirmaciones 1 y 5 son falsas. ---"
+ },
+ {
+  "n": 12,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "Conforme a la Guía Anticorrupción de la CNBV, ¿qué es una PEP (Persona Políticamente Expuesta)?",
+  "opciones": {
+   "A": "Individuo que desempeña o ha desempeñado funciones públicas destacadas en un país extranjero o en territorio nacional",
+   "B": "Todo servidor público de cualquier nivel",
+   "C": "Solo los jefes de Estado y de gobierno",
+   "D": "Cualquier persona que realice actividades políticas"
+  },
+  "correcta": "A",
+  "argumentacion": "La Guía Anticorrupción (T1.10 líneas 164-190) define PEP como \"aquel individuo que desempeña o ha desempeñado funciones públicas destacadas en un país extranjero o en territorio nacional\", incluyendo entre otros a jefes de estado, líderes políticos, funcionarios gubernamentales, judiciales o militares de alta jerarquía, altos ejecutivos de empresas estatales, y miembros importantes de partidos políticos. ---"
+ },
+ {
+  "n": 13,
+  "area": 1,
+  "subarea": "Subárea 1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la ENR 2023, ¿cuál es la relación entre la corrupción y el lavado de dinero?",
+  "opciones": {
+   "A": "La corrupción es una consecuencia del LD, no una causa",
+   "B": "La corrupción es una fuente de fondos ilegales que hace posible el LD y sus delitos precedentes",
+   "C": "No existe relación directa entre ambos delitos",
+   "D": "Solo la corrupción a gran escala genera LD"
+  },
+  "correcta": "B",
+  "argumentacion": "La ENR 2023 (T1.9 línea 3074) establece que \"la corrupción es una fuente de fondos ilegales que, entre otras cosas, hace posible el LD y sus delitos precedentes\". La corrupción es un delito precedente del LD. ---"
+ },
+ {
+  "n": 14,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Completamiento",
+  "q": "Conforme al artículo 139 Quáter del Código Penal Federal, la pena para el delito de FT es la misma que para el delito de ______: prisión de ______ años y multa de ______ veces el valor diario de la UMA.",
+  "opciones": {
+   "A": "homicidio / 20 a 50 / 500 a 2000",
+   "B": "delincuencia organizada / 10 a 30 / 300 a 1000",
+   "C": "terrorismo / 15 a 40 / 400 a 1200",
+   "D": "sabotaje / 2 a 20 / 1000 a 5000"
+  },
+  "correcta": "C",
+  "argumentacion": "El artículo 139 Quáter remite a la pena del artículo 139 (terrorismo): prisión de 15 a 40 años y multa de 400 a 1,200 veces el valor diario de la UMA (T1.2 líneas 2603-2605, 2660). --- ### Subárea 1.2 — Organismos internacionales (preguntas 15-39)"
+ },
+ {
+  "n": 15,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Relacionar columnas",
+  "q": "Relacione el organismo internacional con su descripción:\n\n| Organismo | Descripción |\n|-----------|-------------|\n| 1. Grupo Egmont | A. Asociación de 13 bancos globales que desarrolla marcos de gestión de riesgos de delincuencia financiera |\n| 2. Grupo Wolfsberg | B. Organismo intergubernamental que fija estándares ALA/CFT, creado en 1989 por el G-7 |\n| 3. GAFI | C. Red de Unidades de Inteligencia Financiera que facilita el intercambio seguro de información |\n| 4. Comité de Basilea | D. Comité de supervisión prudencial bancaria del BPI, emite directrices sobre gestión de riesgos LA/FT |",
+  "opciones": {
+   "A": "1-C, 2-A, 3-B, 4-D",
+   "B": "1-D, 2-B, 3-A, 4-C",
+   "C": "1-A, 2-C, 3-D, 4-B",
+   "D": "1-B, 2-D, 3-C, 4-A"
+  },
+  "correcta": "A",
+  "argumentacion": "Grupo Egmont = red de UIFs (C); Grupo Wolfsberg = 13 bancos globales (A); GAFI = organismo intergubernamental creado en 1989 por el G-7 (B); Comité de Basilea = supervisión prudencial bancaria del BPI (D). Fuentes: T1.7, T1.6, T1.8. ---"
+ },
+ {
+  "n": 16,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál es el máximo órgano de decisión del GAFI y cómo toma sus decisiones?",
+  "opciones": {
+   "A": "El Presidente, por decisión unipersonal",
+   "B": "La Secretaría, por votación ponderada",
+   "C": "El Pleno, por consenso",
+   "D": "El Grupo Directivo, por mayoría simple"
+  },
+  "correcta": "C",
+  "argumentacion": "El artículo 19 del Mandato del GAFI establece que \"el Pleno es el máximo órgano de decisión del GAFI\" y que \"sus decisiones se toman por consenso\" (T1.6 ¶¶18-19). ---"
+ },
+ {
+  "n": 17,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "Conforme al Mandato 2012-2020 del GAFI, ¿cada cuándo se celebran las Sesiones Plenarias ordinarias?",
+  "opciones": {
+   "A": "Cada 2 años",
+   "B": "Cada mes",
+   "C": "Al menos 3 veces al año (febrero, junio y octubre)",
+   "D": "Una vez al año, en junio"
+  },
+  "correcta": "C",
+  "argumentacion": "El artículo 24 del Mandato establece que \"el Presidente convoca por lo menos a tres Sesiones Plenarias cada año calendario, normalmente en febrero, junio y octubre\" (T1.6 ¶24). ---"
+ },
+ {
+  "n": 18,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál de los siguientes NO es un mecanismo de evaluación del GAFI?",
+  "opciones": {
+   "A": "Planes de Acción derivados de los reportes de evaluación",
+   "B": "Autoevaluaciones",
+   "C": "Auditorías externas por firms consultoras",
+   "D": "Evaluaciones mutuas"
+  },
+  "correcta": "C",
+  "argumentacion": "El GAFI posee dos mecanismos básicos de evaluación: autoevaluaciones y evaluaciones mutuas (T1.7 líneas 40-44). Las evaluaciones mutuas culminan en un Reporte que incluye un \"Plan de Acción\" recomendado (T1.7 líneas 82-85). No existe un mecanismo de \"auditorías externas por firms consultoras\" como tal. ---"
+ },
+ {
+  "n": 19,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la Recomendación 1 del GAFI, ¿cuál es el principio fundamental que debe aplicarse en todo el régimen ALA/CFT?",
+  "opciones": {
+   "A": "Principio de territorialidad",
+   "B": "Enfoque Basado en Riesgo (EBR)",
+   "C": "Principio de precaución",
+   "D": "Principio de buena fe"
+  },
+  "correcta": "B",
+  "argumentacion": "La R.1 establece que los países deben aplicar un \"enfoque basado en riesgo (EBR) a fin de asegurar que las medidas para prevenir o mitigar el lavado de activos y el financiamiento del terrorismo sean proporcionales a los riesgos identificados\" (T1.5 líneas 543-549). ---"
+ },
+ {
+  "n": 20,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿A cuántos años asciende el período mínimo de conservación de registros según la Recomendación 11 del GAFI?",
+  "opciones": {
+   "A": "5 años",
+   "B": "3 años",
+   "C": "10 años",
+   "D": "7 años"
+  },
+  "correcta": "A",
+  "argumentacion": "La R.11 exige que las instituciones financieras mantengan todos los registros necesarios sobre transacciones y DDC \"por un período de al menos cinco años\" (T1.5 líneas 804-818). ---"
+ },
+ {
+  "n": 21,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Elección de elementos",
+  "q": "De acuerdo con el Mandato del GAFI, ¿cuáles de las siguientes son funciones del GAFI?\n\n1. Identificar y analizar el LA/FT y sus tendencias\n2. Desarrollar y perfeccionar estándares internacionales\n3. Otorgar licencias bancarias a nivel internacional\n4. Evaluar y supervisar a sus miembros mediante evaluaciones mutuas\n5. Sancionar directamente a las instituciones financieras\n6. Identificar jurisdicciones no cooperantes y de alto riesgo",
+  "opciones": {
+   "A": "2, 4, 5, 6",
+   "B": "3, 4, 5, 6",
+   "C": "1, 2, 4, 6",
+   "D": "1, 2, 3, 5"
+  },
+  "correcta": "C",
+  "argumentacion": "Las funciones del GAFI incluyen: análisis de amenazas (1), desarrollo de estándares (2), evaluación mutua (4) y listado de jurisdicciones no cooperantes (6). El GAFI no otorga licencias bancarias (3) ni sanciona directamente a IFs (5); eso corresponde a las autoridades nacionales. Fuente: T1.6 ¶3. ---"
+ },
+ {
+  "n": 22,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Completamiento",
+  "q": "La Recomendación 20 del GAFI exige que las instituciones financieras reporten con ______ a la ______ cuando sospechen que los fondos son producto de una actividad criminal o están relacionados con el FT.",
+  "opciones": {
+   "A": "prudencia / SHCP",
+   "B": "prontitud / Unidad de Inteligencia Financiera (UIF)",
+   "C": "reserva / Banco Central",
+   "D": "detalle / Comité de Basilea"
+  },
+  "correcta": "B",
+  "argumentacion": "La R.20 establece: \"a ésta se le debe exigir, por ley, que reporte con prontitud sus sospechas a la Unidad de Inteligencia Financiera (UIF)\" (T1.5 líneas 1006-1008). ---"
+ },
+ {
+  "n": 23,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál de las siguientes convenciones internacionales es la base normativa para la tipificación del lavado de activos según la Recomendación 3 del GAFI?",
+  "opciones": {
+   "A": "Convenio FT (1999) y Convención de Palermo (2000)",
+   "B": "Convención de la Haya (1970) y Convención de Viena (1988)",
+   "C": "Convención de Viena (1988) y Convención de Palermo (2000)",
+   "D": "Convención de Mérida (2003) y Convención de Viena (1988)"
+  },
+  "correcta": "C",
+  "argumentacion": "La R.3 establece que \"los países deben tipificar el lavado de activos en base a la Convención de Viena y la Convención de Palermo\" (T1.5 líneas 616-618). ---"
+ },
+ {
+  "n": 24,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿En qué año fue creado el GAFI y por quién?",
+  "opciones": {
+   "A": "1989, por el Grupo de los Siete (G-7)",
+   "B": "1974, por el Comité de Basilea",
+   "C": "1995, por el Grupo Egmont",
+   "D": "2000, por el Grupo Wolfsberg"
+  },
+  "correcta": "A",
+  "argumentacion": "\"El Grupo de Acción Financiera Internacional (GAFI) fue creado en 1989 por el Grupo de los Siete G-7\" (T1.7 líneas 14-15). ---"
+ },
+ {
+  "n": 25,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con las 40 Recomendaciones del GAFI, ¿qué exige la Recomendación 7 sobre el financiamiento de la proliferación de armas de destrucción masiva (FPADM)?",
+  "opciones": {
+   "A": "Implementar sanciones financieras dirigidas para cumplir con las resoluciones del CSONU, congelando sin demora los fondos de personas y entidades designadas",
+   "B": "Tipificar el FPADM como delito autónomo en el código penal",
+   "C": "Crear una agencia especializada en desarme nuclear",
+   "D": "Prohibir el comercio internacional de materiales nucleares"
+  },
+  "correcta": "A",
+  "argumentacion": "La R.7 (T1.5 líneas 668-676) exige que los países implementen sanciones financieras dirigidas para cumplir con las resoluciones del CSONU relativas a la prevención, represión e interrupción de la proliferación de ADM y su financiamiento, congelando sin demora los fondos y asegurando que ningún fondo se ponga a disposición de personas o entidades designadas. La R.7 no exige tipificar un delito (eso lo hace la R.5 para FT), sino aplicar sanciones financieras preventivas. ---"
+ },
+ {
+  "n": 26,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál de las siguientes NO es una medida de Debida Diligencia del Cliente (DDC) requerida por la Recomendación 10 del GAFI?",
+  "opciones": {
+   "A": "Entender el propósito y carácter que se pretende dar a la relación comercial",
+   "B": "Identificar al beneficiario final y tomar medidas razonables para verificar su identidad",
+   "C": "Identificar al cliente y verificar su identidad",
+   "D": "Realizar una auditoría forense de los estados financieros del cliente"
+  },
+  "correcta": "D",
+  "argumentacion": "La R.10 (T1.5 líneas 758-776) establece 4 medidas de DDC: (a) identificar y verificar identidad del cliente, (b) identificar y verificar beneficiario final, (c) entender el propósito de la relación comercial, y (d) realizar DDC continua. La auditoría forense no es una medida DDC estándar. ---"
+ },
+ {
+  "n": 27,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "Según las Notas Interpretativas de la Recomendación 10 del GAFI, ¿cuál es el umbral designado que dispara la obligación de DDC en transacciones ocasionales?",
+  "opciones": {
+   "A": "USD/EUR 15,000",
+   "B": "USD/EUR 10,000",
+   "C": "USD/EUR 5,000",
+   "D": "USD/EUR 25,000"
+  },
+  "correcta": "A",
+  "argumentacion": "La R.10 (T1.5 líneas 747-749) establece el umbral de USD/EUR 15,000 para transacciones ocasionales. Por debajo de ese monto no se dispara DDC obligatoria, salvo que exista sospecha de LA/FT o dudas sobre la veracidad de los datos del cliente. ---"
+ },
+ {
+  "n": 28,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la Recomendación 4 del GAFI, ¿cuál de las siguientes NO es una medida que los países deben tener respecto al decomiso?",
+  "opciones": {
+   "A": "Identificar, rastrear y valuar bienes delictivos y bienes de valor equivalente",
+   "B": "Imponer automáticamente la pena de muerte para delitos de LD de alto perfil",
+   "C": "Decomisar bienes mediante decomiso basado en condena y no basado en condena",
+   "D": "Llevar a cabo medidas provisionales como congelamiento e incautación de forma expeditiva"
+  },
+  "correcta": "B",
+  "argumentacion": "La R.4 (T1.5 líneas 620-637) exige medidas de identificación, rastreo, congelamiento, incautación, decomiso (con y sin condena) y administración de bienes. No prescribe ningún tipo de pena, y mucho menos la pena de muerte. Las medidas de la R.4 son patrimoniales, no penales. ---"
+ },
+ {
+  "n": 29,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la Recomendación 24 del GAFI, ¿qué deben asegurar los países respecto a las personas jurídicas?",
+  "opciones": {
+   "A": "Que todas las personas jurídicas emitan acciones al portador para facilitar el comercio",
+   "B": "Que las personas jurídicas estén exentas de cualquier requisito de transparencia",
+   "C": "Que solo las personas jurídicas extranjeras estén sujetas a requisitos de transparencia",
+   "D": "Que exista información adecuada, precisa y actualizada sobre el beneficiario final y el control de las personas jurídicas, accesible por las autoridades competentes"
+  },
+  "correcta": "D",
+  "argumentacion": "La R.24 (T1.5 líneas 1112-1125) exige que los países aseguren que exista información adecuada, precisa y actualizada sobre el beneficiario final y control de las PJ, accesible de manera rápida y eficiente. Además, prohíbe nuevas emisiones de acciones al portador y previene el uso indebido de accionistas/directores nominales. ---"
+ },
+ {
+  "n": 30,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Qué organismo regional del GAFI corresponde a América Latina?",
+  "opciones": {
+   "A": "MONEYVAL",
+   "B": "GIABA",
+   "C": "GAFILAT",
+   "D": "APG"
+  },
+  "correcta": "C",
+  "argumentacion": "El GAFILAT (Grupo de Acción Financiera de Latinoamérica), antes GAFISUD, es el organismo regional del GAFI para América Latina. México es miembro fundador. GIABA es África Occidental, MONEYVAL es del Consejo de Europa, y APG es Asia-Pacífico (Guía Oficial 2025 líneas 202-207; T1.6 ¶¶8-11). ---"
+ },
+ {
+  "n": 31,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Elección de elementos",
+  "q": "De acuerdo con la Recomendación 8 del GAFI, ¿cuáles de las siguientes son formas de abuso de las OSFL para el FT?\n\n1. Organizaciones terroristas que se hacen pasar por entidades legítimas\n2. Uso de OSFL para evasión fiscal\n3. Explotación de entidades legítimas como conductos para FT, incluyendo elusión de medidas de congelamiento\n4. Ocultar el desvío clandestino de fondos destinados a propósitos legítimos hacia organizaciones terroristas\n5. Uso de OSFL para competencia desleal en el mercado",
+  "opciones": {
+   "A": "1, 2, 3",
+   "B": "1, 3, 4",
+   "C": "1, 2, 5",
+   "D": "2, 3, 5"
+  },
+  "correcta": "B",
+  "argumentacion": "La R.8 (T1.5 líneas 690-699) identifica tres formas de abuso: (a) organizaciones terroristas que se presentan como entidades legítimas, (b) explotación de entidades legítimas como conductos para FT incluyendo escape a congelamiento, y (c) esconder el desvío de fondos legítimos a terroristas. La evasión fiscal y la competencia desleal no son el foco de la R.8. ---"
+ },
+ {
+  "n": 32,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la Recomendación 11 del GAFI, ¿por cuánto tiempo mínimo deben conservarse los registros de transacciones y de DDC?",
+  "opciones": {
+   "A": "5 años",
+   "B": "7 años después de cada transacción",
+   "C": "3 años después de terminada la relación comercial",
+   "D": "10 años"
+  },
+  "correcta": "A",
+  "argumentacion": "La R.11 (T1.5 líneas 803-818) exige que todos los registros de transacciones y de DDC se conserven por un período de al menos 5 años. Los registros de DDC se cuentan desde que termina la relación comercial o después de la fecha de la transacción ocasional. ---"
+ },
+ {
+  "n": 33,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Qué prohíbe expresamente la Recomendación 13 del GAFI sobre banca corresponsal?",
+  "opciones": {
+   "A": "Las relaciones de banca corresponsal con países de Latinoamérica",
+   "B": "Las transferencias electrónicas transfronterizas",
+   "C": "Entrar o continuar relaciones de banca corresponsal con bancos pantalla",
+   "D": "La banca corresponsal con instituciones financieras no bancarias"
+  },
+  "correcta": "C",
+  "argumentacion": "La R.13 (T1.5 líneas 881-884) prohíbe expresamente a las IF entrar o continuar relaciones de banca corresponsal con bancos pantalla. Además, deben asegurarse de que las instituciones representadas no permitan que sus cuentas sean utilizadas por bancos pantalla. ---"
+ },
+ {
+  "n": 34,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con el Glosario del GAFI, ¿cuál de las siguientes es considerada una Actividad y Profesión No Financiera Designada (APNFD)?",
+  "opciones": {
+   "A": "Casinos",
+   "B": "Casas de bolsa",
+   "C": "Compañías de seguros de vida",
+   "D": "Bancos comerciales"
+  },
+  "correcta": "A",
+  "argumentacion": "Según el Glosario (T1.5 líneas 5968-6018), las APNFD son: casinos, agentes inmobiliarios, comerciantes de metales/piedras preciosas, abogados/notarios/contadores, y proveedores de servicios societarios/fideicomisos. Las compañías de seguros, casas de bolsa y bancos son instituciones financieras (IF), no APNFD. ---"
+ },
+ {
+  "n": 35,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál de los siguientes es uno de los 11 Resultados Inmediatos de la Metodología de Evaluación del GAFI?",
+  "opciones": {
+   "A": "Resultado Inmediato 0: Preparación institucional básica",
+   "B": "Resultado Inmediato 12: Evaluación de impacto macroeconómico",
+   "C": "Resultado Inmediato 15: Certificación internacional de oficiales de cumplimiento",
+   "D": "Resultado Inmediato 6: La inteligencia financiera se utiliza adecuadamente para investigaciones de LA/FT"
+  },
+  "correcta": "D",
+  "argumentacion": "El RI.6 (T1.5 Metodología líneas 14274) evalúa si \"las autoridades competentes utilizan adecuadamente la inteligencia financiera y otra información relevante para las investigaciones de lavado de activos y financiamiento del terrorismo.\" Solo existen 11 Resultados Inmediatos (RI.1 a RI.11). ---"
+ },
+ {
+  "n": 36,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la Recomendación 19, ¿qué deben hacer las IF respecto a países sobre los cuales el GAFI hace un llamado?",
+  "opciones": {
+   "A": "Solicitar autorización previa del GAFI para cada transacción",
+   "B": "Aplicar medidas de debida diligencia intensificada a las relaciones comerciales y transacciones",
+   "C": "Solo operar en esos países a través de filiales",
+   "D": "Cerrar inmediatamente todas las sucursales en esos países"
+  },
+  "correcta": "B",
+  "argumentacion": "La R.19 (T1.5 líneas 987-996) exige aplicar DDC intensificada a relaciones comerciales y transacciones con personas naturales/jurídicas e IF de países sobre los cuales el GAFI hace un llamado. Además, los países deben poder aplicar contramedidas apropiadas. ---"
+ },
+ {
+  "n": 37,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿En qué año se fusionaron las 40 Recomendaciones originales con las 9 Recomendaciones Especiales en un solo documento?",
+  "opciones": {
+   "A": "2012",
+   "B": "2024",
+   "C": "2001",
+   "D": "2003"
+  },
+  "correcta": "A",
+  "argumentacion": "En 2012 (T1.5 líneas 441-458, 267-268) se produjo la fusión histórica de las 40R (contra LD) + 9 RE (contra FT) en un solo documento de 40 Recomendaciones que cubre LA+FT+FP. Esta es la estructura vigente. La actualización más reciente es de diciembre 2024. ---"
+ },
+ {
+  "n": 38,
+  "area": 1,
+  "subarea": "Subárea 1.2 — Organismos internacionales",
+  "tipo": "Relación de elementos",
+  "q": "Relacione cada Recomendación con la sección del GAFI a la que pertenece:\n\n| Recomendación | Sección |\n|---------------|---------|\n| 1. R.4 — Decomiso | A. Sección G — Cooperación internacional |\n| 2. R.24 — Transparencia PJ | B. Sección B — Lavado de activos y decomiso |\n| 3. R.37 — Asistencia legal mutua | C. Sección D — Medidas preventivas |\n| 4. R.16 — Transferencias electrónicas | D. Sección E — Transparencia y beneficiario final |",
+  "opciones": {
+   "A": "1-A, 2-B, 3-C, 4-D",
+   "B": "1-B, 2-D, 3-A, 4-C",
+   "C": "1-D, 2-C, 3-B, 4-A",
+   "D": "1-C, 2-A, 3-D, 4-B"
+  },
+  "correcta": "B",
+  "argumentacion": "La R.4 pertenece a la Sección B (LA y decomiso), la R.24 a la Sección E (Transparencia), la R.37 a la Sección G (Cooperación), y la R.16 a la Sección D (Medidas preventivas). (T1.5 líneas 174-391) ---"
+ },
+ {
+  "n": 39,
+  "area": 1,
+  "subarea": "Subárea 1.3 — Autoridades nacionales",
+  "tipo": "Elección de elementos",
+  "q": "De acuerdo con la Recomendación 14 del GAFI sobre Servicios de Transferencia de Dinero o Valores (STDV), ¿cuáles de las siguientes afirmaciones son correctas?\n\n1. Los STDV deben tener licencia o estar registrados\n2. Los agentes de STDV también deben tener licencia o estar en una lista actualizada accesible a las autoridades\n3. Los STDV están exentos de las obligaciones ALA/CFT por su tamaño\n4. Los países deben identificar a quienes operan STDV sin licencia y aplicar sanciones\n5. Los STDV solo necesitan licencia si operan internacionalmente",
+  "opciones": {
+   "A": "2, 3, 4",
+   "B": "3, 4, 5",
+   "C": "1, 2, 4",
+   "D": "1, 3, 5"
+  },
+  "correcta": "C",
+  "argumentacion": "La R.14 (T1.5 líneas 885-897) exige: licencia/registro de STDV (1 correcto), licencia/registro o lista actualizada de agentes (2 correcto), y medidas contra operadores sin licencia (4 correcto). Los STDV no están exentos por tamaño ni solo aplica a operaciones internacionales. --- ### Subárea 1.3 — Autoridades nacionales (preguntas 40-45)"
+ },
+ {
+  "n": 40,
+  "area": 1,
+  "subarea": "Subárea 1.3 — Autoridades nacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la ENR 2023, ¿cuáles son las autoridades reguladoras en el régimen de prevención de LD/FT en México?",
+  "opciones": {
+   "A": "Sujetos obligados, auditores y oficiales de cumplimiento",
+   "B": "UIF, FGR, Poder Judicial y CNDH",
+   "C": "CNBV, CNSF, CONSAR y SAT",
+   "D": "SHCP (UBD, UBVA, USPSS, UIF) y Banxico"
+  },
+  "correcta": "D",
+  "argumentacion": "La ENR 2023 (T1.9 líneas 534-547) establece que las autoridades reguladoras son la SHCP (a través de UBD, UBVA, USPSS y UIF) y el Banxico. La opción A corresponde a las autoridades supervisoras. Las opciones C y D no son autoridades del régimen. ---"
+ },
+ {
+  "n": 41,
+  "area": 1,
+  "subarea": "Subárea 1.3 — Autoridades nacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Qué autoridad es la encargada de supervisar las Actividades Vulnerables en materia de PLD/FT?",
+  "opciones": {
+   "A": "CNSF",
+   "B": "CNBV",
+   "C": "SAT",
+   "D": "CONSAR"
+  },
+  "correcta": "C",
+  "argumentacion": "La ENR 2023 (T1.9 líneas 554, 762) señala que el SAT supervisa el cumplimiento de obligaciones en materia de prevención de LD/FT para las Actividades Vulnerables (AV) previstas en la LFPIORPI. La CNBV supervisa entidades financieras, la CNSF aseguradoras y la CONSAR AFORES. ---"
+ },
+ {
+  "n": 42,
+  "area": 1,
+  "subarea": "Subárea 1.3 — Autoridades nacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál es la función principal de la Unidad de Inteligencia Financiera (UIF) en el régimen de prevención de LD/FT?",
+  "opciones": {
+   "A": "Supervisar a los sujetos obligados del sistema financiero",
+   "B": "Recibir, analizar y diseminar información para detectar posibles conductas de LD/FT",
+   "C": "Emitir las Disposiciones de Carácter General en materia de PLD/FT",
+   "D": "Investigar y perseguir los delitos de LD/FT"
+  },
+  "correcta": "B",
+  "argumentacion": "La ENR 2023 (T1.9 líneas 564-575) establece que la UIF recibe reportes y avisos, analiza la información para detectar LD/FT, disemina productos de inteligencia, y presenta denuncias. Emitir DCG es función de la SHCP (A). Supervisar es función de CNBV/CNSF/CONSAR/SAT (B). Investigar y perseguir es función de la FGR (D). ---"
+ },
+ {
+  "n": 43,
+  "area": 1,
+  "subarea": "Subárea 1.3 — Autoridades nacionales",
+  "tipo": "Relación de elementos",
+  "q": "Relacione cada autoridad con su función en el régimen de PLD/FT:\n\n| Autoridad | Función |\n|-----------|---------|\n| 1. SHCP | A. Supervisa entidades financieras |\n| 2. CNBV | B. Recibe y analiza reportes de operaciones |\n| 3. UIF | C. Emite Disposiciones de Carácter General |\n| 4. FGR | D. Investiga y persigue delitos de LD/FT |",
+  "opciones": {
+   "A": "1-D, 2-B, 3-A, 4-C",
+   "B": "1-C, 2-A, 3-B, 4-D",
+   "C": "1-A, 2-C, 3-D, 4-B",
+   "D": "1-B, 2-D, 3-C, 4-A"
+  },
+  "correcta": "B",
+  "argumentacion": "(ENR 2023 T1.9 líneas 534-589): SHCP (C — emite DCG); CNBV (A — supervisa IFs); UIF (B — recibe y analiza); FGR (D — investiga y persigue). ---"
+ },
+ {
+  "n": 44,
+  "area": 1,
+  "subarea": "Subárea 1.3 — Autoridades nacionales",
+  "tipo": "Cuestionamiento directo",
+  "q": "De acuerdo con la ENR 2023, ¿cómo se clasifican las autoridades del régimen de prevención de LD/FT en México?",
+  "opciones": {
+   "A": "Ejecutivas, legislativas y judiciales",
+   "B": "Nacionales, internacionales y mixtas",
+   "C": "Reguladoras, supervisoras, inteligencia y procuración de justicia",
+   "D": "Federales, estatales y municipales"
+  },
+  "correcta": "C",
+  "argumentacion": "La ENR 2023 (T1.9 líneas 530-589) clasifica a las autoridades en: Reguladoras (SHCP + Banxico), Supervisoras (CNBV, CNSF, CONSAR, SAT), Inteligencia (UIF) y Procuración de justicia (FGR). Esta clasificación refleja las distintas funciones dentro del régimen. ---"
+ },
+ {
+  "n": 45,
+  "area": 2,
+  "subarea": "Subárea 2.1.1 — Objetivo de las DCG",
+  "tipo": "Cuestionamiento directo",
+  "q": "La CNBV es un órgano administrativo desconcentrado de:",
+  "opciones": {
+   "A": "La Secretaría de Hacienda y Crédito Público",
+   "B": "El Banco de México",
+   "C": "La Secretaría de Gobernación",
+   "D": "La Presidencia de la República"
+  },
+  "correcta": "A",
+  "argumentacion": "El Reglamento Interior de la CNBV (T1.3 Art. 1) establece que la CNBV es un \"órgano administrativo desconcentrado de la Secretaría de Hacienda y Crédito Público, con autonomía técnica y atribuciones ejecutivas\". --- ## ÁREA 2 — Conocimientos técnicos en PLD/FT ### Subárea 2.1.1 — Objetivo de las DCG (preguntas 46-51)"
+ },
+ {
+  "n": 46,
+  "area": 2,
+  "subarea": "Subárea 2.1.1 — Objetivo de las DCG",
+  "tipo": "Banco",
+  "q": "¿Conforme a qué artículo de la Ley de Instituciones de Crédito se emiten las DCG para bancos?",
+  "opciones": {
+   "A": "Artículo 400 Bis",
+   "B": "Artículo 212",
+   "C": "Artículo 115",
+   "D": "Artículo 95"
+  },
+  "correcta": "C",
+  "argumentacion": "El Artículo 115 LIC es el fundamento legal para las DCG de bancos. El Art. 95 LGOAAC es para casas de cambio. El Art. 212 LMV es para casas de bolsa. El Art. 400 Bis CPF tipifica el delito de LD. ---"
+ },
+ {
+  "n": 47,
+  "area": 2,
+  "subarea": "Subárea 2.1.1 — Objetivo de las DCG",
+  "tipo": "Banco",
+  "q": "¿Cuál de las siguientes entidades se regula por el Artículo 95 Bis de la LGOAAC?",
+  "opciones": {
+   "A": "Centros Cambiarios",
+   "B": "Casas de Cambio",
+   "C": "Bancos",
+   "D": "Casas de Bolsa"
+  },
+  "correcta": "A",
+  "argumentacion": "El Art. 95 Bis LGOAAC es el fundamento para Centros Cambiarios y Transmisores de Dinero. Los bancos se regulan por Art. 115 LIC. Las casas de bolsa por Art. 212 LMV. Las casas de cambio por Art. 95 LGOAAC. ---"
+ },
+ {
+  "n": 48,
+  "area": 2,
+  "subarea": "Subárea 2.1.1 — Objetivo de las DCG",
+  "tipo": "Banco",
+  "q": "¿Cuál de las siguientes entidades NO tiene su propia DCG y se regula a través de otras?",
+  "opciones": {
+   "A": "SOFOMES Reguladas",
+   "B": "Fondos de Inversión",
+   "C": "SOCAPS",
+   "D": "Transmisores de Dinero"
+  },
+  "correcta": "A",
+  "argumentacion": "Las SOFOMES Reguladas no tienen una DCG propia. Se les aplican las DCG de la entidad con la que tienen vínculo patrimonial (LIC, LGOAAC, LUC, etc.) según el Art. 87-D LGOAAC. Las demás entidades (Fondos, SOCAPS, Transmisores) sí tienen sus propias DCG. ---"
+ },
+ {
+  "n": 49,
+  "area": 2,
+  "subarea": "Subárea 2.1.1 — Objetivo de las DCG",
+  "tipo": "Banco",
+  "q": "¿Qué artículo del Código Penal Federal tipifica el lavado de dinero, que todas las DCG buscan prevenir?",
+  "opciones": {
+   "A": "Artículo 400 Bis",
+   "B": "Artículo 139",
+   "C": "Artículo 139 Quáter",
+   "D": "Artículo 400"
+  },
+  "correcta": "A",
+  "argumentacion": "Las DCG hacen referencia al Art. 400 Bis CPF (LD) y al Art. 139 Quáter CPF (FT). El Art. 139 CPF tipifica terrorismo (no FT). El Art. 400 CPF no existe como delito autónomo. ---"
+ },
+ {
+  "n": 50,
+  "area": 2,
+  "subarea": "Subárea 2.1.1 — Objetivo de las DCG",
+  "tipo": "Banco",
+  "q": "¿Qué autoridad emite las DCG?",
+  "opciones": {
+   "A": "El GAFI",
+   "B": "La SHCP con opinión de la CNBV",
+   "C": "La CNBV exclusivamente",
+   "D": "La UIF"
+  },
+  "correcta": "B",
+  "argumentacion": "Las DCG son emitidas por la Secretaría de Hacienda y Crédito Público (SHCP), escuchando la previa opinión de la Comisión Nacional Bancaria y de Valores (CNBV). En algunos casos (centros cambiarios, transmisores), también participan la UIF y el SAT. ---"
+ },
+ {
+  "n": 51,
+  "area": 2,
+  "subarea": "Subárea 2.1.2 — Política CKYCC",
+  "tipo": "Banco",
+  "q": "¿Cuál es el doble objetivo común de todas las DCG?",
+  "opciones": {
+   "A": "Solo regular la apertura de cuentas bancarias",
+   "B": "Solo establecer sanciones para los infractores",
+   "C": "Definir los tipos penales de LD y FT",
+   "D": "Establecer medidas preventivas y definir los reportes a presentar"
+  },
+  "correcta": "D",
+  "argumentacion": "Todas las DCG tienen un objetivo dual: (1) establecer medidas y procedimientos preventivos para evitar actos relacionados con LD/FT, y (2) definir los términos y modalidades para presentar reportes a la SHCP por conducto de la CNBV. --- ### Subárea 2.1.2 — Política CKYCC (preguntas 52-58)"
+ },
+ {
+  "n": 52,
+  "area": 2,
+  "subarea": "Subárea 2.1.2 — Política CKYCC",
+  "tipo": "Banco",
+  "q": "¿Cuál es la diferencia fundamental entre un \"Cliente\" y un \"Usuario\" según las DCG?",
+  "opciones": {
+   "A": "El cliente paga comisiones; el usuario no",
+   "B": "El cliente tiene relación comercial permanente; el usuario realiza actos de ejecución instantánea",
+   "C": "No hay diferencia; son términos intercambiables",
+   "D": "El cliente es persona moral; el usuario es persona física"
+  },
+  "correcta": "B",
+  "argumentacion": "El Cliente tiene una relación comercial permanente (es cuentahabiente o tiene contrato vigente). El Usuario realiza operaciones sin tener una relación permanente (actos de ejecución instantánea donde la relación inicia y concluye con el acto). ---"
+ },
+ {
+  "n": 53,
+  "area": 2,
+  "subarea": "Subárea 2.1.2 — Política CKYCC",
+  "tipo": "Banco",
+  "q": "¿Qué documento NO es obligatorio para la identificación de una persona física según la DCG de Bancos?",
+  "opciones": {
+   "A": "Comprobante de domicilio no mayor a 3 meses",
+   "B": "Carta de recomendación bancaria",
+   "C": "CURP",
+   "D": "Identificación oficial"
+  },
+  "correcta": "B",
+  "argumentacion": "La DCG exige: identificación oficial, CURP, RFC, comprobante de domicilio (≤3 meses), firma electrónica avanzada, y declaración de si actúa por cuenta propia o de terceros. No exige carta de recomendación bancaria. ---"
+ },
+ {
+  "n": 54,
+  "area": 2,
+  "subarea": "Subárea 2.1.2 — Política CKYCC",
+  "tipo": "Banco",
+  "q": "¿Por cuánto tiempo se considera PEP a una persona después de haber dejado su cargo público?",
+  "opciones": {
+   "A": "1 año",
+   "B": "De por vida",
+   "C": "3 años",
+   "D": "6 meses"
+  },
+  "correcta": "A",
+  "argumentacion": "La DCG establece que se continuará considerando PEP nacional a aquellas personas que hubiesen sido catalogadas con tal carácter, durante el año siguiente a aquel en que hubiesen dejado su encargo. ---"
+ },
+ {
+  "n": 55,
+  "area": 2,
+  "subarea": "Subárea 2.1.2 — Política CKYCC",
+  "tipo": "Banco",
+  "q": "¿Qué es el perfil transaccional de un cliente?",
+  "opciones": {
+   "A": "El saldo promedio de su cuenta",
+   "B": "El número de productos contratados",
+   "C": "La calificación crediticia del cliente",
+   "D": "La línea base de operaciones esperadas basada en información proporcionada por el cliente"
+  },
+  "correcta": "D",
+  "argumentacion": "El perfil transaccional se define con base en la información proporcionada por el cliente (actividad económica, ingresos esperados, tipo de operaciones) y sirve como línea base; cualquier desviación genera alerta. ---"
+ },
+ {
+  "n": 56,
+  "area": 2,
+  "subarea": "Subárea 2.1.2 — Política CKYCC",
+  "tipo": "Banco",
+  "q": "¿Qué medida especial aplica para Personas Políticamente Expuestas?",
+  "opciones": {
+   "A": "No aplica ninguna medida especial",
+   "B": "DDC Reforzada",
+   "C": "DDC Simplificada",
+   "D": "DDC Estándar"
+  },
+  "correcta": "B",
+  "argumentacion": "Las PEPs requieren DDC Reforzada: investigación del origen de recursos, aprobación de alta dirección, y monitoreo continuo más intensivo. ---"
+ },
+ {
+  "n": 57,
+  "area": 2,
+  "subarea": "Subárea 2.1.2 — Política CKYCC",
+  "tipo": "Banco",
+  "q": "¿Cada cuánto debe actualizarse la evaluación de riesgos de los clientes según la DCG de Bancos?",
+  "opciones": {
+   "A": "Solo al inicio de la relación",
+   "B": "Cada año",
+   "C": "Cada 3 meses",
+   "D": "Cada 6 meses"
+  },
+  "correcta": "D",
+  "argumentacion": "La DCG establece que la evaluación de riesgos debe realizarse al menos cada 6 meses (Disposición 25ª Bis). ---"
+ },
+ {
+  "n": 58,
+  "area": 2,
+  "subarea": "Subárea 2.1.3 — Reportes",
+  "tipo": "Banco",
+  "q": "¿Cuánto tiempo tiene el Comité de Comunicación y Control para dictaminar una Operación Inusual desde que se genera la alerta?",
+  "opciones": {
+   "A": "24 horas",
+   "B": "3 días hábiles",
+   "C": "60 días naturales",
+   "D": "30 días naturales"
+  },
+  "correcta": "C",
+  "argumentacion": "El Comité cuenta con un periodo que no excederá de 60 días naturales contados a partir de que se genere la alerta. Una vez dictaminada, el reporte se envía en 3 días hábiles. --- ### Subárea 2.1.3 — Reportes (preguntas 59-64)"
+ },
+ {
+  "n": 59,
+  "area": 2,
+  "subarea": "Subárea 2.1.3 — Reportes",
+  "tipo": "Banco",
+  "q": "¿Cuál de los siguientes NO es un tipo de reporte en materia de PLD/FT según las DCG?",
+  "opciones": {
+   "A": "Operaciones de Crédito",
+   "B": "Operaciones Internas Preocupantes",
+   "C": "Operaciones Relevantes",
+   "D": "Operaciones Inusuales"
+  },
+  "correcta": "A",
+  "argumentacion": "La LIC establece que los reportes deben referirse a \"operaciones relevantes, internas preocupantes e inusuales, las relacionadas con transferencias internacionales y operaciones en efectivo realizadas en moneda extranjera.\" Las \"Operaciones de Crédito\" no son un tipo de reporte; son un tipo de operación bancaria. ---"
+ },
+ {
+  "n": 60,
+  "area": 2,
+  "subarea": "Subárea 2.1.3 — Reportes",
+  "tipo": "Banco",
+  "q": "¿En qué plazo debe presentarse un Reporte de 24 horas?",
+  "opciones": {
+   "A": "24 horas contadas a partir de que se conoce la información",
+   "B": "Antes de 24 horas hábiles",
+   "C": "24 horas naturales desde la alerta",
+   "D": "24 horas hábiles"
+  },
+  "correcta": "A",
+  "argumentacion": "El reporte debe presentarse \"dentro de las 24 horas contadas a partir de que conozca dicha información\". Es un plazo de horas naturales, no hábiles. ---"
+ },
+ {
+  "n": 61,
+  "area": 2,
+  "subarea": "Subárea 2.1.3 — Reportes",
+  "tipo": "Banco",
+  "q": "¿Qué debe hacer una entidad si identifica que un cliente está en la Lista de Personas Bloqueadas?",
+  "opciones": {
+   "A": "Suspender inmediatamente cualquier operación y reportar en 24 horas",
+   "B": "Notificar al cliente y darle 3 días para retirar sus fondos",
+   "C": "Reportar como Operación Relevante al cierre del mes",
+   "D": "Ignorar la alerta si el cliente es conocido"
+  },
+  "correcta": "A",
+  "argumentacion": "La DCG establece: (1) suspender de manera inmediata la realización de cualquier acto, operación o servicio, y (2) remitir un reporte de Operación Inusual dentro de las 24 horas. ---"
+ },
+ {
+  "n": 62,
+  "area": 2,
+  "subarea": "Subárea 2.1.3 — Reportes",
+  "tipo": "Banco",
+  "q": "¿Qué diferencia hay entre una Operación Inusual y una Operación Interna Preocupante?",
+  "opciones": {
+   "A": "La OIP es de mayor monto",
+   "B": "La OI se reporta en 24 horas; la OIP en 3 días",
+   "C": "La OIP involucra a empleados, directivos o apoderados de la entidad",
+   "D": "No hay diferencia; son el mismo concepto"
+  },
+  "correcta": "C",
+  "argumentacion": "La Operación Inusual se refiere al comportamiento anómalo de un cliente. La Operación Interna Preocupante se refiere a conductas de empleados, directivos y apoderados de la propia entidad. Ambas se reportan en 3 días hábiles tras el dictamen del Comité. ---"
+ },
+ {
+  "n": 63,
+  "area": 2,
+  "subarea": "Subárea 2.1.3 — Reportes",
+  "tipo": "Banco",
+  "q": "¿Cuál es el umbral para considerar una operación como \"Relevante\" en efectivo?",
+  "opciones": {
+   "A": "\\$7,500 USD",
+   "B": "\\$5,000 USD",
+   "C": "\\$10,000 USD",
+   "D": "\\$25,000 USD"
+  },
+  "correcta": "A",
+  "argumentacion": "Se considera Operación Relevante toda operación con billetes y monedas metálicas, cheques de viajero, monedas acuñadas en platino, oro y plata por un monto ≥ \\$7,500 USD (o su equivalente en moneda nacional). ---"
+ },
+ {
+  "n": 64,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Cuál es el límite mensual para recibir dólares en efectivo de un cliente persona física?",
+  "opciones": {
+   "A": "\\$300 USD",
+   "B": "\\$1,500 USD",
+   "C": "\\$14,000 USD",
+   "D": "\\$4,000 USD"
+  },
+  "correcta": "D",
+  "argumentacion": "Clientes personas físicas: \\$4,000 USD/mes. Usuarios personas físicas: \\$300 USD/día, \\$1,500 USD/mes. --- ### Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC (preguntas 65-73)"
+ },
+ {
+  "n": 65,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Cada cuánto deben evaluarse los sistemas automatizados de PLD?",
+  "opciones": {
+   "A": "Cada año",
+   "B": "Cada 6 meses",
+   "C": "Cada 3 años",
+   "D": "Cada 2 años"
+  },
+  "correcta": "D",
+  "argumentacion": "Los sistemas automatizados deben ser evaluados al menos cada 2 años para verificar su efectividad. ---"
+ },
+ {
+  "n": 66,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Por cuánto tiempo deben conservarse los expedientes de identificación de clientes?",
+  "opciones": {
+   "A": "5 años",
+   "B": "15 años",
+   "C": "Indefinidamente",
+   "D": "10 años"
+  },
+  "correcta": "D",
+  "argumentacion": "La LIC Art. 115 establece que la información y documentación debe conservarse \"por al menos diez años\". ---"
+ },
+ {
+  "n": 67,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Qué artículo de la LIC permite el intercambio de información entre instituciones de crédito para PLD/FT?",
+  "opciones": {
+   "A": "Artículo 115",
+   "B": "Artículo 115 Bis",
+   "C": "Artículo 142",
+   "D": "Artículo 400 Bis"
+  },
+  "correcta": "B",
+  "argumentacion": "El Artículo 115 Bis LIC permite el intercambio de información para fortalecer la prevención y detección de LD/FT. El Art. 115 establece las obligaciones generales. El Art. 142 es el secreto bancario. ---"
+ },
+ {
+  "n": 68,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Qué debe hacer una entidad si detecta que un cliente está en la Lista de Personas Bloqueadas?",
+  "opciones": {
+   "A": "Esperar la confirmación de la SHCP antes de actuar",
+   "B": "Suspender inmediatamente operaciones y reportar en 24 horas",
+   "C": "Reportarlo como Operación Relevante al cierre del mes",
+   "D": "Notificar al cliente y darle 5 días para aclarar"
+  },
+  "correcta": "B",
+  "argumentacion": "La DCG ordena: (I) suspender de manera inmediata cualquier acto, operación o servicio, y (II) remitir un reporte de Operación Inusual dentro de las 24 horas. ---"
+ },
+ {
+  "n": 69,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Qué miembros NO pueden formar parte del Comité de Comunicación y Control?",
+  "opciones": {
+   "A": "Miembros del consejo de administración",
+   "B": "El director general",
+   "C": "El auditor interno",
+   "D": "Funcionarios de las 3 jerarquías inferiores al director general"
+  },
+  "correcta": "C",
+  "argumentacion": "La DCG establece que \"el auditor interno o la persona del área de auditoría que él designe, no formará parte del Comité\". Esto es para garantizar la independencia de la auditoría. ---"
+ },
+ {
+  "n": 70,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿En qué plazo debe notificarse a la CNBV la designación de un Oficial de Cumplimiento?",
+  "opciones": {
+   "A": "10 días hábiles",
+   "B": "30 días naturales",
+   "C": "24 horas",
+   "D": "2 días hábiles"
+  },
+  "correcta": "D",
+  "argumentacion": "La designación del Oficial de Cumplimiento debe notificarse dentro de los 2 días hábiles. La revocación y la designación del interino se notifican en 10 días hábiles. ---"
+ },
+ {
+  "n": 71,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Qué requisito debe cumplir previamente una entidad para operar un Modelo Novedoso?",
+  "opciones": {
+   "A": "Publicar el modelo en el DOF",
+   "B": "Obtener autorización del GAFI",
+   "C": "Notificar a la UIF 90 días antes",
+   "D": "Identificar y evaluar el riesgo antes del lanzamiento y presentarlo a la CNBV"
+  },
+  "correcta": "D",
+  "argumentacion": "La entidad debe (I) identificar y evaluar el riesgo al que está expuesta previo al lanzamiento, y (II) presentar el resultado a la CNBV junto con su solicitud de autorización. ---"
+ },
+ {
+  "n": 72,
+  "area": 2,
+  "subarea": "Subárea 2.1.4-2.1.11 — Sistemas, obligaciones, listas, Comité, OC",
+  "tipo": "Banco",
+  "q": "¿Cuál es la diferencia principal entre un centro cambiario y una casa de cambio?",
+  "opciones": {
+   "A": "No hay diferencia; son lo mismo",
+   "B": "Los centros cambiarios no pueden realizar transferencias ni transmisiones de fondos",
+   "C": "Los centros cambiarios solo pueden comprar divisas, no vender",
+   "D": "Las casas de cambio no requieren registro ante la CNBV"
+  },
+  "correcta": "B",
+  "argumentacion": "Los centros cambiarios solo operan con efectivo (billetes, monedas, cheques de viajero) y tienen prohibido expresamente realizar transferencias o transmisiones de fondos. Las casas de cambio sí pueden hacer transferencias. ---"
+ },
+ {
+  "n": 73,
+  "area": 2,
+  "subarea": "Subárea 2.1.12-2.1.17 — Sanciones, propietario real, plazos",
+  "tipo": "Banco",
+  "q": "¿Qué tipo de ITF puede emitir cuentas de dinero electrónico?",
+  "opciones": {
+   "A": "Instituciones de Financiamiento Colectivo",
+   "B": "Centros Cambiarios",
+   "C": "Instituciones de Fondos de Pago Electrónico",
+   "D": "Transmisores de Dinero"
+  },
+  "correcta": "C",
+  "argumentacion": "Las Instituciones de Fondos de Pago Electrónico son el tipo de ITF que emite y administra cuentas de dinero electrónico. Las de Financiamiento Colectivo conectan inversionistas con solicitantes. --- ### Subárea 2.1.12-2.1.17 — Sanciones, propietario real, plazos (preguntas 74-78)"
+ },
+ {
+  "n": 74,
+  "area": 2,
+  "subarea": "Subárea 2.1.12-2.1.17 — Sanciones, propietario real, plazos",
+  "tipo": "Banco",
+  "q": "¿Qué sanción aplica por realizar una operación con una persona incluida en la Lista de Personas Bloqueadas?",
+  "opciones": {
+   "A": "Suspensión temporal de la entidad",
+   "B": "Solo una advertencia por escrito",
+   "C": "Amonestación pública",
+   "D": "Multa del 10% al 100% del monto de la operación"
+  },
+  "correcta": "D",
+  "argumentacion": "La LIC Art. 115 establece multa del 10% al 100% del monto de la operación realizada con una persona bloqueada. Es una de las sanciones más severas. ---"
+ },
+ {
+  "n": 75,
+  "area": 2,
+  "subarea": "Subárea 2.1.12-2.1.17 — Sanciones, propietario real, plazos",
+  "tipo": "Banco",
+  "q": "¿Cuál es el umbral de participación accionaria para considerar a alguien como posible propietario real?",
+  "opciones": {
+   "A": "51%",
+   "B": "10%",
+   "C": "25%",
+   "D": "50%"
+  },
+  "correcta": "C",
+  "argumentacion": "El Lineamiento 3 establece el umbral del 25% o más de la composición accionaria como criterio para identificar al propietario real. ---"
+ },
+ {
+  "n": 76,
+  "area": 2,
+  "subarea": "Subárea 2.1.12-2.1.17 — Sanciones, propietario real, plazos",
+  "tipo": "Banco",
+  "q": "¿En qué plazo debe responderse a una solicitud de intercambio de información entre entidades?",
+  "opciones": {
+   "A": "90 días naturales",
+   "B": "15 días hábiles",
+   "C": "60 días naturales",
+   "D": "30 días naturales"
+  },
+  "correcta": "D",
+  "argumentacion": "La respuesta a una solicitud de intercambio de información debe darse dentro de los 30 días naturales. ---"
+ },
+ {
+  "n": 77,
+  "area": 2,
+  "subarea": "Subárea 2.1.12-2.1.17 — Sanciones, propietario real, plazos",
+  "tipo": "Banco",
+  "q": "¿Cuál es el plazo máximo que puede durar un Oficial de Cumplimiento Interino?",
+  "opciones": {
+   "A": "180 días naturales",
+   "B": "90 días naturales por año calendario",
+   "C": "60 días naturales",
+   "D": "30 días naturales"
+  },
+  "correcta": "B",
+  "argumentacion": "El OC Interino puede ser nombrado \"hasta por noventa días naturales durante un año calendario\". ---"
+ },
+ {
+  "n": 78,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Cuál es el plazo máximo para cumplir con las DCG después de su publicación?",
+  "opciones": {
+   "A": "30 días naturales",
+   "B": "90 días naturales",
+   "C": "60 días naturales",
+   "D": "180 días naturales"
+  },
+  "correcta": "B",
+  "argumentacion": "Las DCG establecen un plazo de 90 días naturales para que las entidades implementen las medidas y procedimientos preventivos. --- ### Subárea 2.2 — LFPID (preguntas 79-88)"
+ },
+ {
+  "n": 79,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Cuántas Actividades Vulnerables enumera el Artículo 17 de la LFPID?",
+  "opciones": {
+   "A": "16",
+   "B": "12",
+   "C": "20",
+   "D": "10"
+  },
+  "correcta": "A",
+  "argumentacion": "El Artículo 17 LFPID enumera 16 Actividades Vulnerables (fracciones I a XVI), incluyendo juegos, tarjetas, joyas, inmuebles, vehículos, activos virtuales, etc. ---"
+ },
+ {
+  "n": 80,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Cuál es el umbral de aviso para la compraventa de inmuebles en la LFPID?",
+  "opciones": {
+   "A": "8,025 UMA",
+   "B": "6,420 UMA",
+   "C": "3,210 UMA",
+   "D": "1,605 UMA"
+  },
+  "correcta": "A",
+  "argumentacion": "La construcción/desarrollo inmobiliario e intermediación en transmisión de propiedad tiene un umbral de aviso de 8,025 UMA (frac. V). ---"
+ },
+ {
+  "n": 81,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿En qué plazo deben presentarse los Avisos de Actividades Vulnerables ante la SHCP?",
+  "opciones": {
+   "A": "Cada 24 horas",
+   "B": "Al cierre del año fiscal",
+   "C": "Cada 3 meses",
+   "D": "Día 17 del mes inmediato siguiente"
+  },
+  "correcta": "D",
+  "argumentacion": "El Artículo 23 LFPID establece que los Avisos deben presentarse a más tardar el día 17 del mes inmediato siguiente a aquel en que se realizó la operación. ---"
+ },
+ {
+  "n": 82,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Por cuánto tiempo deben conservarse los documentos e información de las AV?",
+  "opciones": {
+   "A": "Indefinidamente",
+   "B": "10 años",
+   "C": "15 años",
+   "D": "5 años"
+  },
+  "correcta": "B",
+  "argumentacion": "La LFPID Art. 18 fracc. IV establece que la información debe conservarse por al menos 10 años. ---"
+ },
+ {
+  "n": 83,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Qué autoridad supervisa las Actividades Vulnerables no financieras?",
+  "opciones": {
+   "A": "El SAT",
+   "B": "La CNSF",
+   "C": "La CNBV",
+   "D": "La SHCP"
+  },
+  "correcta": "D",
+  "argumentacion": "El Artículo 22 Bis LFPID establece que la supervisión de las AV no financieras la realiza la SHCP. Las entidades financieras son supervisadas por la CNBV, CNSF o CONSAR según el caso. ---"
+ },
+ {
+  "n": 84,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Cuál es la sanción por omitir la presentación de Avisos de AV (Art. 53 fracc. VI)?",
+  "opciones": {
+   "A": "Amonestación pública",
+   "B": "200 a 2,000 UMA",
+   "C": "10,000 a 65,000 UMA o 10% al 100% del valor",
+   "D": "2,000 a 10,000 UMA"
+  },
+  "correcta": "C",
+  "argumentacion": "El Artículo 54 fracc. III LFPID establece que omitir presentar Avisos (Art. 53 fracc. VI) se sanciona con multa de 10,000 a 65,000 UMA o el 10% al 100% del valor de la operación, lo que resulte mayor. ---"
+ },
+ {
+  "n": 85,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Cuál es el umbral de la prohibición de uso de efectivo para compraventa de inmuebles?",
+  "opciones": {
+   "A": "3,210 UMA",
+   "B": "8,025 UMA",
+   "C": "1,605 UMA",
+   "D": "6,420 UMA"
+  },
+  "correcta": "B",
+  "argumentacion": "El Artículo 32 fracc. I LFPID prohíbe el pago en efectivo en la constitución o transmisión de derechos reales sobre inmuebles por ≥ 8,025 UMA. ---"
+ },
+ {
+  "n": 86,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Cuál de las siguientes AV tiene el umbral de aviso más bajo (210 UMA)?",
+  "opciones": {
+   "A": "Activos virtuales (criptomonedas)",
+   "B": "Joyería y metales preciosos",
+   "C": "Vehículos",
+   "D": "Juegos y apuestas"
+  },
+  "correcta": "A",
+  "argumentacion": "El intercambio de activos virtuales (fracc. XVI) tiene el umbral más bajo: 210 UMA por operación (o 4 UMA de contraprestación). Esto refleja el alto riesgo de anonimato de las criptomonedas. ---"
+ },
+ {
+  "n": 87,
+  "area": 2,
+  "subarea": "Subárea 2.2 — LFPID",
+  "tipo": "Banco",
+  "q": "¿Cuál es el límite de efectivo para el pago de préstamos?",
+  "opciones": {
+   "A": "1,605 UMA",
+   "B": "6,420 UMA",
+   "C": "8,025 UMA",
+   "D": "3,210 UMA"
+  },
+  "correcta": "D",
+  "argumentacion": "El Artículo 32 fracc. IV LFPID prohíbe el pago en efectivo en préstamos (otorgamiento o devolución) por ≥ 3,210 UMA. ---"
+ },
+ {
+  "n": 88,
+  "area": 2,
+  "subarea": "Subárea 2.19 — Tipologías UIF",
+  "tipo": "Banco",
+  "q": "¿Qué actividad vulnerable relacionada con vehículos tiene el umbral más alto?",
+  "opciones": {
+   "A": "Compraventa de vehículos nuevos",
+   "B": "Compraventa de vehículos usados",
+   "C": "Renta de vehículos",
+   "D": "Blindaje de vehículos"
+  },
+  "correcta": "D",
+  "argumentacion": "El blindaje de vehículos (frac. VIII) tiene un umbral de 6,420 UMA, significativamente más alto que la compraventa de vehículos (3,210 UMA). --- ### Subárea 2.19 — Tipologías UIF (preguntas 89-91)"
+ },
+ {
+  "n": 89,
+  "area": 2,
+  "subarea": "Subárea 2.19 — Tipologías UIF",
+  "tipo": "Banco",
+  "q": "¿Cuál de las siguientes tipologías UIF está relacionada con el uso indebido de activos virtuales (criptomonedas)?",
+  "opciones": {
+   "A": "Estafa Maestra Pemex",
+   "B": "Activos Virtuales 2022",
+   "C": "León Chino",
+   "D": "Montadeudas"
+  },
+  "correcta": "B",
+  "argumentacion": "La tipología de 2022 \"Uso Ilícito de Activos Virtuales\" describe el uso de VASP no registrados para lavar ganancias del narcotráfico mediante la compra de criptomonedas con efectivo. ---"
+ },
+ {
+  "n": 90,
+  "area": 2,
+  "subarea": "Subárea 2.19 — Tipologías UIF",
+  "tipo": "Banco",
+  "q": "¿Qué tienen en común las tipologías de 2021 \"León Chino\" y \"El Licenciado\"?",
+  "opciones": {
+   "A": "Ambas usan criptomonedas",
+   "B": "Ambas son del sector salud",
+   "C": "Ambas ocurrieron en el mismo estado",
+   "D": "Ambas involucran comercio exterior simulado o empresas exportadoras"
+  },
+  "correcta": "D",
+  "argumentacion": "\"León Chino\" usa importaciones simuladas (TBML) y \"El Licenciado\" usa empresas exportadoras de vehículos para lavar dinero. Ambas tipologías explotan el comercio exterior para dar apariencia de legalidad a las operaciones. ---"
+ },
+ {
+  "n": 91,
+  "area": 2,
+  "subarea": "Subárea 2.19 — Tipologías UIF",
+  "tipo": "Banco",
+  "q": "¿Cuál de las siguientes es una señal de alerta común en prácticamente todas las tipologías UIF?",
+  "opciones": {
+   "A": "Incongruencia entre el perfil económico declarado y las operaciones financieras",
+   "B": "Uso de tarjetas de crédito",
+   "C": "Pago de impuestos en exceso",
+   "D": "Inversión en la bolsa de valores"
+  },
+  "correcta": "A",
+  "argumentacion": "La incongruencia perfil-operaciones (personas con ingresos declarados bajos que mueven grandes sumas) es la señal de alerta más recurrente en todas las tipologías, reflejando el principio básico de \"conoce a tu cliente\". ---"
+ },
+ {
+  "n": 92,
+  "area": 2,
+  "subarea": "Subárea 2.19 — Tipologías UIF",
+  "tipo": "Banco",
+  "q": "La tipología \"Montadeudas 2023\" se caracteriza por:",
+  "opciones": {
+   "A": "Aplicaciones móviles que otorgan préstamos con intereses exorbitantes y extorsión",
+   "B": "Préstamos bancarios tradicionales",
+   "C": "Inversión en bienes raíces",
+   "D": "Comercio internacional de metales preciosos"
+  },
+  "correcta": "A",
+  "argumentacion": "\"Montadeudas\" describe apps de préstamos \"gota a gota\" que cobran hasta 85% de interés semanal y utilizan amenazas de muerte y difamación contra los deudores. ---"
+ },
+ {
+  "n": 93,
+  "area": 2,
+  "subarea": "Subárea 2.19 — Tipologías UIF",
+  "tipo": "Banco",
+  "q": "¿Qué tipología UIF está relacionada con el llamado \"Trade-Based Money Laundering\" (TBML)?",
+  "opciones": {
+   "A": "PEPs",
+   "B": "León Chino",
+   "C": "Universidad",
+   "D": "Fentanilo"
+  },
+  "correcta": "B",
+  "argumentacion": "La tipología \"León Chino\" (2021) describe TBML: simulación de operaciones de comercio exterior (importaciones) para justificar el envío de fondos al extranjero, usando \"pitufos\" para depositar efectivo fragmentado. ---"
+ },
+ {
+  "n": 94,
+  "area": 3,
+  "subarea": "Subárea 3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Banco",
+  "q": "¿Cuál de estas tipologías involucra el uso de una institución educativa pública para desviar fondos?",
+  "opciones": {
+   "A": "Universidad de Hidalgo",
+   "B": "Ex Servidor Público",
+   "C": "Asociación Altruista",
+   "D": "OSFL Religiosas"
+  },
+  "correcta": "A",
+  "argumentacion": "La tipología \"Universidad de Hidalgo\" (2019) describe cómo una universidad pública recibió y trianguló fondos de actividades ilícitas, incluyendo el gasto de recursos públicos en fichas de casino. --- ## ÁREA 3 — Auditoría, supervisión y EBR ### Subárea 3.1.1 — Informe de Auditoría PLD/FT (preguntas 95-99)"
+ },
+ {
+  "n": 95,
+  "area": 3,
+  "subarea": "Subárea 3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Banco",
+  "q": "¿Quién designa al auditor externo responsable de elaborar el Informe de Auditoría PLD/FT?",
+  "opciones": {
+   "A": "La CNBV",
+   "B": "El Oficial de Cumplimiento",
+   "C": "La SHCP",
+   "D": "El Consejo de Administración del Sujeto Obligado"
+  },
+  "correcta": "D",
+  "argumentacion": "El auditor externo es designado por el Consejo de Administración. La CNBV recibe el informe pero no designa al auditor. El OC conoce el contenido pero no lo designa. La SHCP emite las DCG pero no participa en la designación. ---"
+ },
+ {
+  "n": 96,
+  "area": 3,
+  "subarea": "Subárea 3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Banco",
+  "q": "¿Cuál de los siguientes NO es un requisito para ser auditor del Informe de Auditoría PLD/FT?",
+  "opciones": {
+   "A": "No haber sido sentenciado por delitos patrimoniales",
+   "B": "Contar con Certificado vigente expedido por la CNBV",
+   "C": "Tener al menos 5 años de experiencia en auditoría financiera",
+   "D": "No ser consejero o directivo del Sujeto Obligado"
+  },
+  "correcta": "C",
+  "argumentacion": "Los Lineamientos no exigen años mínimos de experiencia. Sí exigen: certificado vigente, no tener sentencias por delitos patrimoniales, no estar inhabilitado, no ser consejero/directivo, no tener litigio pendiente y no tener antecedentes de revocación de certificado. ---"
+ },
+ {
+  "n": 97,
+  "area": 3,
+  "subarea": "Subárea 3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Banco",
+  "q": "¿Qué método de muestreo debe aplicar el auditor para revisar los expedientes de clientes clasificados como alto riesgo?",
+  "opciones": {
+   "A": "Muestreo aleatorio simple",
+   "B": "Muestreo por conveniencia",
+   "C": "Muestreo sistemático",
+   "D": "Muestreo estratificado"
+  },
+  "correcta": "D",
+  "argumentacion": "El Lineamiento NOVENO exige muestreo probabilístico para la muestra general y muestreo estratificado para los expedientes de clientes de alto riesgo. Esto asegura que los clientes más riesgosos sean revisados de manera específica y no se diluyan en la muestra general. ---"
+ },
+ {
+  "n": 98,
+  "area": 3,
+  "subarea": "Subárea 3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Banco",
+  "q": "¿Cuál es la diferencia entre un hallazgo y una recomendación en el Informe de Auditoría?",
+  "opciones": {
+   "A": "El hallazgo es un hecho comprobado; la recomendación es la propuesta del auditor para corregirlo",
+   "B": "Son términos sinónimos",
+   "C": "La recomendación es un hecho comprobado; el hallazgo es la propuesta de corrección",
+   "D": "El hallazgo lo hace el OC; la recomendación la hace el auditor"
+  },
+  "correcta": "A",
+  "argumentacion": "El hallazgo es la evidencia objetiva de una situación detectada (\"el 10% de los expedientes están incompletos\"). La recomendación es la propuesta del auditor para corregir esa situación (\"implementar un checklist de validación\"). El plan de acción es el compromiso del Sujeto Obligado con plazos y responsables. ---"
+ },
+ {
+  "n": 99,
+  "area": 3,
+  "subarea": "Subárea 3.1.2 — Supervisión CNBV",
+  "tipo": "Banco",
+  "q": "¿Por qué medio debe presentarse el Informe de Auditoría ante la CNBV?",
+  "opciones": {
+   "A": "Por correo certificado",
+   "B": "Por correo electrónico",
+   "C": "Personalmente en las oficinas de la CNBV",
+   "D": "A través del SITI PLD/FT"
+  },
+  "correcta": "D",
+  "argumentacion": "El informe debe presentarse a través del SITI PLD/FT (Sistema Interinstitucional de Transferencia de Información), mediante un escrito firmado por el representante legal, administrador único o el Comité/OC. También debe remitirse la carta del auditor por el mismo medio. --- ### Subárea 3.1.2 — Supervisión CNBV (preguntas 100-104)"
+ },
+ {
+  "n": 100,
+  "area": 3,
+  "subarea": "Subárea 3.1.2 — Supervisión CNBV",
+  "tipo": "Banco",
+  "q": "¿Cuál de los siguientes NO es un tipo de visita de inspección que puede realizar la CNBV?",
+  "opciones": {
+   "A": "Visita especial",
+   "B": "Visita ordinaria",
+   "C": "Visita de investigación",
+   "D": "Visita extraordinaria"
+  },
+  "correcta": "D",
+  "argumentacion": "El Reglamento de Supervisión clasifica las visitas en ordinarias (programa anual), especiales (fuera del programa) y de investigación (indicios de conductas irregulares). No existe la categoría \"visita extraordinaria\" en el Reglamento. ---"
+ },
+ {
+  "n": 101,
+  "area": 3,
+  "subarea": "Subárea 3.1.2 — Supervisión CNBV",
+  "tipo": "Banco",
+  "q": "¿Cuál es el plazo máximo de duración de una visita de inspección, incluyendo su prórroga?",
+  "opciones": {
+   "A": "3 meses, prorrogables por 3 meses más",
+   "B": "12 meses, sin posibilidad de prórroga",
+   "C": "6 meses, prorrogables por única vez por 6 meses más",
+   "D": "6 meses, sin posibilidad de prórroga"
+  },
+  "correcta": "C",
+  "argumentacion": "Las visitas no pueden exceder 6 meses de duración, pero pueden prorrogarse por una única vez por un periodo igual (6 meses más), siempre que existan causas justificadas. El plazo máximo total es de 12 meses. ---"
+ },
+ {
+  "n": 102,
+  "area": 3,
+  "subarea": "Subárea 3.1.2 — Supervisión CNBV",
+  "tipo": "Banco",
+  "q": "¿Qué artículo de la Ley CNBV establece las facultades generales de la Comisión, incluyendo la supervisión y la imposición de sanciones?",
+  "opciones": {
+   "A": "Artículo 4",
+   "B": "Artículo 12",
+   "C": "Artículo 16",
+   "D": "Artículo 1"
+  },
+  "correcta": "A",
+  "argumentacion": "El Artículo 4 de la Ley CNBV contiene 38 fracciones que detallan las facultades de la Comisión, incluyendo supervisión (I), certificación de auditores (X), investigación (XVI), imposición de sanciones (XIX) y recurso de revocación (XX). ---"
+ },
+ {
+  "n": 103,
+  "area": 3,
+  "subarea": "Subárea 3.1.2 — Supervisión CNBV",
+  "tipo": "Banco",
+  "q": "¿Con cuántos días hábiles de anticipación debe notificarse la orden de visita ordinaria?",
+  "opciones": {
+   "A": "Al menos 2 días hábiles",
+   "B": "En el acto mismo de inicio",
+   "C": "Al menos 10 días hábiles",
+   "D": "Al menos 5 días hábiles"
+  },
+  "correcta": "A",
+  "argumentacion": "La orden de visita debe notificarse al menos con 2 días hábiles de anticipación tratándose de visitas ordinarias y especiales. En visitas de investigación, puede notificarse en el acto de inicio. ---"
+ },
+ {
+  "n": 104,
+  "area": 3,
+  "subarea": "Subárea 3.2.1 — GAFI EBR",
+  "tipo": "Banco",
+  "q": "¿Qué recurso procede contra las sanciones impuestas por la CNBV y quién lo resuelve?",
+  "opciones": {
+   "A": "Recurso de reconsideración, lo resuelve la SHCP",
+   "B": "Recurso de amparo, lo resuelve el Poder Judicial",
+   "C": "Recurso de apelación, lo resuelve el Tribunal Federal de Justicia Administrativa",
+   "D": "Recurso de revocación, lo resuelve la propia CNBV"
+  },
+  "correcta": "D",
+  "argumentacion": "Contra las sanciones impuestas por la CNBV procede el recurso de revocación, que es resuelto por la propia Comisión. La Junta de Gobierno puede delegar esta facultad en el Presidente. Además, la Junta de Gobierno puede condonar total o parcialmente las multas. --- ### Subárea 3.2.1 — GAFI EBR (preguntas 105-109)"
+ },
+ {
+  "n": 105,
+  "area": 3,
+  "subarea": "Subárea 3.2.1 — GAFI EBR",
+  "tipo": "Banco",
+  "q": "Conforme al GAFI, ¿cuál de las siguientes afirmaciones sobre el EBR es CORRECTA?",
+  "opciones": {
+   "A": "El EBR es un \"fundamento esencial\" del marco jurídico de ALA/CFT desde las Recomendaciones de 2012",
+   "B": "El EBR solo aplica a instituciones financieras grandes",
+   "C": "El EBR es opcional y cada país decide si lo implementa",
+   "D": "El EBR exime a los bancos de mitigar riesgos si estos han sido evaluados como bajos"
+  },
+  "correcta": "A",
+  "argumentacion": "Las Recomendaciones de 2012 hicieron del EBR un \"fundamento esencial\" (R.1) y un pre-requisito para aplicar efectivamente los Estándares del GAFI. Anteriormente (2003) solo se sugería. ---"
+ },
+ {
+  "n": 106,
+  "area": 3,
+  "subarea": "Subárea 3.2.1 — GAFI EBR",
+  "tipo": "Banco",
+  "q": "¿Cuáles son los 4 factores de riesgo que el GAFI señala como fundamentales para la evaluación de riesgos en el sector bancario?",
+  "opciones": {
+   "A": "País/geografía, clientes, productos/servicios, canales de distribución",
+   "B": "Tamaño del banco, número de empleados, antigüedad, rentabilidad",
+   "C": "Auditoría interna, externa, regulatoria y financiera",
+   "D": "Tipo de cambio, tasas de interés, inflación, riesgo crediticio"
+  },
+  "correcta": "A",
+  "argumentacion": "El GAFI establece que los bancos deben considerar factores como: las jurisdicciones donde operan (país/geografía), los perfiles de los clientes, la naturaleza de los productos y servicios ofrecidos, y los canales de distribución. ---"
+ },
+ {
+  "n": 107,
+  "area": 3,
+  "subarea": "Subárea 3.2.1 — GAFI EBR",
+  "tipo": "Banco",
+  "q": "¿Qué diferencia fundamental existe entre el riesgo inherente y el riesgo residual?",
+  "opciones": {
+   "A": "El riesgo residual siempre es mayor que el inherente",
+   "B": "El riesgo inherente es el nivel de riesgo antes de aplicar controles; el residual es el que permanece después",
+   "C": "Ambos conceptos son sinónimos",
+   "D": "El riesgo inherente es el que existe después de controles; el residual es el inicial"
+  },
+  "correcta": "B",
+  "argumentacion": "El riesgo inherente es el riesgo \"bruto\" que existe por la naturaleza del negocio, producto, cliente o país. El riesgo residual es lo que queda después de aplicar los controles de mitigación. El objetivo del EBR es reducir el riesgo residual a un nivel dentro del apetito de riesgo del banco. ---"
+ },
+ {
+  "n": 108,
+  "area": 3,
+  "subarea": "Subárea 3.2.1 — GAFI EBR",
+  "tipo": "Banco",
+  "q": "De acuerdo con la Guía del GAFI de octubre 2014, ¿cuál es el estatus jurídico de dicho documento?",
+  "opciones": {
+   "A": "No tiene efecto jurídico vinculante; es una guía basada en experiencias de países y del sector privado",
+   "B": "Tiene efecto jurídico vinculante solo para el sector bancario",
+   "C": "Es un tratado internacional vinculante para todos los países miembros",
+   "D": "Es una ley modelo que los países deben transcribir exactamente en su legislación nacional"
+  },
+  "correcta": "A",
+  "argumentacion": "La propia Guía establece que \"este documento guía no tiene efecto jurídico vinculante. Se basa en las experiencias de países y del sector privado.\" ---"
+ },
+ {
+  "n": 109,
+  "area": 3,
+  "subarea": "Subárea 3.2.2 — Basilea",
+  "tipo": "Banco",
+  "q": "Un banco pequeño con clientes de bajo riesgo y productos simples quiere aplicar medidas simplificadas de DDC. Conforme al EBR, ¿es esto correcto?",
+  "opciones": {
+   "A": "Sí, pero solo si el banco tiene menos de 100 clientes",
+   "B": "No, todos los clientes deben recibir el mismo tratamiento independientemente del riesgo",
+   "C": "No, las medidas simplificadas solo aplican a instituciones gubernamentales",
+   "D": "Sí, siempre que el riesgo bajo esté comprobado mediante una evaluación de riesgos documentada"
+  },
+  "correcta": "D",
+  "argumentacion": "El EBR permite medidas simplificadas cuando el riesgo es menor y está comprobado. La evaluación de riesgos del banco debe demostrar que el bajo riesgo está justificado. --- ### Subárea 3.2.2 — Basilea (preguntas 110-114)"
+ },
+ {
+  "n": 110,
+  "area": 3,
+  "subarea": "Subárea 3.2.2 — Basilea",
+  "tipo": "Banco",
+  "q": "Conforme al Comité de Basilea, ¿cuál de las siguientes NO es una de las tres líneas de defensa en la gestión del riesgo BC/FT?",
+  "opciones": {
+   "A": "Auditoría interna (tercera línea)",
+   "B": "Unidades de negocio (primera línea)",
+   "C": "Función de cumplimiento y responsable PBC/FT (segunda línea)",
+   "D": "Supervisores bancarios (cuarta línea)"
+  },
+  "correcta": "D",
+  "argumentacion": "Basilea establece tres líneas de defensa: (1) unidades de negocio, (2) responsable de PBC/FT + cumplimiento, (3) auditoría interna. Los supervisores bancarios son externos al banco y no constituyen una \"línea de defensa\" dentro del modelo de Basilea. ---"
+ },
+ {
+  "n": 111,
+  "area": 3,
+  "subarea": "Subárea 3.2.2 — Basilea",
+  "tipo": "Banco",
+  "q": "Según el documento de Basilea de enero 2014, ¿qué debe hacer un banco si no puede completar las medidas de debida diligencia del cliente (CDD)?",
+  "opciones": {
+   "A": "Abrir la cuenta de todos modos y completar la CDD después",
+   "B": "Solicitar una carta de recomendación del banco anterior",
+   "C": "Ignorar la situación porque el cliente tiene una cuenta en otro banco",
+   "D": "No abrir la cuenta y considerar la elaboración de un Reporte de Operación Sospechosa (ROS)"
+  },
+  "correcta": "D",
+  "argumentacion": "Basilea es clara: si el banco no puede completar las medidas CDD, no debe abrir la cuenta ni iniciar la relación comercial. Además, si las comprobaciones CDD levantan sospechas, los bancos deben elaborar un ROS y asegurarse de que el cliente no esté informado. ---"
+ },
+ {
+  "n": 112,
+  "area": 3,
+  "subarea": "Subárea 3.2.2 — Basilea",
+  "tipo": "Banco",
+  "q": "De acuerdo con Basilea, ¿cuál es la consecuencia si los intereses comerciales de un banco entran en conflicto con las atribuciones del responsable ejecutivo de PBC/FT?",
+  "opciones": {
+   "A": "Los intereses comerciales no deben oponerse al eficaz desempeño de la función PBC/FT, y deben existir procedimientos que garanticen consideración objetiva al más alto nivel",
+   "B": "El responsable de PBC/FT debe ceder ante los intereses comerciales",
+   "C": "El Consejo de Administración debe votar si prevalece el negocio o el cumplimiento",
+   "D": "Se debe contratar a un consultor externo para resolver el conflicto"
+  },
+  "correcta": "A",
+  "argumentacion": "Basilea establece que \"los intereses comerciales del banco no deberán oponerse en absoluto al eficaz desempeño de las atribuciones del responsable ejecutivo de PBC/FT\". Si hay conflicto, deben existir procedimientos para que las cuestiones de cumplimiento reciban consideración objetiva al más alto nivel. ---"
+ },
+ {
+  "n": 113,
+  "area": 3,
+  "subarea": "Subárea 3.2.2 — Basilea",
+  "tipo": "Banco",
+  "q": "¿Cuál es la principal diferencia entre el enfoque del GAFI y el del Comité de Basilea en materia de BC/FT?",
+  "opciones": {
+   "A": "Basilea es más estricto que el GAFI",
+   "B": "El GAFI se enfoca en bancos; Basilea en todo el sistema financiero",
+   "C": "No hay diferencia; ambos organismos emiten las mismas reglas",
+   "D": "El GAFI emite normas internacionales (enfoque normativo); Basilea emite directrices de gestión de riesgos bancarios que complementan al GAFI"
+  },
+  "correcta": "D",
+  "argumentacion": "El GAFI es un organismo intergubernamental que desarrolla las normas internacionales (40 Recomendaciones) que los países deben implementar. Basilea es un comité de supervisores bancarios que emite directrices para que los bancos integren el riesgo BC/FT en su gestión global de riesgos. ---"
+ },
+ {
+  "n": 114,
+  "area": 3,
+  "subarea": "Subárea 3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Banco",
+  "q": "Conforme a Basilea, ¿qué medida debe tomar un banco que opera en múltiples jurisdicciones cuando los requisitos del país de acogida son más estrictos que los del país de origen?",
+  "opciones": {
+   "A": "Aplicar los requisitos del país de origen porque es la política del grupo",
+   "B": "Solicitar una exención al GAFI",
+   "C": "Ignorar los requisitos del país de acogida",
+   "D": "Aplicar los requisitos más estrictos (del país de acogida)"
+  },
+  "correcta": "D",
+  "argumentacion": "Basilea establece claramente que \"cuando los requisitos reglamentarios o legales mínimos de los países de origen y acogida difieran, las oficinas ubicadas en las jurisdicciones de acogida aplicarán las normas más estrictas.\" --- ### Subárea 3.3.1 — Metodología de Evaluación de Riesgos (preguntas 115-118)"
+ },
+ {
+  "n": 115,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Concepto",
+  "q": "¿Cuál es la diferencia entre la Metodología de Evaluación de Riesgos y la clasificación por Grado de Riesgo de los Clientes?",
+  "opciones": {
+   "A": "Son el mismo instrumento con nombres distintos",
+   "B": "La Metodología aplica solo a AV; el Grado de Riesgo solo a entidades financieras",
+   "C": "La Metodología evalúa el riesgo de la entidad como institución; el Grado de Riesgo clasifica a cada Cliente individualmente",
+   "D": "La Metodología clasifica a cada cliente; el Grado de Riesgo evalúa a la entidad"
+  },
+  "correcta": "C",
+  "argumentacion": "La Metodología de Evaluación de Riesgos evalúa el riesgo institucional (exposición general de la entidad), mientras que el Grado de Riesgo clasifica a cada Cliente de manera individual con base en su perfil de riesgo."
+ },
+ {
+  "n": 116,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Concepto",
+  "q": "¿Cada cuándo debe revisarse y actualizarse la Metodología de Evaluación de Riesgos?",
+  "opciones": {
+   "A": "Cada 6 meses",
+   "B": "Cada 24 meses",
+   "C": "Solo cuando lo solicite la CNBV",
+   "D": "Cada 12 meses"
+  },
+  "correcta": "D",
+  "argumentacion": "La Metodología debe revisarse y actualizarse en un plazo no mayor a 12 meses contados a partir de que se cuente con los resultados de su implementación, así como cuando se detecten nuevos riesgos o se actualice la ENR."
+ },
+ {
+  "n": 117,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Concepto",
+  "q": "¿En qué consiste la fase de Valoración de la Metodología de Evaluación de Riesgos?",
+  "opciones": {
+   "A": "Es la fase en que se aplican las sanciones por incumplimiento",
+   "B": "Es la primera fase: identificar los riesgos a los que está expuesta la entidad",
+   "C": "Es la segunda fase: calcular el puntaje de riesgo de cada cliente",
+   "D": "Es la tercera fase: revisar la eficiencia y eficacia de la Metodología mediante monitoreo permanente y evaluaciones independientes"
+  },
+  "correcta": "D",
+  "argumentacion": "La fase de Valoración es la tercera de la Metodología: comprende la revisión de la eficiencia y eficacia del instrumento, con monitoreo permanente, evaluaciones independientes y actualizaciones con base en los resultados obtenidos."
+ },
+ {
+  "n": 118,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Concepto",
+  "q": "¿Cuáles deben considerarse como elementos MITIGANTES en la Metodología de Evaluación de Riesgos?",
+  "opciones": {
+   "A": "Gobierno corporativo y cultura de cumplimiento, revisión independiente (auditoría), estructuras internas (CCC y OC) y programas de capacitación anual",
+   "B": "Solo la capacitación del personal",
+   "C": "Solo el seguro de responsabilidad civil de la entidad",
+   "D": "Únicamente la contratación de tecnología antilavado"
+  },
+  "correcta": "A",
+  "argumentacion": "La CNBV exige considerar al menos cuatro mitigantes: (i) gobierno corporativo y cultura de cumplimiento desde la alta dirección; (ii) auditoría interna/externa (revisión independiente); (iii) Comité de Comunicación y Control y Oficial de Cumplimiento; y (iv) capacitación anual a consejo, directivos, funcionarios y empleados."
+ },
+ {
+  "n": 119,
+  "area": 3,
+  "subarea": "3.3.2 — Clasificación de Clientes",
+  "tipo": "Concepto",
+  "q": "¿Cada cuándo deben las Entidades evaluar el Grado de Riesgo de sus Clientes conforme a las DCG?",
+  "opciones": {
+   "A": "Al menos cada 6 meses, con mayor frecuencia cuanto mayor sea el grado de riesgo",
+   "B": "Solo al momento de abrir la cuenta",
+   "C": "Al menos cada 2 años",
+   "D": "Solo cuando el cliente lo solicite"
+  },
+  "correcta": "A",
+  "argumentacion": "Las DCG establecen que la evaluación del Grado de Riesgo se realice al menos cada 6 meses, y que la frecuencia debe ser mayor cuando la clasificación del Grado de Riesgo también lo sea."
+ },
+ {
+  "n": 120,
+  "area": 3,
+  "subarea": "3.3.2 — Clasificación de Clientes",
+  "tipo": "Comparación",
+  "q": "¿Qué diferencia hay entre las DCG Bancos y las DCG SOFIPOS respecto de los grados de riesgo para personas morales?",
+  "opciones": {
+   "A": "Las DCG SOFIPOS exigen 5 grados; las Bancos 1",
+   "B": "Las DCG Bancos permiten los grados que la Entidad considere necesarios; las SOFIPOS exigen mínimo 3 (alto, medio y bajo) para personas morales y fideicomisos",
+   "C": "Las DCG Bancos exigen 4 grados; las SOFIPOS 2",
+   "D": "No hay diferencia alguna"
+  },
+  "correcta": "B",
+  "argumentacion": "Las DCG Bancos son flexibles y permiten establecer tantos grados de riesgo como la Entidad considere necesario, mientras que las DCG SOFIPOS exigen al menos tres clasificaciones (alto, medio y bajo) para clientes personas morales y fideicomisos."
+ },
+ {
+  "n": 121,
+  "area": 3,
+  "subarea": "3.3.2 — Clasificación de Clientes",
+  "tipo": "Concepto",
+  "q": "Respecto de las Personas Políticamente Expuestas (PEP), ¿cómo deben clasificarse las nacionales y las extranjeras?",
+  "opciones": {
+   "A": "Ninguna es de alto riesgo; se evalúan como cualquier cliente",
+   "B": "Las PEP extranjeras son de alto riesgo automáticamente; las PEP nacionales se evalúan caso por caso según su nivel de exposición",
+   "C": "Solo las PEP nacionales son de alto riesgo",
+   "D": "Ambas son siempre de alto riesgo de forma automática"
+  },
+  "correcta": "B",
+  "argumentacion": "Las PEP extranjeras se clasifican automáticamente como de alto riesgo. Las PEP nacionales deben evaluarse caso por caso considerando su nivel de exposición, aplicando medidas de debida diligencia reforzada cuando resulten de alto riesgo."
+ },
+ {
+  "n": 122,
+  "area": 3,
+  "subarea": "3.3.3 — ENR 2023",
+  "tipo": "Dato oficial",
+  "q": "Según la ENR 2023, ¿cuál es el riesgo principal identificado en México y qué nivel tiene?",
+  "opciones": {
+   "A": "Lavado de Dinero, nivel Medio-Alto (5-7 en escala de 1 a 9); FT y FPADM en nivel Bajo",
+   "B": "Corrupción, nivel Bajo",
+   "C": "Financiamiento al terrorismo, nivel Medio-Alto",
+   "D": "Fraude informático, nivel Alto"
+  },
+  "correcta": "A",
+  "argumentacion": "La ENR 2023 identifica al Lavado de Dinero como el riesgo principal del país, con nivel Medio-Alto (5-7 de un máximo de 9), mientras que el FT y el FPADM se mantienen en nivel Bajo."
+ },
+ {
+  "n": 123,
+  "area": 3,
+  "subarea": "3.3.3 — ENR 2023",
+  "tipo": "Dato oficial",
+  "q": "¿Cuántos factores de riesgo identificó la ENR 2023 respecto de los identificados en la ENR 2020?",
+  "opciones": {
+   "A": "50 factores (vs. 12 en 2020)",
+   "B": "26 factores (vs. 37 en 2020)",
+   "C": "37 factores (vs. 26 en 2020); los nuevos incluyen Activos Virtuales, Beneficiario Final y Ransomware",
+   "D": "18 factores (vs. 30 en 2020)"
+  },
+  "correcta": "C",
+  "argumentacion": "La ENR 2023 identificó 37 factores de riesgo frente a 26 en la ENR 2020. Entre los nuevos: Marco Jurídico de Activos Virtuales, Estructuras Jurídicas, Beneficiario Final, Comercio Electrónico, Contratación pública, Activos Virtuales y Ransomware."
+ },
+ {
+  "n": 124,
+  "area": 3,
+  "subarea": "3.3.3 — ENR 2023",
+  "tipo": "Dato oficial",
+  "q": "¿Qué sectores del Sistema Financiero incrementaron su riesgo en la ENR 2023?",
+  "opciones": {
+   "A": "Once sectores, entre ellos Transmisores de Dinero, Casas de Bolsa y Casas de Cambio",
+   "B": "Únicamente las casas de cambio",
+   "C": "Ninguno; todos disminuyeron su riesgo",
+   "D": "Solo la banca múltiple"
+  },
+  "correcta": "A",
+  "argumentacion": "En la ENR 2023, once sectores del Sistema Financiero incrementaron su nivel de riesgo, incluyendo Transmisores de Dinero, Casas de Bolsa y Casas de Cambio."
+ },
+ {
+  "n": 125,
+  "area": 3,
+  "subarea": "3.3.3 — ENR 2023",
+  "tipo": "Concepto",
+  "q": "¿Cómo se relaciona la ENR con el Enfoque Basado en Riesgo de los Sujetos Supervisados?",
+  "opciones": {
+   "A": "La ENR es un documento informativo sin efectos en las entidades",
+   "B": "La ENR es un insumo obligatorio para la Metodología de Evaluación de Riesgos de cada Sujeto Supervisado, que debe reflejar sus resultados en sus propios Indicadores de Riesgo",
+   "C": "La ENR sustituye la evaluación de riesgos de cada entidad",
+   "D": "La ENR solo aplica al sector público"
+  },
+  "correcta": "B",
+  "argumentacion": "La ENR es un insumo obligatorio: cada Sujeto Supervisado debe analizarla y reflejar sus resultados en sus propios Indicadores de Riesgos dentro de su Metodología de Evaluación de Riesgos."
+ },
+ {
+  "n": 126,
+  "area": 3,
+  "subarea": "3.3.4 — Riesgos de corrupción",
+  "tipo": "Concepto",
+  "q": "Según la Guía CNBV de Anticorrupción, ¿cuál es la relación entre corrupción y lavado de dinero?",
+  "opciones": {
+   "A": "La corrupción es un delito precedente del LD: sus recursos requieren lavarse para integrarse al sistema financiero con apariencia de legalidad",
+   "B": "No tienen relación alguna",
+   "C": "Ambos son el mismo delito",
+   "D": "El LD es precedente de la corrupción"
+  },
+  "correcta": "A",
+  "argumentacion": "La corrupción es un delito precedente del LD (Art. 400 Bis CPF): los recursos obtenidos por actos de corrupción deben lavarse para integrarse al sistema financiero. Las medidas PLD/FT eficaces también combaten la corrupción."
+ },
+ {
+  "n": 127,
+  "area": 3,
+  "subarea": "3.3.4 — Riesgos de corrupción",
+  "tipo": "Concepto",
+  "q": "¿Qué son las \"Personas Vulnerables\" según la Guía CNBV de Anticorrupción?",
+  "opciones": {
+   "A": "Clientes o Usuarios que no son PEP pero que, por vínculos financieros identificados en una Operación Inusual vinculada con una PEP nacional, pueden representar riesgo de LD por corrupción",
+   "B": "Clientes PEP extranjeras de alto riesgo",
+   "C": "Servidores públicos de bajo nivel",
+   "D": "Personas sin recursos económicos"
+  },
+  "correcta": "A",
+  "argumentacion": "Las Personas Vulnerables no son PEP; son Clientes o Usuarios con vínculos financieros identificados en una Operación Inusual vinculada con una PEP nacional. Para PEP nacionales de alto riesgo la Guía recomienda declaración patrimonial, verificación en listas y monitoreo reforzado."
+ },
+ {
+  "n": 128,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿Qué significa la sigla FPADM y por qué el GAFI la incluye en sus estándares?",
+  "opciones": {
+   "A": "Fiscalización de Pagos a Deudores Multilaterales; control del FMI",
+   "B": "Financiamiento a la Proliferación de Armas de Destrucción Masiva; busca impedir el financiamiento de programas de proliferación de armas químicas, biológicas y nucleares",
+   "C": "Fondos de Protección ante Actos de Malversación; protege depósitos",
+   "D": "Fraude Patrimonial contra Activos del Estado; delito tipificado en el CPF"
+  },
+  "correcta": "B",
+  "argumentacion": "FPADM = Financiamiento de la Proliferación de Armas de Destrucción Masiva. Las 40 Recomendaciones del GAFI (2012) integraron la lucha contra el FPADM junto al LD y al FT tras la fusión con las Recomendaciones Especiales."
+ },
+ {
+  "n": 129,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿En qué etapa del lavado de dinero se produce el primer contacto de los fondos ilícitos con el sistema financiero y se fragmentan las sumas para evadir umbrales de reporte?",
+  "opciones": {
+   "A": "Colocación",
+   "B": "Legalización",
+   "C": "Estratificación",
+   "D": "Integración"
+  },
+  "correcta": "A",
+  "argumentacion": "La Colocación es la primera etapa: ingreso de ganancias ilícitas al sistema financiero mediante depósitos o transacciones pequeñas y fragmentadas (pitufeo/structuring) para evitar los umbrales de aviso y reporte."
+ },
+ {
+  "n": 130,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿Cómo se denomina la práctica de fragmentar operaciones en montos pequeños para no alcanzar los umbrales de reporte?",
+  "opciones": {
+   "A": "Colocación en el extranjero",
+   "B": "Pitufeo (structuring)",
+   "C": "Financiamiento colectivo",
+   "D": "Blanqueo por capitales"
+  },
+  "correcta": "B",
+  "argumentacion": "El pitufeo o structuring consiste en dividir o fragmentar operaciones en montos pequeños para permanecer por debajo de los umbrales de aviso o reporte y evitar así la detección; es conducta sancionable por la LFPID."
+ },
+ {
+  "n": 131,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿Por qué el financiamiento al terrorismo preocupa aun cuando los fondos tengan origen lícito?",
+  "opciones": {
+   "A": "Porque el FT siempre implica narcotráfico",
+   "B": "Porque el FT no está tipificado internacionalmente",
+   "C": "Porque en el FT lo relevante es el DESTINO de los fondos: dinero legítimo puede financiar actos terroristas, por lo que el origen lícito no descarta el riesgo",
+   "D": "Porque el FT solo ocurre con dinero en efectivo"
+  },
+  "correcta": "C",
+  "argumentacion": "En el LD se investiga el origen (siempre ilícito) de los fondos; en el FT se investiga el destino, y los recursos pueden ser lícitos o ilícitos. Por eso un cliente con ingresos legítimos puede financiar terrorismo y las medidas deben cubrirlo."
+ },
+ {
+  "n": 132,
+  "area": 1,
+  "subarea": "1.3 — Organismos internacionales",
+  "tipo": "Concepto",
+  "q": "¿Qué es el Grupo Egmont?",
+  "opciones": {
+   "A": "Foro de los principales bancos privados del mundo",
+   "B": "Red de Unidades de Inteligencia Financiera (UIF) que facilita el intercambio de información entre sus miembros",
+   "C": "Organismo de la ONU que emite listas de sanciones",
+   "D": "Red informal de supervisores bancarios con sede en Basilea"
+  },
+  "correcta": "B",
+  "argumentacion": "El Grupo Egmont (1995) es la red internacional de Unidades de Inteligencia Financiera; sus miembros intercambian información de inteligencia financiera para combatir LD/FT. México es miembro a través de la UIF."
+ },
+ {
+  "n": 133,
+  "area": 1,
+  "subarea": "1.3 — Organismos internacionales",
+  "tipo": "Concepto",
+  "q": "¿Qué es el Grupo Wolfsberg?",
+  "opciones": {
+   "A": "La unidad de inteligencia financiera de Estados Unidos",
+   "B": "Un banco de desarrollo multilateral",
+   "C": "Un consorcio de grandes bancos privados que desarrolló principios sobre debida diligencia del cliente, PEPs y banca corresponsal",
+   "D": "El comité que evalúa a los países miembros del GAFI"
+  },
+  "correcta": "C",
+  "argumentacion": "El Grupo Wolfsberg (1999) es un foro de ~13 bancos globales que publicó los Principios sobre DDC, la guía sobre PEPs y criterios sobre banca correspondencia; son estándares del sector privado complementarios al GAFI."
+ },
+ {
+  "n": 134,
+  "area": 1,
+  "subarea": "1.3 — Organismos internacionales",
+  "tipo": "Concepto",
+  "q": "¿Qué es el Comité de Supervisión Bancaria de Basilea?",
+  "opciones": {
+   "A": "La unidad de supervisión de la CNBV",
+   "B": "El banco central de Suiza",
+   "C": "Un organismo internacional que agrupa a autoridades de supervisión bancaria y emite directrices sobre gestión del riesgo, incluido el riesgo BC/FT",
+   "D": "Un organismo intergubernamental de la ONU"
+  },
+  "correcta": "C",
+  "argumentacion": "El Comité de Basilea (1974) reúne a supervisores bancarios de las principales jurisdicciones; emite directrices (p. ej., Adecuada gestión de los riesgos BC/FT, enero 2014) que complementan las normas del GAFI con un enfoque de gestión de riesgos."
+ },
+ {
+  "n": 135,
+  "area": 1,
+  "subarea": "1.3 — Organismos internacionales",
+  "tipo": "Concepto",
+  "q": "¿Cuál es la función del GAFILAT?",
+  "opciones": {
+   "A": "Tribunal regional contra el lavado de activos",
+   "B": "Organismo regional del GAFI para América Latina y el Caribe: apoya la implementación de los estándares y realiza evaluaciones mutuas de sus miembros",
+   "C": "Supervisar directamente a los bancos de la región",
+   "D": "Emisor de la moneda única latinoamericana"
+  },
+  "correcta": "B",
+  "argumentacion": "El GAFILAT (antes GAFISUD) es el organismo regional del GAFI en América Latina; México es miembro. Su función es promover la implementación efectiva de las Recomendaciones y realizar evaluaciones mutuas entre pares regionales."
+ },
+ {
+  "n": 136,
+  "area": 1,
+  "subarea": "1.2 — Estándares GAFI",
+  "tipo": "Concepto",
+  "q": "¿Qué evalúa el Resultado Inmediato RI.10 de la Metodología del GAFI?",
+  "opciones": {
+   "A": "Si existe confiscación de bienes sin condena",
+   "B": "Si los países identifican y evaluán los riesgos del lavado de activos y el terrorismo",
+   "C": "Si las UIFs utilizan adecuadamente la inteligencia financiera",
+   "D": "Si las autoridades competentes evalúan los riesgos asociados a los nuevos productos, nuevos tipos de negocio, canales de distribución y tecnologías (incluidas activos virtuales)"
+  },
+  "correcta": "D",
+  "argumentacion": "El RI.10 exige que las autoridades evalúen los riesgos derivados de nuevos productos, tecnologías y canales de distribución —incluidos activos virtuales y comercio electrónico— y garanticen su mitigación, complementando al RI.1 sobre evaluación general de riesgos."
+ },
+ {
+  "n": 137,
+  "area": 1,
+  "subarea": "1.2 — Estándares GAFI",
+  "tipo": "Concepto",
+  "q": "¿Cuándo considera el GAFI que una jurisdicción presenta un riesgo elevado?",
+  "opciones": {
+   "A": "Solo si el país tiene petróleo o minerales",
+   "B": "Cuando la evaluación del país identifica deficiencias en el cumplimiento de los Estándares o amenazas significativas, o cuando no ha completado sus evaluaciones mutuas",
+   "C": "Solo por ubicación geográfica",
+   "D": "Únicamente si pertenece a una lista de la ONU"
+  },
+  "correcta": "B",
+  "argumentacion": "Conforme a la R.19 y su Nota Interpretativa, un país se considera de riesgo elevado si sus evaluaciones (mutuas u otras) identifican deficiencias significativas en el cumplimiento o amenazas; además se consideran los criterios del CSONU y del GAFI."
+ },
+ {
+  "n": 138,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿Qué autoridad elabora y publica la Evaluación Nacional de Riesgos (ENR) de México?",
+  "opciones": {
+   "A": "La CNBV de manera exclusiva",
+   "B": "El Banco de México únicamente",
+   "C": "El Comité de Evaluación del GAFI",
+   "D": "La SHCP con insumos de los supervisores, la UIF y estudios especializados"
+  },
+  "correcta": "D",
+  "argumentacion": "La ENR es un documento de la SHCP (a través de su Unidad de Inteligencia Financiera y las unidades supervisoras) que integra insumos de supervisores, autoridades y análisis de amenazas; su última edición es la ENR 2023."
+ },
+ {
+  "n": 139,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿En qué se diferencia un \"aviso\" de un \"reporte\" en el régimen mexicano de PLD/FT?",
+  "opciones": {
+   "A": "El aviso se refiere a operaciones relevantes o de Actividades Vulnerables con umbrales y plazos específicos; el reporte comunica operaciones inusuales o sospechosas a la UIF",
+   "B": "El aviso es verbal y el reporte es por escrito",
+   "C": "Son sinónimos; la ley usa ambas palabras indistintamente",
+   "D": "El aviso solo aplica a bancos; el reporte a las AV"
+  },
+  "correcta": "A",
+  "argumentacion": "Los Avisos comunican operaciones relevantes (efectivo, activos virtuales) o de Actividades Vulnerables cumpliendo umbrales en UMA y plazos (p. ej., día 17 del mes siguiente). Los Reportes trasladan a la UIF las operaciones inusuales o sospechosas, con plazos como las 24 horas."
+ },
+ {
+  "n": 140,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Cómo está integrado el Comité de Comunicación y Control (CCC) y qué papel juega el Oficial de Cumplimiento en él?",
+  "opciones": {
+   "A": "Miembros del primer nivel directivo de la entidad; el Oficial de Cumplimiento participa sin derecho a voto",
+   "B": "Solo el director general y el OC con voto",
+   "C": "El CCC lo designa la CNBV entre sus funcionarios",
+   "D": "Lo integran solo auditores externos; el OC no participa"
+  },
+  "correcta": "A",
+  "argumentacion": "Las DCG establecen que el CCC estará integrado por miembros del primer nivel de la entidad (directivos), y que el Oficial de Cumplimiento participará en sus sesiones sin derecho a voto, aportando la información de cumplimiento."
+ },
+ {
+  "n": 141,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Qué diferencia hay entre una SOFOME regulada y una no regulada?",
+  "opciones": {
+   "A": "Las reguladas son públicas y las no reguladas privadas",
+   "B": "Las no reguladas no aplican DCG en materia de PLD/FT",
+   "C": "La diferencia es únicamente el tamaño del capital social",
+   "D": "Las no reguladas operan sin autorización de la CNBV y sin captar recursos del público; las reguladas sí están autorizadas para captar o invertir recursos del público y quedan bajo supervisión de la Comisión"
+  },
+  "correcta": "D",
+  "argumentacion": "Conforme a la LGOAAC, las SOFOMES reguladas cuentan con autorización de la CNBV para captar o invertir recursos del público y están sujetas a supervisión; las no reguladas operan sin esa autorización. Ambas quedan obligadas en materia de PLD/FT conforme a las DCG aplicables."
+ },
+ {
+  "n": 142,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Cuáles son los tipos de Institución de Tecnología Financiera (ITF) que regula la LRITF?",
+  "opciones": {
+   "A": "Solo casas de cambio y centros cambiarios",
+   "B": "Bancos digitales y aseguradoras virtuales",
+   "C": "Casas de bolsa y asesores de inversiones",
+   "D": "Fondos de pago electrónico, transferencia de fondos o valores, plataformas de financiamiento colaborativo (crowdfunding) y monedas virtuales"
+  },
+  "correcta": "D",
+  "argumentacion": "La LRITF (Art. 5) define como ITF a: fondos de pago electrónico; transferencias de fondos o valores; plataformas de financiamiento colaborativo; y monedas virtuales. Están obligadas en PLD/FT conforme a la ley y las DCG ITF (Art. 58)."
+ },
+ {
+  "n": 143,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Qué es un \"modelo novedoso\" y qué debe hacer previamente la entidad que desee implementarlo?",
+  "opciones": {
+   "A": "Un modelo financiero aprobado por la SHCP de forma automática",
+   "B": "Un modelo que solo usa inteligencia artificial; no requiere trámites",
+   "C": "Cualquier sistema informático comprado a un tercero",
+   "D": "Un producto, tecnología o canal que incremente el riesgo de LD/FT o no tenga antecedente en el mercado; la entidad debe identificar y evaluar el riesgo y presentar el resultado a la CNBV con su justificación previo al lanzamiento"
+  },
+  "correcta": "D",
+  "argumentacion": "Las DCG obligan a identificar y evaluar el riesgo de los modelos novedosos previo a su lanzamiento y a presentar el resultado junto con su justificación a la CNBV, para que la Comisión evalúe su implementación."
+ },
+ {
+  "n": 144,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Qué son los transmisores de dinero (TDV) y qué autorización requieren?",
+  "opciones": {
+   "A": "Casas de cambio con dos sucursales",
+   "B": "Bancos que envían remesas",
+   "C": "Fondos de inversión de corto plazo",
+   "D": "Empresas que prestan servicios de envío o recepción de transferencias de fondos nacionales o internacionales; requieren autorización previa de la CNBV conforme al Art. 81-A Bis LGOAAC"
+  },
+  "correcta": "D",
+  "argumentacion": "Los transmisores de dinero realizan transferencias de fondos nacionales o internacionales y requieren autorización previa de la CNBV (Art. 81-A Bis LGOAAC); sus DCG (Art. 95 Bis) fijan las medidas PLD/FT aplicables al sector."
+ },
+ {
+  "n": 145,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Qué autoridad supervisa el cumplimiento de las obligaciones PLD/FT de las Instituciones de Tecnología Financiera?",
+  "opciones": {
+   "A": "El Banco de México",
+   "B": "La SHCP, a través de la unidad supervisora de las ITF prevista en la LRITF",
+   "C": "La UIF directamente",
+   "D": "La CNBV únicamente"
+  },
+  "correcta": "B",
+  "argumentacion": "La supervisión de las ITF corresponde a la SHCP (y a Banxico en rubros específicos de sistemas de pago), conforme a la LRITF; las ITF reportan a la UIF y aplican las DCG del Art. 58 LRITF."
+ },
+ {
+  "n": 146,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Quiénes son los Proveedores de Servicios de Activos Virtuales (VASP) y qué deben hacer para operar en México?",
+  "opciones": {
+   "A": "Solo los bancos que ofrecen bitcoin",
+   "B": "Únicamente las casas de cambio tradicionales",
+   "C": "Quienes presten servicios de custodia, transferencia, intercambio o inversión con activos virtuales; deben registrarse ante la SHCP conforme a la LRITF",
+   "D": "Cualquier persona que use criptomonedas; no requieren registro"
+  },
+  "correcta": "C",
+  "argumentacion": "La LRITF somete a los VASP (custodia, transferencia, intercambio, inversión con activos virtuales) al registro ante la SHCP y a obligaciones PLD/FT; la tipología 2022 muestra el lavado mediante VASP no registrados."
+ },
+ {
+  "n": 147,
+  "area": 2,
+  "subarea": "2.2 — LFPID (Actividades Vulnerables)",
+  "tipo": "Concepto",
+  "q": "¿Por qué los umbrales de la LFPID se expresan en veces la Unidad de Medida y Actualización (UMA)?",
+  "opciones": {
+   "A": "Porque la UMA solo aplica al sector público",
+   "B": "Porque la UMA mide el riesgo de cada actividad",
+   "C": "Para facilitar su actualización automática cada año sin reformar la ley, al referirse a una unidad que se ajusta anualmente",
+   "D": "Porque los umbrales en pesos se eliminaron en 2010"
+  },
+  "correcta": "C",
+  "argumentacion": "Tras la entrada en vigor de la UMA (2016), los umbrales de la LFPID se expresaron en múltiplos del valor diario de la UMA (p. ej., 210 UMA para activos virtuales, 3,210 UMA para varias AV), lo que permite actualizarlos automáticamente cada año."
+ },
+ {
+  "n": 148,
+  "area": 2,
+  "subarea": "2.2 — LFPID (Actividades Vulnerables)",
+  "tipo": "Concepto",
+  "q": "¿Qué es el Registro de Actividades Vulnerables previsto en la LFPID?",
+  "opciones": {
+   "A": "El listado de personas bloqueadas",
+   "B": "El registro público de clientes de los bancos",
+   "C": "El registro de la UIF de operaciones sospechosas",
+   "D": "El padrón que deben integrar las personas que pretendan realizar Actividades Vulnerables ante la SHCP para operar formalmente"
+  },
+  "correcta": "D",
+  "argumentacion": "La LFPID obliga a las personas que realicen Actividades Vulnerables a registrarse ante la SHCP (y a mantener actualizada su información), condición para operar formalmente; la supervisión de las AV corresponde a la SHCP."
+ },
+ {
+  "n": 149,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Quién designa y publica la Lista de Personas Bloqueadas con efectos en México?",
+  "opciones": {
+   "A": "La UIF de manera exclusiva",
+   "B": "El GAFI directamente",
+   "C": "La CNBV",
+   "D": "La SHCP, con base en resoluciones del Consejo de Seguridad de la ONU y designaciones nacionales de leyes como la LFPID y el CPF"
+  },
+  "correcta": "D",
+  "argumentacion": "La Lista de Personas Bloqueadas la designa y publica la SHCP conforme a la LFPID, con fundamento en las resoluciones del Consejo de Seguridad de la ONU y en las designaciones nacionales (p. ej., art. 139 Ter CPF). Al identificar a una persona bloqueada, la entidad debe suspender operaciones y reportar en 24 horas."
+ },
+ {
+  "n": 150,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "En el marco de la debida diligencia reforzada, ¿qué significa \"conocer el propósito de la relación comercial\"?",
+  "opciones": {
+   "A": "Comprender e indagar por qué el cliente establece la relación y qué operaciones espera realizar, documentando la explicación para detectar inconsistencias con su perfil",
+   "B": "Verificar únicamente la identificación oficial",
+   "C": "Conocer el número de cuenta en el extranjero",
+   "D": "Saber el salario del cliente"
+  },
+  "correcta": "A",
+  "argumentacion": "La DDC reforzada exige, entre otros elementos, obtener información adicional sobre el cliente, la naturaleza esperada de la relación y el propósito de las operaciones, con supervisión más intensiva de la relación."
+ },
+ {
+  "n": 151,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "Si una persona moral NO tiene ninguna persona física que posea o controle directa o indirectamente el 25% o más de sus acciones, ¿qué deben hacer las DCG?",
+  "opciones": {
+   "A": "Registrar como propietario real al director general en automático",
+   "B": "Identificar a la persona o personas que, por otros medios, ejerzan el control efectivo de la persona moral (p. ej., mediante acuerdos, estatutos o vínculos familiares)",
+   "C": "Eximir a la entidad de la identificación del propietario real",
+   "D": "No identificar a nadie; la persona moral es su propio propietario real"
+  },
+  "correcta": "B",
+  "argumentacion": "Las DCG y la LFPID prevén que, de no existir persona física con el 25% o más de participación, se identifique a quien ejerza el control por otros medios (control efectivo por contrato, estatutos, acuerdos o vinculación familiar), documentando la justificación."
+ },
+ {
+  "n": 152,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Se permite la identificación de clientes a distancia (no presencial)? ¿Con qué condición?",
+  "opciones": {
+   "A": "Sí, con tecnología que garantice la autenticidad de los datos del solicitante y mediante los mecanismos que la Comisión autorice",
+   "B": "No está permitida en ningún caso",
+   "C": "Solo para clientes extranjeros",
+   "D": "Sí, siempre y sin condiciones adicionales"
+  },
+  "correcta": "A",
+  "argumentacion": "Las DCG permiten la identificación no presencial mediante tecnologías que aseguren la autenticidad de la identidad del solicitante, sujetas a la aprobación o autorización de la Comisión (p. ej., Art. 3 de las DCG de asesores y equivalentes)."
+ },
+ {
+  "n": 153,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "Entre las sanciones que puede imponer la CNBV, ¿cuál NO corresponde a sus facultades sancionadoras?",
+  "opciones": {
+   "A": "Suspensión de funciones o revocación de autorizaciones",
+   "B": "Pena de prisión",
+   "C": "Amonestación pública",
+   "D": "Multa"
+  },
+  "correcta": "B",
+  "argumentacion": "Las sanciones administrativas de la CNBV incluyen amonestación, multas, suspensión de funciones y revocación de autorizaciones. La prisión es una pena penal aplicada por la autoridad jurisdiccional (p. ej., art. 400 Bis CPF), no por la CNBV."
+ },
+ {
+  "n": 154,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Dato oficial",
+  "q": "¿Quién aplica la Prueba de Conocimientos en Materia de PLD/FT de la CNBV?",
+  "opciones": {
+   "A": "El Ceneval, mediante personal designado como aplicador",
+   "B": "La SHCP a través de la UIF",
+   "C": "La CNBV de manera directa",
+   "D": "Las universidades acreditadas"
+  },
+  "correcta": "A",
+  "argumentacion": "La evaluación se aplica en modalidad en línea bajo la coordinación de personal designado por el Ceneval, conforme a la Guía para el Sustentante de la Certificación PLD/FT."
+ },
+ {
+  "n": 155,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Dato oficial",
+  "q": "¿Cuántas sesiones tiene la evaluación de la Certificación PLD/FT y cuál es su duración máxima?",
+  "opciones": {
+   "A": "Sesiones múltiples a lo largo de una semana",
+   "B": "Una sesión de 6 horas",
+   "C": "Una sola sesión de 4 horas",
+   "D": "Dos sesiones de 2 horas cada una"
+  },
+  "correcta": "C",
+  "argumentacion": "La evaluación consta de una única sesión con duración máxima de cuatro horas, iniciando a las 9:00 horas en las fechas de aplicación de la convocatoria."
+ },
+ {
+  "n": 156,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Dato oficial",
+  "q": "¿Cómo se califica la Prueba de Conocimientos PLD/FT?",
+  "opciones": {
+   "A": "Solo se emite aprobado o reprobado sin puntaje",
+   "B": "Por porcentaje simple de aciertos publicado de antemano",
+   "C": "Por un criterio de suficiencia: el resultado se compara con un nivel previamente definido como satisfactorio",
+   "D": "Por promedio de dos aplicaciones consecutivas"
+  },
+  "correcta": "C",
+  "argumentacion": "La Guía para el Sustentante establece que la prueba se califica con un criterio único: el resultado se compara contra un nivel definido previamente como satisfactorio (enfoque de suficiencia), no con un porcentaje de aciertos anunciado."
+ },
+ {
+  "n": 157,
+  "area": 2,
+  "subarea": "2.2 — LFPID (Actividades Vulnerables)",
+  "tipo": "Concepto",
+  "q": "¿Quiénes son Sujetos Oblados según la LFPID?",
+  "opciones": {
+   "A": "Únicamente los bancos",
+   "B": "Solo los servidores públicos",
+   "C": "Únicamente las casas de cambio",
+   "D": "Las personas que realicen Actividades Vulnerables, los integrantes del Sistema Financiero y cualquier otra persona que determine la SHCP (art. 4 LFPID)"
+  },
+  "correcta": "D",
+  "argumentacion": "El art. 4 de la LFPID define como sujetos obligados a quienes realicen Actividades Vulnerables, a los integrantes del Sistema Financiero (crédito, valores, seguros, fianzas, afores) y a cualquier otra persona que la SHCP determine mediante reglas."
+ },
+ {
+  "n": 158,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Qué es un \"Cliente potencial\" conforme a las DCG?",
+  "opciones": {
+   "A": "Todo visitante de sucursales",
+   "B": "El cliente clasificado como de alto riesgo",
+   "C": "Un cliente que ya opera en el extranjero",
+   "D": "La persona que solicita o manifiesta su interés en establecer una relación comercial con la Entidad, aún antes de aprobarse dicha relación"
+  },
+  "correcta": "D",
+  "argumentacion": "Las DCG definen al Cliente potencial como quien solicita o manifiesta su interés en establecer una relación comercial; la entidad debe identificarlo y aplicar medidas preventivas aun antes de formalizar la relación, y negarla si no cumple con la DDC."
+ },
+ {
+  "n": 159,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Qué órgano debe aprobar el Manual de Cumplimiento de las Entidades?",
+  "opciones": {
+   "A": "El Comité de Comunicación y Control",
+   "B": "El Comité de Auditoría (o su equivalente) de la entidad",
+   "C": "El Oficial de Cumplimiento de manera individual",
+   "D": "La CNBV"
+  },
+  "correcta": "B",
+  "argumentacion": "Las DCG exigen someter a la aprobación del Comité de Auditoría (o su equivalente) el Manual de Cumplimiento, que contiene las políticas, procedimientos y plazos para prevenir y detectar LD/FT."
+ },
+ {
+  "n": 160,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Qué obligación de capacitación imponen las DCG?",
+  "opciones": {
+   "A": "Capacitación única al contratar, sin refrescamiento",
+   "B": "Capacitación solo al Oficial de Cumplimiento",
+   "C": "Ninguna; es voluntaria",
+   "D": "Programas de capacitación anual en PLD/FT dirigidos al consejo de administración, directivos, funcionarios y empleados"
+  },
+  "correcta": "D",
+  "argumentacion": "Las DCG obligan a implementar programas de capacitación anual en materia de PLD/FT para el consejo o su equivalente, directivos, funcionarios y empleados, y la efectividad de estos programas es un factor mitigante en la evaluación de riesgos."
+ },
+ {
+  "n": 161,
+  "area": 2,
+  "subarea": "2.1 — DCG y sujetos obligados",
+  "tipo": "Concepto",
+  "q": "¿Puede el Oficial de Cumplimiento ser una persona externa a la entidad?",
+  "opciones": {
+   "A": "Solo si es familiar del director general",
+   "B": "No; siempre debe ser un empleado de la propia entidad",
+   "C": "Solo si aprueba la SHCP personalmente",
+   "D": "Sí; puede designarse a un integrante de la entidad o contratarse con un tercero externo, con responsabilidades y facultades equivalentes"
+  },
+  "correcta": "D",
+  "argumentacion": "Las DCG permiten que el Oficial de Cumplimiento sea un integrante de la propia Entidad o una persona externa contratada con un tercero, garantizando su autonomía, facultades y acceso directo al primer nivel directivo."
+ },
+ {
+  "n": 162,
+  "area": 3,
+  "subarea": "3.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿Cuáles son los elementos fundamentales que debe contener el Informe de Auditoría PLD/FT?",
+  "opciones": {
+   "A": "El programa de trabajo del auditor externo",
+   "B": "Únicamente la lista de clientes atendidos",
+   "C": "La opinión del auditor, el alcance y metodología aplicada, los hallazgos identificados y las recomendaciones de mejora",
+   "D": "Solo el balance general de la entidad"
+  },
+  "correcta": "C",
+  "argumentacion": "Los Lineamientos del Informe de Auditoría (DOF 18/oct/2021) exigen que el informe incluya la opinión del auditor, el alcance y la metodología aplicada, los hallazgos con su evidencia objetiva y las recomendaciones correspondientes."
+ },
+ {
+  "n": 163,
+  "area": 3,
+  "subarea": "3.2 — Supervisión (CNBV)",
+  "tipo": "Concepto",
+  "q": "¿Qué debe contener la orden de visita de la CNBV?",
+  "opciones": {
+   "A": "Un oficio fundado y motivado que incluya lugar y fecha, número de oficio, nombre de la entidad, tipo y objeto de la visita, fecha de inicio, duración máxima, lugar y nombres de los inspectores",
+   "B": "Solo el nombre del inspector",
+   "C": "La sentencia correspondiente al expediente",
+   "D": "Únicamente la fecha de inicio"
+  },
+  "correcta": "A",
+  "argumentacion": "El Reglamento de Supervisión exige que la visita se ordene mediante oficio fundado y motivado suscrito por servidor público facultado, que precise lugar y fecha, número de oficio, nombre de la entidad, tipo y objeto de la visita, fecha de inicio, duración máxima (6 meses, prórroga por igual) e inspectores."
+ },
+ {
+  "n": 164,
+  "area": 3,
+  "subarea": "3.2 — Supervisión (CNBV)",
+  "tipo": "Concepto",
+  "q": "¿Las visitas de investigación requieren notificación previa a la entidad visitada?",
+  "opciones": {
+   "A": "Sí, con 5 días hábiles de anticipación",
+   "B": "Solo se notifica al finalizar",
+   "C": "No; la notificación previa de 2 días hábiles aplica a visitas ordinarias y especiales; las de investigación se realizan sin aviso previo para preservar el elemento sorpresivo",
+   "D": "Nunca se notifica ninguna visita"
+  },
+  "correcta": "C",
+  "argumentacion": "Las visitas ordinarias y especiales se notifican con al menos 2 días hábiles de anticipación; las visitas de investigación, fundadas en indicios de incumplimiento, se practican sin previo aviso a la entidad."
+ },
+ {
+  "n": 165,
+  "area": 3,
+  "subarea": "3.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿En qué consiste el \"monitoreo de clientes\" como parte del Enfoque Basado en Riesgo?",
+  "opciones": {
+   "A": "Vigilar solo a los clientes nuevos",
+   "B": "La revisión únicamente cuando hay una denuncia penal",
+   "C": "El proceso continuo de revisión de las transacciones y la información del cliente para verificar que su actividad sea consistente con el conocimiento del perfil y el riesgo asignado",
+   "D": "Un informe anual sin seguimiento"
+  },
+  "correcta": "C",
+  "argumentacion": "El EBR del GAFI/Basilea define el conocimiento del cliente como proceso continuo: identificación, verificación, comprensión de la relación y monitoreo permanente de las transacciones y la información, actualizando el perfil ante cambios."
+ },
+ {
+  "n": 166,
+  "area": 3,
+  "subarea": "3.3 — EBR y metodología",
+  "tipo": "Concepto",
+  "q": "¿Qué son los \"indicadores de riesgo\" en el marco de las DCG?",
+  "opciones": {
+   "A": "Catálogo de sanciones de la CNBV",
+   "B": "Indicadores financieros de rentabilidad",
+   "C": "Variables, eventos o comportamientos que permiten identificar situaciones o transacciones con riesgo de LD/FT; deben estar documentados en el Manual de Cumplimiento",
+   "D": "Estadísticas del mercado bursátil"
+  },
+  "correcta": "C",
+  "argumentacion": "Las DCG obligan a contar con indicadores de riesgo documentados en el Manual de Cumplimiento: son señales objetivas (por ejemplo, operaciones atípicas para el perfil) que detonan la revisión y, en su caso, el dictamen del Comité de Comunicación y Control."
+ },
+ {
+  "n": 167,
+  "area": 3,
+  "subarea": "3.3 — EBR y metodología",
+  "tipo": "Concepto",
+  "q": "¿Cuáles son las fases de la Metodología de Evaluación de Riesgos conforme a la guía de la CNBV?",
+  "opciones": {
+   "A": "Identificación, Valoración y Mitigación",
+   "B": "Registro, aviso y reporte",
+   "C": "Diseño, implementación y cancelación",
+   "D": "Planeación, ejecución y cierre"
+  },
+  "correcta": "A",
+  "argumentacion": "La CNBV estructura la Metodología en tres fases: Identificación de riesgos, Valoración (revisión de eficiencia y eficacia con monitoreo y evaluación independiente) y Mitigación de los riesgos identificados mediante controles."
+ },
+ {
+  "n": 168,
+  "area": 3,
+  "subarea": "3.3 — EBR y metodología",
+  "tipo": "Dato oficial",
+  "q": "¿Qué sector del Sistema Financiero se incorporó por primera vez a la Evaluación Nacional de Riesgos en la edición 2023 y con qué nivel?",
+  "opciones": {
+   "A": "Union de crédito, nivel Medio-Alto",
+   "B": "Casas de cambio, nivel Alto",
+   "C": "Instituciones de Tecnología Financiera (ITF/FINTECH), nivel Medio",
+   "D": "Aseguradoras, nivel Bajo"
+  },
+  "correcta": "C",
+  "argumentacion": "La ENR 2023 incorporó por primera vez al sector ITF/FINTECH, clasificándolo con nivel de riesgo Medio, mientras once sectores incrementaron su riesgo respecto de la edición 2020."
+ },
+ {
+  "n": 169,
+  "area": 3,
+  "subarea": "3.2 — Basilea",
+  "tipo": "Concepto",
+  "q": "¿Qué papel juega la auditoría interna en el modelo de tres líneas de defensa de Basilea?",
+  "opciones": {
+   "A": "No participa en el modelo",
+   "B": "Primera línea: negocia con clientes",
+   "C": "Tercera línea: proporciona revisión e independiente de las dos primeras al consejo, evaluando la efectividad del programa BC/FT",
+   "D": "Segunda línea: define las políticas"
+  },
+  "correcta": "C",
+  "argumentacion": "En el modelo de Basilea, la auditoría interna es la tercera línea de defensa: ofrece revisión independiente al consejo sobre la idoneidad y eficacia de los controles de la primera (negocio) y segunda (cumplimiento) líneas."
+ },
+ {
+  "n": 170,
+  "area": 3,
+  "subarea": "3.3 — EBR y metodología",
+  "tipo": "Concepto",
+  "q": "Según la Guía del GAFI (2014), ¿en qué consiste aplicar un Enfoque Basado en Riesgo para asignar recursos?",
+  "opciones": {
+   "A": "Asignar recursos (medidas y esfuerzo de supervisión) desproporcionadamente hacia los clientes, productos, canales y jurisdicciones de mayor riesgo",
+   "B": "Aplicar los mismos recursos a todos los clientes por equidad",
+   "C": "Reducir controles cuando aumenta el volumen de operaciones",
+   "D": "Concentrar recursos solo en clientes nuevos"
+  },
+  "correcta": "A",
+  "argumentacion": "El EBR significa que la evaluación de riesgos determina dónde aplicar mayores o menores medidas; las entidades deben dirigir sus recursos y supervisión hacia los clientes y actividades de riesgo más alto y utilizar medidas simplificadas donde el riesgo esté comprobadamente bajo."
+ },
+ {
+  "n": 171,
+  "area": 3,
+  "subarea": "3.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Dato oficial",
+  "q": "¿Con qué periodicidad debe elaborarse el Informe de Auditoría para evaluar el cumplimiento de las DCG en materia de PLD/FT?",
+  "opciones": {
+   "A": "Solo cuando lo solicita la CNBV",
+   "B": "Cada dos años",
+   "C": "Anual",
+   "D": "Semestral"
+  },
+  "correcta": "C",
+  "argumentacion": "Los Lineamientos (DOF 18/oct/2021) establecen la elaboración del Informe de Auditoría sobre el cumplimiento de las DCG en materia de PLD/FT correspondiente al ejercicio del año inmediato anterior, que el auditor externo presenta ante la Comisión a través del apartado de Avisos del portal SITI PLD/FT (lineamiento QUINTO)."
+ },
+ {
+  "n": 172,
+  "area": 1,
+  "subarea": "1.2 — Estándares GAFI",
+  "tipo": "Dato oficial",
+  "q": "¿Cuántas Recomendaciones vigentes tiene el GAFI actualmente?",
+  "opciones": {
+   "A": "40, tras la fusión con las Recomendaciones Especiales de 2012",
+   "B": "9 Especiales vigentes",
+   "C": "25, las originales de 1990",
+   "D": "49 (40 más 9 Especiales)"
+  },
+  "correcta": "A",
+  "argumentacion": "En 2012 se fusionaron las 40 Recomendaciones originales con las 9 Recomendaciones Especiales de FT y las del FPADM en el esquema de 40 Recomendaciones (R.1-R.40) y 11 Resultados Inmediatos; el GAFI mantiene 40 Recomendaciones vigentes (versión vigente de diciembre de 2024)."
+ },
+ {
+  "n": 173,
+  "area": 1,
+  "subarea": "1.3 — Organismos internacionales",
+  "tipo": "Concepto",
+  "q": "¿Qué es una Unidad de Inteligencia Financiera (UIF)?",
+  "opciones": {
+   "A": "El comité de supervisión de la CNBV",
+   "B": "La unidad central nacional que recibe, analiza y difunde reportes de operaciones inusuales y sospechosas; en México es una unidad administrativa de la SHCP y miembro de la Red Egmont",
+   "C": "El área de auditoría interna de cada institución financiera",
+   "D": "Un organismo del GAFI que certifica bancos"
+  },
+  "correcta": "B",
+  "argumentacion": "La UIF es el puente entre el sector privado que reporta y las autoridades que investigan (R.29 del GAFI). En México la UIF es una unidad administrativa de la SHCP; sus contrapartes internacionales están articuladas en la Red Egmont de UIFs (creada en 1995)."
+ },
+ {
+  "n": 174,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿Cuáles son los dos tratados internacionales que, junto con la R.3 del GAFI, fundamentan la tipificación del lavado de dinero en el art. 400 Bis del CPF?",
+  "opciones": {
+   "A": "El Acuerdo de Schengen y el Convenio de Ottawa",
+   "B": "La Carta de los Derechos Fundamentales y el Reglamento GAFI",
+   "C": "El Tratado de Libre Comercio y el Convenio de Basilea",
+   "D": "El Convenio de Viena de 1988 y la Convención de Palermo de 2000"
+  },
+  "correcta": "D",
+  "argumentacion": "El Convenio de Viena (1988, contra el tráfico ilícito de estupefacientes) y el Convenio de Palermo (2000, contra la delincuencia transnacional organizada) son la base internacional que México sigue para tipificar el LD en el art. 400 Bis CPF, junto con lo exigido por la R.3 del GAFI. Es un punto recurrente en el examen."
+ },
+ {
+  "n": 175,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿Por qué el financiamiento al terrorismo suele ser más difícil de detectar que el lavado de dinero?",
+  "opciones": {
+   "A": "Porque opera con montos pequeños provenientes de múltiples fuentes aparentemente lícitas (donativos, comercios, transferencias), sin necesidad de integrar grandes ganancias ilícitas",
+   "B": "Porque siempre utiliza exclusivamente criptomonedas",
+   "C": "Porque el FT no está tipificado en el derecho mexicano",
+   "D": "Porque los terroristas nunca usan el sistema financiero"
+  },
+  "correcta": "A",
+  "argumentacion": "El FT se distingue del LD por mover montos frecuentemente pequeños, de origen lícito o aparentemente lícito, dispersos en múltiples fuentes; por eso su detección requiere monitoreo continuo y atención a destinos y beneficiarios, no solo a umbrales de monto."
+ },
+ {
+  "n": 176,
+  "area": 1,
+  "subarea": "1.4 — Enfoque Basado en Riesgos (conceptos)",
+  "tipo": "Concepto",
+  "q": "¿Qué es el \"riesgo de jurisdicción o país\" dentro de la evaluación de riesgos?",
+  "opciones": {
+   "A": "El riesgo operativo de las sucursales en el exterior",
+   "B": "La exposición derivada de factores del país: marco jurídico y de supervisión, amenazas de LD/FT, corrupción, debilidad institucional y relaciones con países de riesgo elevado",
+   "C": "El riesgo de pérdida por fluctuación cambiaria",
+   "D": "El riesgo crediticio de los clientes extranjeros"
+  },
+  "correcta": "B",
+  "argumentacion": "La evaluación de riesgos (EBR) distingue riesgos por país/jurisdicción, cliente, producto, canal y operación; el de jurisdicción mide los factores inherentes al país (reglas, supervisión, amenazas, corrupción) y condiciona las medidas aplicables, incluida la debida diligencia de corresponsales extranjeros."
+ },
+ {
+  "n": 177,
+  "area": 1,
+  "subarea": "1.4 — Enfoque Basado en Riesgos (conceptos)",
+  "tipo": "Concepto",
+  "q": "¿Qué es el riesgo de producto, servicio, tecnología o canal?",
+  "opciones": {
+   "A": "El riesgo de que el producto no tenga demanda",
+   "B": "La exposición derivada de la naturaleza de lo que se ofrece y de cómo se entrega (banca a distancia, activos virtuales, agentes, pagos inmediatos), que puede facilitar u ocultar operaciones de LD/FT",
+   "C": "Únicamente el riesgo de fraude al consumidor",
+   "D": "El riesgo de que la tecnología de la entidad se obsolezca"
+  },
+  "correcta": "B",
+  "argumentacion": "La CNBV y las DCG exigen evaluar riesgos asociados a productos, servicios, tecnologías y canales de distribución: un mismo producto puede representar riesgos distintos según el canal (presencial vs. digital) y su forma de operar; los modelos novedosos requieren evaluación previa y presentación a la Comisión."
+ },
+ {
+  "n": 178,
+  "area": 1,
+  "subarea": "1.1 — Conceptos básicos PLD/FT",
+  "tipo": "Caso práctico",
+  "q": "Una empresa de comercio factura mercancía por un valor muy superior al real (sobrefacturación). ¿Cómo se integra esa ganancia ilícita al patrimonio del responsable?",
+  "opciones": {
+   "A": "La diferencia se acredita en cuentas (en el país o en el exterior) o se recibe en efectivo como supuesta utilidad comercial, quedando los recursos con apariencia de ingresos legítimos",
+   "B": "La diferencia la absorbe el banco corresponsal",
+   "C": "No es posible: la sobrefacturación es solo un ilícito fiscal",
+   "D": "Se convierte automáticamente en criptoactivos sin registro"
+  },
+  "correcta": "A",
+  "argumentacion": "Las tipologías de la UIF identifican la sobrefacturación de empresas legítimamente constituidas y las empresas \"fachada\" como técnica de la etapa de estratificación/composición: la diferencia entre el precio real y el facturado se entrega al lavador como si fuera utilidad de un negocio legal, dotando de apariencia lícita a los recursos."
+ },
+ {
+  "n": 179,
+  "area": 1,
+  "subarea": "1.4 — Enfoque Basado en Riesgos (conceptos)",
+  "tipo": "Concepto",
+  "q": "Según la R.1 del GAFI, ¿qué significa aplicar medidas proporcionales al riesgo?",
+  "opciones": {
+   "A": "Aplicar medidas reforzadas solo a PEP extranjeras",
+   "B": "Aplicar el mismo cuestionario a todos los clientes",
+   "C": "Graduar las medidas: simplificadas para riesgo bajo comprobable, estándarizadas para riesgo medio y reforzadas para riesgo alto, concentrando recursos donde el riesgo sea mayor",
+   "D": "Eximir de cumplimiento a las empresas pequeñas"
+  },
+  "correcta": "C",
+  "argumentacion": "La R.1 y su Nota Interpretativa permiten (y exigen) graduar las medidas según el riesgo: optar por medidas simplificadas cuando los riesgos estén comprobadamente bajos, y exigir medidas más estrictas para operaciones, productos o clientes de mayor riesgo. La proporcionalidad no significa exención."
+ },
+ {
+  "n": 180,
+  "area": 2,
+  "subarea": "2.2 — LFPID (Actividades Vulnerables)",
+  "tipo": "Dato oficial",
+  "q": "Conforme al art. 17 de la LFPID, ¿cuál de las siguientes NO es una Actividad Vulnerable?",
+  "opciones": {
+   "A": "La prestación habitual de servicios de traslado o custodia de dinero o valores",
+   "B": "La comercialización habitual o profesional de vehículos, nuevos o usados",
+   "C": "Las operaciones de mutuo o de otorgamiento de crédito",
+   "D": "La compraventa habitual de refacciones automotrices nuevas"
+  },
+  "correcta": "D",
+  "argumentacion": "El art. 17 de la LFPID enumera 16 fracciones de Actividades Vulnerables: incluye vehículos (fracc. VIII), traslado o custodia de dinero (fracc. X) y mutuos o crédito (fracc. IV), entre otras. La compraventa de refacciones automotrices nuevas no figura en el catálogo, por lo que no es una Actividad Vulnerable como tal."
+ }
+]
