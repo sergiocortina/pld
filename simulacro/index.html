@@ -51,6 +51,15 @@ h3{font-size:16px;margin:18px 0 8px;color:var(--azul)}
 .chip{font-size:11.5px;font-weight:700;letter-spacing:.02em;background:#e8f1f8;color:var(--azul2);border-radius:999px;padding:3px 10px}
 .chip.tipo{background:#eef7f2;color:var(--ok)}
 .enunciado{font-size:17.5px;font-weight:650;margin:4px 0 14px}
+.enunciado .md-p{margin:0 0 8px}
+.enunciado .md-p:last-child{margin-bottom:0}
+.enunciado ol.md-lista{margin:0 0 8px;padding-left:22px}
+.enunciado ol.md-lista li{margin:0 0 4px}
+.md-tabla-wrap{overflow-x:auto;margin:0 0 10px;-webkit-overflow-scrolling:touch}
+table.md-tabla{width:100%;border-collapse:collapse;font-size:14.5px;font-weight:500;background:#fff}
+table.md-tabla th,table.md-tabla td{border:1px solid var(--borde);padding:7px 9px;text-align:left;vertical-align:top}
+table.md-tabla th{background:#eef3f7;color:var(--azul2);font-size:13px;font-weight:800}
+table.md-tabla tr:nth-child(even) td{background:#fafcfe}
 .opciones{display:flex;flex-direction:column;gap:9px}
 .op{
   display:flex;align-items:flex-start;gap:11px;width:100%;text-align:left;
@@ -396,6 +405,46 @@ function tick(){
 
 /* ================= examen ================= */
 function actual(){ return POR_N[S.orden[S.idx]]; }
+function md(t){
+  if(!t) return "";
+  var esc = String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  var lineas = esc.split("\n"), out = [], i = 0;
+  function esFila(s){ return /^\s*\|.*\|\s*$/.test(s); }
+  function celdas(s){
+    return s.replace(/^\s*\||\|\s*$/g,"").split("|").map(function(c){ return c.trim(); });
+  }
+  while(i < lineas.length){
+    var L = lineas[i];
+    if(esFila(L) && i+1 < lineas.length && /^\s*\|[\s:|-]+\|\s*$/.test(lineas[i+1])){
+      var filas = [];
+      while(i < lineas.length && esFila(lineas[i])){ filas.push(celdas(lineas[i])); i++; }
+      var h = '<div class="md-tabla-wrap"><table class="md-tabla"><thead><tr>'
+            + filas[0].map(function(c){ return "<th>"+c+"</th>"; }).join("")
+            + "</tr></thead><tbody>";
+      for(var r=1; r<filas.length; r++){
+        if(filas[r].every(function(c){ return /^[\s:|-]*$/.test(c); })) continue;
+        h += "<tr>" + filas[r].map(function(c){ return "<td>"+c+"</td>"; }).join("") + "</tr>";
+      }
+      out.push(h + "</tbody></table></div>");
+      continue;
+    }
+    if(/^\s*\d+\.\s+\S/.test(L)){
+      var ol = "<ol class='md-lista' start='" + L.match(/^\s*(\d+)\./)[1] + "'>";
+      while(i < lineas.length && /^\s*\d+\.\s+\S/.test(lineas[i])){
+        ol += "<li>" + lineas[i].replace(/^\s*\d+\.\s+/, "") + "</li>"; i++;
+      }
+      out.push(ol + "</ol>");
+      continue;
+    }
+    if(/^\s*$/.test(L)){ i++; continue; }
+    var par = "";
+    while(i < lineas.length && !/^\s*$/.test(lineas[i]) && !esFila(lineas[i]) && !/^\s*\d+\.\s+\S/.test(lineas[i])){
+      par += (par ? "<br>" : "") + lineas[i].trim(); i++;
+    }
+    out.push("<p class='md-p'>" + par + "</p>");
+  }
+  return out.join("");
+}
 function renderPregunta(){
   var p = actual(), cont = $("tarjeta-pregunta");
   if(!p){
@@ -410,7 +459,7 @@ function renderPregunta(){
         + (p.subarea ? '<span class="chip">' + p.subarea + '</span>' : '')
         + (p.tipo ? '<span class="chip tipo">' + p.tipo + '</span>' : '')
         + '</div>';
-  html += '<div class="enunciado">' + p.q + '</div>';
+  html += '<div class="enunciado">' + md(p.q) + '</div>';
   html += '<div class="opciones">';
   ["A","B","C","D"].forEach(function(L){
     var cls = "op";
@@ -538,7 +587,7 @@ function renderRepaso(){
        + '<div class="cab"><strong>#' + (i+1) + '</strong><span class="chip">Área ' + p.area + '</span>'
        + (p.subarea ? '<span class="chip">' + p.subarea + '</span>' : '')
        + '</div>'
-       + '<div class="q">' + p.q + '</div>'
+       + '<div class="q">' + md(p.q) + '</div>'
        + '<div class="resp"><span class="mal-t">Tu respuesta: ' + (r || "sin contestar") + '</span> · <span class="ok-t">Correcta: ' + p.correcta + '</span></div>'
        + '<div class="resp"><em>' + p.opciones[p.correcta] + '</em></div>'
        + '<div class="arg"><strong>Por qué:</strong> ' + p.argumentacion + '</div>'
