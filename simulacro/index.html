@@ -13,7 +13,16 @@
   --ok:#1a8f4c; --okbg:#e7f7ed; --mal:#c62f2f; --malbg:#fdecec;
   --marca:#c77700; --marca-bg:#fff4e0; --acento:#0e7490;
   --radio:14px; --sombra:0 1px 3px rgba(16,42,67,.10),0 6px 18px rgba(16,42,67,.08);
+  --fondo-oscuro:#0b1d32; --texto-oscuro:#e8f4ff; --borde-oscuro:#2a405r;
+  --ok-oscuro:#2c9f5a; --okbg-oscuro:#233c3b; --mal-oscuro:#e85d42; --malbg-oscuro:#3a1a1a;
+  --marca-oscuro:#d4a853; --marca-bg-oscuro:#1e2a36; --acento-oscuro:#0e8fac;
+  --radio:14px;
+  --modo-oscuro: false;
 }
+body[data-modo-oscuro="true"]{
+  background:var(--fondo-oscuro) !important;
+}
+
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0}
 body{
@@ -21,11 +30,12 @@ body{
   background:var(--fondo); color:var(--texto); line-height:1.5;
   padding-bottom:env(safe-area-inset-bottom);
 }
-.wrap{max-width:760px;margin:0 auto;padding:14px 14px calc(96px + env(safe-area-inset-bottom))}
+.wrap{max-width:100%;margin:0;padding:14px;padding-bottom:calc(96px + env(safe-area-inset-bottom))}
 header.app{
   position:sticky;top:0;z-index:30;background:var(--azul);color:#fff;
-  padding:10px 14px calc(10px);padding-top:calc(10px + env(safe-area-inset-top));
+  padding:10px;padding-top:calc(10px + env(safe-area-inset-top));
   box-shadow:var(--sombra);
+  left:0;right:0;
 }
 header.app .fila{display:flex;align-items:center;gap:10px;max-width:760px;margin:0 auto}
 header.app h1{font-size:15px;margin:0;font-weight:700;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -74,9 +84,11 @@ h3{font-size:16px;margin:18px 0 8px;color:var(--azul)}
 .inferior{
   position:fixed;left:0;right:0;bottom:0;z-index:25;background:#fffffff2;backdrop-filter:blur(6px);
   border-top:1px solid var(--borde);padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+  padding-left:14px;padding-right:14px;
 }
 .inferior .fila{display:flex;gap:8px;max-width:760px;margin:0 auto;align-items:center}
 .inferior .btn{flex:1;min-width:0;padding:11px 8px;font-size:14.5px}
+.inferior .btn.ancho{flex:1.7}
 .inferior .btn .num{font-variant-numeric:tabular-nums}
 .inferior .btn.marcada{background:var(--marca);color:#fff}
 .fb{border-radius:12px;padding:13px 14px;margin-top:14px;border:2px solid}
@@ -137,6 +149,15 @@ table.res td.n{font-variant-numeric:tabular-nums;text-align:right}
   .enunciado{font-size:16.5px} .op{font-size:15.5px}
   .btn{font-size:14.5px;padding:12px 14px}
 }
+/* modo oscuro */
+[data-modo-oscuro="true"]{
+  --fondo:var(--fondo-oscuro); --texto:var(--texto-oscuro); --borde:var(--borde-oscuro);
+  --ok:var(--ok-oscuro); --okbg:var(--okbg-oscuro);
+  --mal:var(--mal-oscuro); --malbg:var(--malbg-oscuro);
+  --marca:var(--marca-oscuro); --marca-bg:var(--marca-bg-oscuro);
+  --acento:var(--acento-oscuro);
+}
+
 </style>
 </head>
 <body>
@@ -175,21 +196,28 @@ table.res td.n{font-variant-numeric:tabular-nums;text-align:right}
   </div>
   <button class="btn" style="width:100%;font-size:17px" onclick="iniciar()">▶&nbsp; Iniciar simulacro (4:00:00)</button>
   <button class="btn fantasma" style="width:100%" id="btn-continuar" hidden onclick="continuar()">↻&nbsp; Continuar sesión anterior</button>
-  <p class="pie">Material de estudio no oficial · Contenido basado en el temario CNBV 2026 y las fuentes de la Biblioteca PLD/FT</p>
+  <div class="cfg-modos" style="margin-top:14px;padding-top:14px;border-top:1px solid var(--borde)">
+  <button class="btn sec" onclick="alternarModo()" id="btn-modo-oscuro">🌙 Modo oscuro</button>
+  <button class="btn sec" onclick="fullscreen()" id="btn-fullscreen">📱 Pantalla completa</button>
+  <button class="btn sec" onclick="irIndice()">← Índice</button>
+</div>
+<p class="pie">Material de estudio no oficial · Contenido basado en el temario CNBV 2026 y las fuentes de la Biblioteca PLD/FT</p>
 </section>
 
 <!-- ============ EXAMEN ============ -->
 <section class="wrap" id="vista-examen" hidden>
   <div class="tarjeta" id="tarjeta-pregunta"></div>
-  <button class="btn" id="btn-calificar" style="width:100%" onclick="calificar()" hidden>✔ Calificar respuesta</button>
 </section>
 
-<div class="inferior" id="barra-inferior" hidden>
+<div class="inferior" id="barra-inferior">
   <div class="fila">
-    <button class="btn sec" onclick="navegar(-1)">◀ Anterior</button>
-    <button class="btn sec" onclick="abrirMapa()"><span class="num" id="mapa-lbl">Mapa</span></button>
-    <button class="btn sec" id="btn-marcar" onclick="marcar()">☆ Marcar</button>
-    <button class="btn sec" onclick="navegar(1)">Siguiente ▶</button>
+    <button class="btn sec" onclick="navegar(-1)" title="Pregunta anterior">◀</button>
+    <button class="btn sec" onclick="abrirMapa()" title="Ver mapa de preguntas"><span class="num" id="mapa-lbl">Mapa</span></button>
+    <button class="btn sec" id="btn-marcar" onclick="marcar()" title="Marcar/desmarcar para revisar">☆</button>
+    <button class="btn sec" onclick="navegar(1)" title="Pregunta siguiente">▶</button>
+    <button class="btn sec" onclick="alternarModo()" title="Alternar modo oscuro">🌙</button>
+    <button class="btn sec" onclick="fullscreen()" title="Pantalla completa">📱</button>
+    <button class="btn malb ancho" onclick="terminar()" title="Terminar y ver la calificación">✔ Terminar</button>
   </div>
 </div>
 
@@ -222,6 +250,10 @@ table.res td.n{font-variant-numeric:tabular-nums;text-align:right}
     <div id="res-repaso"></div>
   </div>
   <button class="btn" style="width:100%" onclick="reiniciar()">↺ Nuevo simulacro</button>
+  <div class="cfg-modos" style="margin-top:14px">
+    <button class="btn sec" onclick="alternarModo()">🌙 Modo oscuro</button>
+    <button class="btn sec" onclick="fullscreen()">📱 Pantalla completa</button>
+  </div>
 </section>
 
 <!-- ============ MAPA ============ -->
@@ -321,7 +353,6 @@ function mostrarVista(){
   $("vista-resultados").hidden = v !== "resultados";
   $("cabecera").hidden = v !== "examen";
   $("barra-inferior").hidden = v !== "examen";
-  $("btn-calificar").hidden = !(v === "examen" && S.feedback);
   window.scrollTo(0,0);
 }
 
@@ -383,25 +414,23 @@ function renderPregunta(){
   var marc = S.marcadas.indexOf(p.n) >= 0;
   mb.classList.toggle("marcada", marc);
   mb.textContent = marc ? "★ Marcada" : "☆ Marcar";
-  $("btn-calificar").disabled = !sel || calif;
   window.scrollTo(0, 0);
   save();
 }
 function elegir(L){
   var p = actual();
-  if(S.calif[p.n]) return;           // ya calificada, no cambia
+  if(S.calif[p.n]) return;           // ya calificada: la respuesta queda cerrada
+  S.resp[p.n] = L;
   if(S.feedback){
-    S.resp[p.n] = L;                 // pre-selección; se califica con el botón
-  }else{
-    S.resp[p.n] = L;                 // modo examen fiel: se guarda al instante
+    S.calif[p.n] = true;             // calificación inmediata: se dictamina al instante
+    save(); renderPregunta(); enfocarDictamen();
+    return;
   }
-  save(); renderPregunta();
+  save(); renderPregunta();          // modo examen fiel: se guarda y se puede modificar
 }
-function calificar(){
-  var p = actual();
-  if(!S.resp[p.n] || S.calif[p.n]) return;
-  S.calif[p.n] = true;               // en modo feedback, marcar que ya se mostró el dictamen
-  save(); renderPregunta();
+function enfocarDictamen(){
+  var fb = document.querySelector("#tarjeta-pregunta .fb");
+  if(fb && fb.scrollIntoView) fb.scrollIntoView({block:"nearest", behavior:"smooth"});
 }
 function navegar(d){
   var ni = S.idx + d;
@@ -434,21 +463,29 @@ function cerrarMapa(){ $("modal-mapa").hidden = true; }
 
 /* ================= fin y resultados ================= */
 function terminar(auto){
-  if(!confirm(auto ? "¡Se acabó el tiempo! El simulacro se calificará ahora." : "¿Terminar el simulacro y ver tu calificación?")) return;
+  var sin = 0;
+  S.orden.forEach(function(n){ if(!S.resp[n]) sin++; });
+  var ok = !!auto || !sin;
+  if(!ok){
+    try{ ok = confirm("Faltan " + sin + " preguntas sin responder. ¿Terminar el simulacro y ver tu calificación?"); }
+    catch(e){ ok = true; }
+  }
+  if(!ok) return;
   var ahora = Date.now();
   S.usadoMs = Math.min(ahora - S.inicio, TIEMPO_MS);
   S.etapa = "resultados";
-  save(); mostrarVista(); renderResultados();
+  save(); mostrarVista();
+  try{ renderResultados(); }catch(e){ if(window.console && console.error) console.error(e); }
 }
 function renderResultados(){
   var total = S.orden.length, aciertos = 0;
   var porArea = {1:{a:0,t:0}, 2:{a:0,t:0}, 3:{a:0,t:0}};
   S.orden.forEach(function(n){
-    var p = POR_N[n];
+    var p = POR_N[n]; if(!p || !porArea[p.area]) return;
     porArea[p.area].t++;
     if(S.resp[n] === p.correcta){ aciertos++; porArea[p.area].a++; }
   });
-  var pct = Math.round(aciertos / total * 100);
+  var pct = total ? Math.round(aciertos / total * 100) : 0;
   $("res-pct").textContent = pct + "%";
   var v = $("res-ver");
   v.textContent = pct >= UMBRAL_REF ? "Nivel satisfactorio (referencia)" : "Por debajo de la referencia";
@@ -456,7 +493,7 @@ function renderResultados(){
   $("res-det").innerHTML = aciertos + " de " + total + " correctas · tiempo usado <strong>" + fmt(S.usadoMs || 0) + "</strong>";
   var tb = "";
   [1,2,3].forEach(function(a){
-    var d = porArea[a], p2 = Math.round(d.a / d.t * 100);
+    var d = porArea[a], p2 = d.t ? Math.round(d.a / d.t * 100) : 0;
     tb += '<tr><td><strong>' + a + '.</strong> ' + AREAS[a]
         + '<div class="minibarra"><div style="width:' + p2 + '%"></div></div></td>'
         + '<td class="n">' + d.a + '/' + d.t + '</td><td class="n">' + p2 + '%</td></tr>';
@@ -467,7 +504,8 @@ function renderResultados(){
 function renderRepaso(){
   var h = "";
   S.orden.forEach(function(n, i){
-    var p = POR_N[n], r = S.resp[n] || null, bien = r === p.correcta;
+    var p = POR_N[n]; if(!p) return;
+    var r = S.resp[n] || null, bien = r === p.correcta;
     if(S.filtro === "mal" && bien) return;
     h += '<div class="res-item">'
        + '<div class="cab"><strong>#' + (i+1) + '</strong><span class="chip">Área ' + p.area + '</span>'
@@ -498,6 +536,31 @@ function setFiltro(f){
   setModo("m100");
   setInterval(tick, 1000);
 })();
+</script>
+<!-- funciones para modo oscuro, pantalla completa y índice -->
+<script>
+function alternarModo() {
+  const html = document.documentElement;
+  const nuevo = html.getAttribute('data-modo-oscuro') === 'true';
+  html.setAttribute('data-modo-oscuro', !nuevo);
+  const btn = document.getElementById('btn-modo-oscuro');
+  btn.textContent = nuevo ? '☀️ Modo claro' : '🌙 Modo oscuro';
+}
+function fullscreen() {
+  if (!document.fullscreenElement) {
+    document.body.requestFullscreen().catch(() => {});
+  } else {
+    document.exitFullscreen();
+  }
+}
+function irIndice() {
+  const vistas = ['vista-config', 'vista-examen', 'vista-resultados'];
+  const ocultar = (id) => { const el = document.getElementById(id); if(el) el.hidden = true; };
+  const mostrar = (id) => { const el = document.getElementById(id); if(el) el.hidden = false; };
+  ocultar('vista-config'); ocultar('vista-examen'); ocultar('vista-resultados');
+  mostrar('modal-mapa');
+  if (window.ultimaPregunta) renderizarMapa(window.ultimaPregunta);
+}
 </script>
 </body>
 </html>
