@@ -22,12 +22,12 @@ Simulacro de examen **en línea y para celular** de la Prueba de Conocimientos e
 2. En GitHub: **Settings → Pages → Source: Deploy from a branch** → rama `main`, carpeta `/` (o `/docs`) → **Save**.
 3. En un par de minutos queda publicado en `https://TU-USUARIO.github.io/TU-REPO/`. Ábrelo desde el navegador del celular y, si lo quieres a mano, usa **“Agregar a pantalla de inicio”** para que funcione como app.
 
-> `index.html` es **autónomo**: lleva las 180 preguntas embebidas, así que no necesita servidor ni conexión después de cargarlo (incluso sirve abrirlo con doble clic desde la PC).
+> `index.html` es **autónomo**: lleva las 240 preguntas embebidas, así que no necesita servidor ni conexión después de cargarlo (incluso sirve abrirlo con doble clic desde la PC).
 
 ## Modos
 
 - **Simulacro · 100**: toma 100 preguntas al azar, equilibradas entre las 3 áreas del temario (33/33/34).
-- **Banco completo · 180**: todas las preguntas (opción para repaso exhaustivo).
+- **Banco completo · 240**: todas las preguntas (opción para repaso exhaustivo).
 - **Calificación inmediata** (activada por defecto, lo pedido para estudiar): puedes apagarla para un examen más fiel, sin ver resultados hasta el final.
 
 ## Aclaraciones importantes
@@ -44,13 +44,14 @@ Para subirla junto con el simulacro: coloca el archivo en **PDF** en esta carpet
 | Archivo | Para qué |
 |---|---|
 | `index.html` | La app completa (autónoma, con el banco embebido) |
-| `preguntas.json` | Las 180 preguntas en JSON (para revisar/editar) |
+| `preguntas.json` | Las 240 preguntas en JSON (para revisar/editar) |
 | `_plantilla.html` | Plantilla de la app (marca `__BANCO_JSON__`) |
 | `preguntas_banco.json` | Banco original parseado de `_BANCO_PREGUNTAS.md` (114) |
-| `preguntas_nuevas.json` | 66 preguntas nuevas autoradas (conversiones + equilibradas) |
+| `preguntas_nuevas.json` | 126 preguntas nuevas autoradas (incluye la ampliación 180→240) |
 | `_parse_banco.py` | Parser del banco original (referencia) |
 | `_compilar.py` | **Regenera** `preguntas.json` e `index.html` validando todo |
 | `_test_app.js` | Smoke test end-to-end (Chrome headless + CDP, 33 aserciones) |
+| `_test_bug81.js` | Regresión: sesiones viejas/corruptas (26 aserciones) |
 | `_shots.js` | Genera las capturas de `docs/` |
 | `_HISTORIAL_MANTENIMIENTO.md` | Bitácora de cambios técnicos, cómo regenerar y republicar |
 

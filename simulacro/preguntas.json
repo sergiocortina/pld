@@ -2698,5 +2698,905 @@
   },
   "correcta": "D",
   "argumentacion": "El art. 17 de la LFPID enumera 16 fracciones de Actividades Vulnerables: incluye vehículos (fracc. VIII), traslado o custodia de dinero (fracc. X) y mutuos o crédito (fracc. IV), entre otras. La compraventa de refacciones automotrices nuevas no figura en el catálogo, por lo que no es una Actividad Vulnerable como tal."
+ },
+ {
+  "n": 181,
+  "area": 2,
+  "subarea": "2.1.4 — Dólares en efectivo",
+  "tipo": "Dato oficial",
+  "q": "¿Cuál es el límite mensual de dólares en efectivo para una persona moral cliente que no acredite los requisitos de la DCG?",
+  "opciones": {
+   "A": "$14,000 USD al mes, con justificación económica",
+   "B": "$300 USD por día, con tope de $1,500 USD al mes",
+   "C": "$10,000 USD por cliente por día",
+   "D": "$4,000 USD al mes"
+  },
+  "correcta": "A",
+  "argumentacion": "El Capítulo III Bis de la DCG de Bancos fija para personas morales clientes un límite de $14,000 USD mensuales acumulados; superarlo exige justificación económica documentada (3 años de constitución, estados financieros de 2 ejercicios, declaraciones anuales de 2 años, información de accionistas y valoración documentada de la entidad). Sin esos requisitos no se admiten montos superiores."
+ },
+ {
+  "n": 182,
+  "area": 2,
+  "subarea": "2.1.4 — Dólares en efectivo",
+  "tipo": "Concepto",
+  "q": "¿Cuál es el límite de dólares en efectivo para un usuario persona física (quien opera sin relación permanente con la entidad)?",
+  "opciones": {
+   "A": "$14,000 USD al mes",
+   "B": "$300 USD por día, con tope de $1,500 USD al mes",
+   "C": "$250 USD por operación",
+   "D": "$4,000 USD al mes"
+  },
+  "correcta": "B",
+  "argumentacion": "El Capítulo III Bis de la DCG de Bancos distingue cliente de usuario: el usuario persona física (acto de ejecución instantánea) está limitado a $300 USD por día y $1,500 USD al mes, mientras que el cliente persona física puede recibir hasta $4,000 USD al mes acumulados."
+ },
+ {
+  "n": 183,
+  "area": 2,
+  "subarea": "2.1.4 — Dólares en efectivo",
+  "tipo": "Dato oficial",
+  "q": "¿Cuál es el límite de dólares en efectivo por operación para los comisionistas que operan con personas físicas?",
+  "opciones": {
+   "A": "$4,000 USD por operación",
+   "B": "$1,500 USD por operación",
+   "C": "$300 USD por operación",
+   "D": "$250 USD por operación"
+  },
+  "correcta": "D",
+  "argumentacion": "Para comisionistas que operan con personas físicas, la DCG de Bancos (Capítulo III Bis) establece un límite aún más bajo que el de los usuarios: $250 USD en efectivo por operación, como medida adicional contra la colocación de divisas de origen ilícito."
+ },
+ {
+  "n": 184,
+  "area": 2,
+  "subarea": "2.1.5 — Sistemas automatizados",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Qué función del sistema automatizado de PLD/FT exige conservar información histórica de al menos 10 años?",
+  "opciones": {
+   "A": "El canal de denuncias internas",
+   "B": "La consolidación de cuentas del mismo cliente",
+   "C": "El modelo de evaluación de riesgos",
+   "D": "El sistema de alertas del perfil transaccional"
+  },
+  "correcta": "C",
+  "argumentacion": "La Disposición 51ª de la DCG de Bancos enumera las funciones mínimas del sistema automatizado; la fracción XIII obliga a ejecutar el modelo de evaluación de riesgos apoyado en información histórica de al menos 10 años, además de funciones como alertar sobre personas bloqueadas o PEPs, trazabilidad de activos virtuales y verificación de datos en operaciones no presenciales."
+ },
+ {
+  "n": 185,
+  "area": 2,
+  "subarea": "2.1.6 — Otras obligaciones",
+  "tipo": "Concepto",
+  "q": "Conforme al Art. 115 de la LIC, ¿cómo se trata la revelación no autorizada de los reportes presentados por la entidad?",
+  "opciones": {
+   "A": "Los reportes se publican semestralmente en el Diario Oficial de la Federación",
+   "B": "Solo los Reportes de Operación Relevante son confidenciales",
+   "C": "Los reportes solo se reservan por 2 años",
+   "D": "Los servidores públicos y el personal deben abstenerse de dar noticia de los reportes a personas o autoridades distintas de las facultadas, y hacerlo no se justifica aduciendo secreto bancario"
+  },
+  "correcta": "D",
+  "argumentacion": "El Art. 115, penúltimo párrafo, de la LIC obliga a servidores públicos de SHCP y CNBV, instituciones de crédito, consejeros, directivos, funcionarios, empleados y apoderados a abstenerse de dar noticia de los reportes a personas o autoridades distintas de las facultadas expresamente. El cumplimiento de estas obligaciones está exceptuado del secreto bancario del Art. 142 LIC, por lo que la violación de la confidencialidad no se subsana invocándolo."
+ },
+ {
+  "n": 186,
+  "area": 2,
+  "subarea": "2.1.8 — Lista de Personas Bloqueadas",
+  "tipo": "Concepto",
+  "q": "¿Qué carácter tiene la Lista de Personas Bloqueadas que la SHCP pone a disposición de las entidades a través de la CNBV?",
+  "opciones": {
+   "A": "Pública, y debe publicarse en el DOF",
+   "B": "Interna de la UIF, sin acceso para las entidades",
+   "C": "Confidencial",
+   "D": "Pública, pero solo para grupos financieros"
+  },
+  "correcta": "C",
+  "argumentacion": "El Art. 115 de la LIC establece que la SHCP informa a las instituciones de crédito, a través de la CNBV, una lista de personas bloqueadas que tiene carácter confidencial; ante cualquier coincidencia la entidad debe suspender de forma inmediata actos, operaciones o servicios con el cliente o usuario y reportar en 24 horas."
+ },
+ {
+  "n": 187,
+  "area": 2,
+  "subarea": "2.1.8 — Lista de Personas Bloqueadas",
+  "tipo": "Cuestionamiento directo",
+  "q": "Entre los supuestos por los cuales una persona puede incluirse en la Lista de Personas Bloqueadas, se encuentra:",
+  "opciones": {
+   "A": "Tener más de 10 cuentas en distintas instituciones de crédito",
+   "B": "Ser accionista de una empresa con más de 250 empleados",
+   "C": "Haber sido incluido en el padrón de PEPs de la UIF",
+   "D": "Ser contribuyente listado en el Art. 69-B del Código Fiscal de la Federación"
+  },
+  "correcta": "D",
+  "argumentacion": "La Disposición 70ª de la DCG lista los parámetros de inclusión en la Lista de Personas Bloqueadas: resoluciones del Consejo de Seguridad de la ONU, señalamientos de autoridades extranjeras u organismos internacionales, señalamientos de autoridades nacionales con indicios de LD/FT, personas sentenciadas por esos delitos, quienes oculten información sobre recursos de FT o LD y contribuyentes listados en el Art. 69-B del CFF."
+ },
+ {
+  "n": 188,
+  "area": 2,
+  "subarea": "2.1.9 — Comité de Comunicación y Control",
+  "tipo": "Dato oficial",
+  "q": "¿Con qué frecuencia mínima debe sesionar el Comité de Comunicación y Control?",
+  "opciones": {
+   "A": "Al menos una vez al semestre",
+   "B": "Al menos una vez al trimestre",
+   "C": "Solo cuando el sistema automatizado genere alertas",
+   "D": "Al menos una vez al mes"
+  },
+  "correcta": "D",
+  "argumentacion": "La Disposición 44ª de la DCG de Bancos dispone que el Comité de Comunicación y Control sesione al menos una vez al mes. Entre sus funciones (Disposición 43ª) están aprobar el Manual de Cumplimiento, conocer a los clientes de Grado de Riesgo Alto, dictaminar Operaciones Inusuales e Internas Preocupantes y aprobar los programas de capacitación."
+ },
+ {
+  "n": 189,
+  "area": 2,
+  "subarea": "2.1.9 — Comité de Comunicación y Control",
+  "tipo": "Concepto",
+  "q": "¿Qué opción tienen las entidades con menos de 25 empleados respecto del Comité de Comunicación y Control?",
+  "opciones": {
+   "A": "Quedan exentas de cumplir obligaciones PLD/FT",
+   "B": "No necesitan constituirlo; sus funciones las ejerce el Oficial de Cumplimiento",
+   "C": "Constituirlo con un solo miembro designado por la CNBV",
+   "D": "Sustituirlo por el auditor externo certificado"
+  },
+  "correcta": "B",
+  "argumentacion": "La Disposición 44ª de la DCG prevé que las entidades con menos de 25 empleados no están obligadas a constituir Comité de Comunicación y Control; en ese caso, las funciones del Comité las ejerce el Oficial de Cumplimiento, sin que se excuse el resto de las obligaciones de prevención, detección y reporte."
+ },
+ {
+  "n": 190,
+  "area": 2,
+  "subarea": "2.1.10 — Oficial de Cumplimiento",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuál de las siguientes incompatibilidades debe cumplir el Oficial de Cumplimiento conforme a la DCG?",
+  "opciones": {
+   "A": "No puede ser elegido de entre los miembros del Comité de Comunicación y Control",
+   "B": "No puede ocupar un cargo dentro de las 3 jerarquías inferiores al director general",
+   "C": "No puede tener certificación vigente en materia de PLD/FT",
+   "D": "No puede tener funciones de auditoría interna ni pertenecer a áreas que promuevan productos financieros"
+  },
+  "correcta": "D",
+  "argumentacion": "La Disposición 47ª de la DCG exige que el Oficial de Cumplimiento sea independiente de las áreas que promuevan productos o servicios financieros y que no tenga funciones de auditoría interna; debe ser designado de entre los miembros del Comité, ocupar un cargo dentro de las 3 jerarquías inmediatas inferiores al director general y contar con certificación vigente conforme al Art. 4, fracción X de la Ley de la CNBV."
+ },
+ {
+  "n": 191,
+  "area": 2,
+  "subarea": "2.1.11 — Modelos Novedosos",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Quién autoriza los modelos novedosos y con qué condición adicional?",
+  "opciones": {
+   "A": "El Comité de Comunicación y Control de la propia entidad",
+   "B": "La UIF, con visto bueno del GAFI",
+   "C": "La SHCP, consultando previamente a la CNBV",
+   "D": "La CNBV, con opinión de la SHCP"
+  },
+  "correcta": "D",
+  "argumentacion": "La Disposición 69ª-2 de la DCG de Bancos establece que la entidad debe identificar y evaluar el riesgo previo al lanzamiento, presentar esa evaluación a la CNBV junto con la solicitud de autorización y ajustarse a las DCG conforme a lo que señale la autorización de la CNBV, emitida con opinión de la SHCP. Es aplicable tanto a bancos como a Instituciones de Tecnología Financiera."
+ },
+ {
+  "n": 192,
+  "area": 2,
+  "subarea": "2.1.13 — Transmisores de Dinero",
+  "tipo": "Concepto",
+  "q": "¿Cuál de las siguientes es una característica de los transmisores de dinero conforme al Art. 81-A Bis de la LGOAAC?",
+  "opciones": {
+   "A": "Pueden realizar indistintamente operaciones de centros cambiarios (Art. 81-A)",
+   "B": "Pueden constituirse como SA o SRL, con registro vigente ante la CNBV, y entregar el dinero al beneficiario en una sola exhibición",
+   "C": "No requieren registro ante la CNBV si operan solo en frontera",
+   "D": "Solo pueden constituirse como sociedades anónimas y pueden entregar el dinero en parcialidades"
+  },
+  "correcta": "B",
+  "argumentacion": "El Art. 81-A Bis de la LGOAAC define a los transmisores de dinero: sociedades anónimas o de responsabilidad limitada con registro vigente ante la CNBV que, de manera habitual y con comisión, reciben dinero en México para transferirlo al extranjero, a otro lugar del país o entregarlo al beneficiario, quien lo recibe en una sola exhibición. No pueden realizar operaciones de centros cambiarios; si pretenden emitir fondos de pago electrónico deben constituirse como institución conforme a la LRITF."
+ },
+ {
+  "n": 193,
+  "area": 2,
+  "subarea": "2.1.14 — Instituciones de Tecnología Financiera",
+  "tipo": "Dato oficial",
+  "q": "Las sanciones aplicables a una ITF por incumplir el Art. 58 de la LRITF (obligaciones PLD/FT) pueden ascender, según el tipo de infracción, a:",
+  "opciones": {
+   "A": "Únicamente 10% al 100% del monto de la operación",
+   "B": "10 a 100,000 veces la UMA",
+   "C": "5,000 a 50,000 días de salario mínimo",
+   "D": "1 a 10 veces la UMA"
+  },
+  "correcta": "B",
+  "argumentacion": "El Art. 105 de la LRITF contempla: por operación con persona bloqueada o por operación inusual no reportada, multa del 10% al 100% del monto; por las demás violaciones al Art. 58, multa de 10 a 100,000 veces la UMA. El Art. 58 es para las ITF el equivalente al Art. 115 de la LIC."
+ },
+ {
+  "n": 194,
+  "area": 2,
+  "subarea": "2.1.12 — Centros Cambiarios",
+  "tipo": "Dato oficial",
+  "q": "¿Cuál es el límite de operaciones de un centro cambiario por cliente por día?",
+  "opciones": {
+   "A": "$14,000 USD",
+   "B": "$4,000 USD",
+   "C": "$1,500 USD",
+   "D": "$10,000 USD"
+  },
+  "correcta": "D",
+  "argumentacion": "El Art. 81-A de la LGOAAC y las DCG aplicables a los centros cambiarios limitan sus operaciones (compraventa de billetes y monedas extranjeras, cheques de viajero, piezas metálicas acuñadas y compra de documentos a la vista en moneda extranjera) a un máximo de $10,000 USD por cliente por día; solo operan con efectivo y tienen prohibido realizar transferencias o transmisiones de fondos."
+ },
+ {
+  "n": 195,
+  "area": 2,
+  "subarea": "2.1.7 — Intercambio de información",
+  "tipo": "Concepto",
+  "q": "Respecto del intercambio de información entre entidades para prevenir y detectar LD/FT, ¿qué es correcto?",
+  "opciones": {
+   "A": "Las entidades pueden compartir de forma proactiva información relevante sin que medie solicitud previa, y tienen 30 días naturales para responder cuando sí se solicita",
+   "B": "Requiere autorización previa de la UIF en todos los casos",
+   "C": "Solo puede realizarse mediante resolución judicial",
+   "D": "Únicamente puede intercambiarse información dentro del mismo grupo financiero"
+  },
+  "correcta": "A",
+  "argumentacion": "El Art. 115 Bis de la LIC permite a las instituciones de crédito intercambiar información para fortalecer la prevención y detección de LD/FT, sin trasgresión al Art. 142 (secreto bancario). Las Disposiciones 62ª a 62ª Octies prevén solicitudes de funcionarios autorizados con plazo de respuesta de 30 días naturales, la posibilidad de compartir información relevante de forma proactiva, el intercambio con entidades extranjeras y dentro del mismo grupo financiero."
+ },
+ {
+  "n": 196,
+  "area": 2,
+  "subarea": "2.1.3 — Reportes",
+  "tipo": "Dato oficial",
+  "q": "¿En qué plazo debe presentarse el Reporte de Operación Inusual una vez dictaminada la operación por el Comité de Comunicación y Control?",
+  "opciones": {
+   "A": "Dentro de 3 días hábiles siguientes al dictamen",
+   "B": "Dentro de las 24 horas siguientes al dictamen",
+   "C": "Día 17 del mes inmediato siguiente",
+   "D": "Dentro de 10 días hábiles siguientes al dictamen"
+  },
+  "correcta": "A",
+  "argumentacion": "La Disposición 37ª de la DCG de Bancos establece que, dictaminada la operación como inusual por el Comité de Comunicación y Control, el Reporte de Operación Inusual debe presentarse dentro de los 3 días hábiles siguientes al dictamen. El Comité, a su vez, cuenta con un plazo máximo de 60 días naturales desde la alerta para dictaminar."
+ },
+ {
+  "n": 197,
+  "area": 2,
+  "subarea": "2.2 — LFPID",
+  "tipo": "Concepto",
+  "q": "Conforme al Art. 2 de la LFPID, ¿cuál es el objeto de la ley?",
+  "opciones": {
+   "A": "Proteger el sistema financiero y la economía nacional, estableciendo medidas y procedimientos para prevenir y detectar actos u operaciones que involucren recursos de procedencia ilícita, a través de una coordinación interinstitucional",
+   "B": "Regular las instituciones de tecnología financiera",
+   "C": "Sancionar a las entidades financieras por operaciones no reportadas",
+   "D": "Crear el Registro Nacional de Actividades Vulnerables ante la CNBV"
+  },
+  "correcta": "A",
+  "argumentacion": "El Art. 2 de la LFPID define su objeto: proteger el sistema financiero y la economía nacional mediante medidas y procedimientos para prevenir y detectar actos u operaciones con recursos de procedencia ilícita, en un esquema de coordinación interinstitucional (SHCP, UIF, CNBV, entre otras autoridades)."
+ },
+ {
+  "n": 198,
+  "area": 2,
+  "subarea": "2.1.16 — Propietario Real",
+  "tipo": "Concepto",
+  "q": "¿Qué característica esencial tiene el propietario real conforme a las DCG y los Lineamientos de la CNBV?",
+  "opciones": {
+   "A": "Siempre es una persona moral extranjera",
+   "B": "Puede ser la persona moral titular de la cuenta",
+   "C": "Es únicamente el representante legal registrado",
+   "D": "Siempre es una persona física"
+  },
+  "correcta": "D",
+  "argumentacion": "Las DCG definen al propietario real como la persona física que, por medio de otra o de cualquier acto o mecanismo, obtiene los beneficios de una cuenta, contrato u operación y es el verdadero dueño de los recursos. No basta con el representante o el accionista formal: debe identificarse a la persona física que realmente controla y se beneficia (levantar el velo corporativo)."
+ },
+ {
+  "n": 199,
+  "area": 2,
+  "subarea": "2.1.16 — Propietario Real",
+  "tipo": "Cuestionamiento directo",
+  "q": "Para identificar al propietario real, la cadena de verificación puede apoyarse en el análisis de:",
+  "opciones": {
+   "A": "Únicamente las declaraciones anuales del SAT",
+   "B": "El Registro Público de Comercio, el Registro Único de Ventanilla y el Registro de Inversión Extranjera, entre otros",
+   "C": "Solo el acta constitutiva de la persona moral",
+   "D": "Solo el estado de cuenta de los últimos 6 meses"
+  },
+  "correcta": "B",
+  "argumentacion": "El Lineamiento 3 de la CNBV indica que, para identificar al propietario real, debe revisarse la estructura corporativa y la composición accionaria, solicitar cuestionarios y certificaciones, y verificar la información en registros públicos como el Registro Público de Comercio, el RUV y el Registro de Inversión Extranjera, además de analizar quién ejerce el control efectivo."
+ },
+ {
+  "n": 200,
+  "area": 2,
+  "subarea": "2.2.2 — Uso de efectivo",
+  "tipo": "Dato oficial",
+  "q": "Conforme al Art. 32 de la LFPID, ¿a partir de qué monto queda prohibido pagar o aceptar pago en efectivo en la compraventa de vehículos aéreos, marítimos o terrestres?",
+  "opciones": {
+   "A": "3,210 UMA",
+   "B": "1,605 UMA",
+   "C": "6,420 UMA",
+   "D": "8,025 UMA"
+  },
+  "correcta": "A",
+  "argumentacion": "El Art. 32, fracción II, de la LFPID prohíbe el pago en efectivo (moneda nacional o divisas) en la compraventa de vehículos aéreos, marítimos o terrestres cuando el monto sea igual o superior a 3,210 UMA. La prohibición más alta es la de inmuebles (8,025 UMA, fracción I)."
+ },
+ {
+  "n": 201,
+  "area": 2,
+  "subarea": "2.1.15 — Sanciones",
+  "tipo": "Dato oficial",
+  "q": "Para instituciones de crédito, ¿a qué rango de multa se exponen los incumplimientos al Art. 115 de la LIC y a las DCG que no tengan una sanción específica?",
+  "opciones": {
+   "A": "30 a 90 días de prisión",
+   "B": "10% al 100% del monto de la operación",
+   "C": "10 a 100,000 veces la UMA",
+   "D": "5,000 a 50,000 días de salario mínimo vigente"
+  },
+  "correcta": "D",
+  "argumentacion": "El Art. 115 de la LIC contempla: para operaciones con personas bloqueadas o inusual no reportadas, multa del 10% al 100% del monto; para el incumplimiento de reportes de operaciones relevantes, OIP, transferencias internacionales o dólares no reportados, de 30,000 a 100,000 días de salario; y para otros incumplimientos al Art. 115 y a las DCG, de 5,000 a 50,000 días de salario mínimo vigente."
+ },
+ {
+  "n": 202,
+  "area": 2,
+  "subarea": "2.1.6 — Otras obligaciones",
+  "tipo": "Concepto",
+  "q": "¿Qué es el Manual de Cumplimiento conforme a la DCG (3ª)?",
+  "opciones": {
+   "A": "El documento interno que integra las políticas, procedimientos y lineamientos de identificación y conocimiento del cliente y del resto del marco de prevención de LD/FT, elaborado por el Oficial de Cumplimiento y aprobado por el Comité",
+   "B": "La certificación individual de cada empleado del área de cumplimiento",
+   "C": "Un reporte mensual que la entidad envía a la UIF",
+   "D": "El contrato de prestación de servicios del sistema automatizado"
+  },
+  "correcta": "A",
+  "argumentacion": "La Disposición 3ª de la DCG define el Manual de Cumplimiento como el documento que integra las políticas, procedimientos y lineamientos de la política CKYCC y del resto del marco de prevención y detección de LD/FT. Lo elabora el Oficial de Cumplimiento y lo aprueba el Comité de Comunicación y Control; debe actualizarse ante cambios normativos relevantes."
+ },
+ {
+  "n": 203,
+  "area": 2,
+  "subarea": "2.1.2 — Política CKYCC",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Qué vigencia debe tener el comprobante de domicilio que se incorpora al expediente de identificación de un cliente?",
+  "opciones": {
+   "A": "Sin límite de antigüedad, si es original",
+   "B": "No mayor a 3 meses",
+   "C": "No mayor a 1 año",
+   "D": "No mayor a 6 meses"
+  },
+  "correcta": "B",
+  "argumentacion": "La DCG exige que los datos del expediente de identificación se verifiquen con documentos oficiales; el comprobante de domicilio no debe tener más de 3 meses de antigüedad. La información debe mantenerse actualizada: si el cliente cambia de domicilio o actividad, debe reportarlo."
+ },
+ {
+  "n": 204,
+  "area": 2,
+  "subarea": "2.19 — Tipologías UIF",
+  "tipo": "Caso práctico",
+  "q": "En la tipología 'Cajas de Seguridad y Ruta de Dinero' (UIF 2009), ¿qué patrón de operaciones caracterizaba a la 'ruta de dinero'?",
+  "opciones": {
+   "A": "Compras de activos virtuales en plataformas no registradas",
+   "B": "Retiros masivos en cajeros de zonas turísticas con tarjetas clonadas",
+   "C": "Transferencias internacionales a paraísos fiscales desde cuentas de empresas exportadoras",
+   "D": "Depósitos en efectivo en sucursales fronterizas seguidos de retiros inmediatos por cheques, ventanilla y cajeros en el interior del país, sin permanencia de fondos"
+  },
+  "correcta": "D",
+  "argumentacion": "La tipología de 2009 describía el esquema de 'ruta de dinero': personas con actividades económicas incongruentes depositaban efectivo en sucursales fronterizas (donde los dólares del narcotráfico se cambiaban en centros cambiarios) y retiraban de inmediato los fondos en el interior mediante cheques, ventanilla y cajeros, evitando la permanencia de fondos y la trazabilidad."
+ },
+ {
+  "n": 205,
+  "area": 2,
+  "subarea": "2.19 — Tipologías UIF",
+  "tipo": "Caso práctico",
+  "q": "En la tipología 'Estafa Maestra — Pemex' (UIF 2020), ¿qué papel jugó la universidad pública en el esquema?",
+  "opciones": {
+   "A": "Recibió fondos de Pemex por servicios de consultoría petrolera que no podía prestar y, tras quedarse con una comisión, distribuyó el dinero a una red de empresas fantasma",
+   "B": "Actuó como aval de los créditos otorgados por una SOFOME",
+   "C": "Prestó el uso de su cuenta bancaria a cambio de una comisión fija mensual",
+   "D": "Certificó los expedientes de identificación de los operadores financieros"
+  },
+  "correcta": "A",
+  "argumentacion": "En la tipología de 2020, funcionarios de Pemex desviaron recursos contratando fraudulentamente a una universidad pública para 'servicios de consultoría petrolera' que esta no podía prestar; la universidad retenía una comisión y el resto se distribuía a al menos 7 empresas fantasma. Las señales incluían empresas ya detectadas por el SAT como fantasma y empleados que incluían a la familia del funcionario."
+ },
+ {
+  "n": 206,
+  "area": 2,
+  "subarea": "2.19 — Tipologías UIF",
+  "tipo": "Caso práctico",
+  "q": "En la tipología de 'Fentanilo' (UIF 2021), ¿cómo se ocultaba el tráfico de precursores?",
+  "opciones": {
+   "A": "Se transferían exclusivamente a través de activos virtuales desde paraísos fiscales",
+   "B": "Envíanolos en embarques comerciales de productos inocuos (camisas, plásticos, parquímetros) y usaban empresas de fachada, incluida una de bolsas de dama, para coordinar el envío",
+   "C": "Se entregaban en efectivo en centros cambiarios fronterizos",
+   "D": "Se ocultaban en cajas de seguridad bancarias a nombre de servidores públicos"
+  },
+  "correcta": "B",
+  "argumentacion": "La tipología de 2021 documenta que el fentanilo y sus precursores llegaban ocultos en embarques comerciales (camisas, plásticos, cloruro de amonio, parquímetros), con una empresa de 'bolsas de dama' coordinando el envío de 16 toneladas de precursores. Las empresas del grupo eran prestanombres con actividades diversas no concordantes entre sí."
+ },
+ {
+  "n": 207,
+  "area": 2,
+  "subarea": "2.19 — Tipologías UIF",
+  "tipo": "Caso práctico",
+  "q": "En la tipología de 'Fraude en Cajeros Electrónicos (Skimming)' (UIF 2021), ¿cómo se lavaban las ganancias ilícitas del esquema?",
+  "opciones": {
+   "A": "Adquiriendo únicamente cheques de viajero en centros cambiarios",
+   "B": "Invirtiéndolas en el sector inmobiliario y mediante casas de cambio, casas de bolsa, transmisores de dinero y otras actividades vulnerables",
+   "C": "Constituyendo exclusivamente fideicomisos de inversión en el extranjero",
+   "D": "Donándolas a asociaciones altruistas por encima del umbral del Art. 17 fracción XIII"
+  },
+  "correcta": "B",
+  "argumentacion": "La banda operaba cajeros con chips que copiaban datos de tarjetas para clonarlas (cerca del 10% del total global de skimming) y lavaba las ganancias mediante inversión inmobiliaria y el uso de casas de cambio, casas de bolsa, transmisores de dinero y actividades vulnerables como juegos, tarjetas de servicio y venta de vehículos."
+ },
+ {
+  "n": 208,
+  "area": 2,
+  "subarea": "2.1.14 — Instituciones de Tecnología Financiera",
+  "tipo": "Concepto",
+  "q": "¿Con qué activos virtuales pueden operar las Instituciones de Tecnología Financiera conforme a la LRITF?",
+  "opciones": {
+   "A": "Con los que determine el Banco de México, previa autorización de este",
+   "B": "Con los que apruebe anualmente el Comité de Comunicación y Control",
+   "C": "Con todos los activos virtuales que cotizan ante la CNBV",
+   "D": "Con cualquier activo virtual listado en plataformas internacionales"
+  },
+  "correcta": "A",
+  "argumentacion": "El Art. 30 de la LRITF define al activo virtual y el Art. 88 establece que las ITF que deseen prestar servicios con activos virtuales solo podrán operar con los determinados por el Banco de México, con autorización previa de dicho instituto; la actividad de los Proveedores de Servicios de Activos Virtuales está sujeta al régimen de la ley."
+ },
+ {
+  "n": 209,
+  "area": 2,
+  "subarea": "2.1.13 — Transmisores de Dinero",
+  "tipo": "Concepto",
+  "q": "¿Qué son los 'agentes relacionados' de un transmisor de dinero?",
+  "opciones": {
+   "A": "Representantes legales ante la CNBV",
+   "B": "Corredores públicos que certifican la operación",
+   "C": "Auditores externos del transmisor",
+   "D": "Personas físicas con relación contractual que entregan el dinero al beneficiario"
+  },
+  "correcta": "D",
+  "argumentacion": "El Art. 81-A Bis de la LGOAAC y las DCG aplicables prevén que los transmisores de dinero cuenten con agentes relacionados: personas físicas con relación contractual que realizan la entrega del dinero al beneficiario. El dinero se entrega en una sola exhibición, y el transmisor no puede realizar operaciones propias de centros cambiarios."
+ },
+ {
+  "n": 210,
+  "area": 2,
+  "subarea": "2.1.2 — Política CKYCC",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuáles son los tres niveles de Debida Diligencia del Cliente (DDC) previstos en las DCG?",
+  "opciones": {
+   "A": "Simplificada, estándar y reforzada",
+   "B": "Básica, intermedia y total",
+   "C": "Previa, simultánea y posterior",
+   "D": "Automatizada, asistida y manual"
+  },
+  "correcta": "A",
+  "argumentacion": "Las DCG prevén tres niveles de DDC: simplificada (bajo riesgo), estándar (mayoría de los clientes) y reforzada (PEPs, clientes de alto riesgo, países de alto riesgo y corresponsalías), con medidas crecientes de verificación, monitoreo y aprobación."
+ },
+ {
+  "n": 211,
+  "area": 3,
+  "subarea": "3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Dato oficial",
+  "q": "¿Qué periodo debe cubrir el Informe de Auditoría PLD/FT y a más tardar en qué fecha debe presentarse ante la CNBV?",
+  "opciones": {
+   "A": "Febrero a enero del año siguiente; antes del 28 de febrero",
+   "B": "Enero a diciembre de cada año; antes del 31 de marzo del año siguiente",
+   "C": "Julio a junio; antes del 30 de junio",
+   "D": "Enero a diciembre; antes del 31 de diciembre del mismo año"
+  },
+  "correcta": "B",
+  "argumentacion": "Los Lineamientos del Informe de Auditoría PLD/FT (DOF 19/ene/2017, actualizados 2021) establecen que el informe cubre el ejercicio de enero a diciembre y debe presentarse ante la CNBV antes del 31 de marzo del año siguiente, a través del SITI PLD/FT, acompañado de la carta del auditor con su número y fecha de Certificado."
+ },
+ {
+  "n": 212,
+  "area": 3,
+  "subarea": "3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Quiénes deben firmar el Informe de Auditoría PLD/FT presentado en papel membretado?",
+  "opciones": {
+   "A": "El auditor designado y el Oficial de Cumplimiento (o el representante legal que corresponda)",
+   "B": "Únicamente el auditor externo independiente",
+   "C": "El Oficial de Cumplimiento y el Comité de Comunicación y Control",
+   "D": "El representante legal y el presidente del Consejo de Administración"
+  },
+  "correcta": "A",
+  "argumentacion": "El Lineamiento CUARTO de los Lineamientos del Informe de Auditoría exige que el documento se presente en papel membretado del Sujeto Obligado o del auditor y lleve las firmas del auditor designado y del Oficial de Cumplimiento (o del representante legal según corresponda), con la carta de acompañamiento que manifieste bajo protesta de decir verdad el conocimiento de los Lineamientos."
+ },
+ {
+  "n": 213,
+  "area": 3,
+  "subarea": "3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Dato oficial",
+  "q": "Conforme al rubro de conservación del propio Informe de Auditoría, ¿por cuánto tiempo deben conservarse los informes de auditoría y los expedientes de identificación?",
+  "opciones": {
+   "A": "Informes de auditoría: 10 años; expedientes y reportes: 5 años",
+   "B": "Ambos: 10 años",
+   "C": "Ambos: 5 años",
+   "D": "Informes de auditoría: 5 años; expedientes y reportes: 10 años"
+  },
+  "correcta": "D",
+  "argumentacion": "El rubro VIII de conservación del Lineamiento NOVENO del Informe de Auditoría PLD/FT precisa que los expedientes de identificación y los reportes se conservan por 10 años (como regla general del Art. 115 LIC), mientras que los propios Informes de Auditoría se conservan por 5 años."
+ },
+ {
+  "n": 214,
+  "area": 3,
+  "subarea": "3.1.1 — Informe de Auditoría PLD/FT",
+  "tipo": "Concepto",
+  "q": "¿En qué se diferencia el 'plan de acción' del 'hallazgo' y la 'recomendación' en el Informe de Auditoría?",
+  "opciones": {
+   "A": "El plan de acción es el hecho comprobado; el hallazgo es la propuesta del auditor",
+   "B": "El plan de acción es el compromiso del Sujeto Obligado para implementar las recomendaciones, con plazos y responsables específicos; el hallazgo es la evidencia objetiva y la recomendación la propuesta del auditor",
+   "C": "Son tres sinónimos del mismo documento",
+   "D": "El plan de acción lo elabora la CNBV, no el Sujeto Obligado"
+  },
+  "correcta": "B",
+  "argumentacion": "El Lineamiento DÉCIMO SEGUNDO distingue: hallazgo = evidencia objetiva de la situación detectada (hecho, no opinión); recomendación = propuesta del auditor para corregir o mejorar; plan de acción = compromiso del Sujeto Obligado para implementar las recomendaciones con plazos y responsables, incluyendo el seguimiento de los hallazgos del informe anterior."
+ },
+ {
+  "n": 215,
+  "area": 3,
+  "subarea": "3.1.2 — Supervisión CNBV",
+  "tipo": "Cuestionamiento directo",
+  "q": "Tratándose de centros cambiarios, transmisores de dinero y SOFOMES no reguladas, ¿cómo puede notificarse la orden de visita de la CNBV?",
+  "opciones": {
+   "A": "Con 30 días hábiles de anticipación",
+   "B": "Únicamente mediante notificación judicial",
+   "C": "En el acto mismo de inicio de la visita",
+   "D": "Solo por correo certificado con acuse de recibo"
+  },
+  "correcta": "C",
+  "argumentacion": "El Art. 21 del Reglamento de Supervisión de la CNBV prevé que, con carácter general, las visitas ordinarias y especiales se notifican al menos 2 días hábiles antes; pero tratándose de centros cambiarios, transmisores de dinero y SOFOMES no reguladas, la orden de visita (ordinaria, especial o de investigación) podrá notificarse en el acto mismo de inicio de la misma."
+ },
+ {
+  "n": 216,
+  "area": 3,
+  "subarea": "3.1.2 — Supervisión CNBV",
+  "tipo": "Dato oficial",
+  "q": "¿En qué plazo debe la entidad atender las observaciones formuladas al término de una visita de inspección, con carácter general?",
+  "opciones": {
+   "A": "15 días hábiles, sin prórroga",
+   "B": "3 meses",
+   "C": "30 días naturales",
+   "D": "20 días hábiles, prorrogables hasta 10 días hábiles adicionales (salvo casos graves)"
+  },
+  "correcta": "D",
+  "argumentacion": "El Art. 50 del Reglamento de Supervisión otorga a la entidad, en general, 20 días hábiles para atender las observaciones y presentar aclaraciones, prórrogables hasta 10 días hábiles adicionales; el plazo se reduce a 3 días hábiles en irregularidades graves (registro contable, capitalización, calificación de cartera), donde no procede prórroga."
+ },
+ {
+  "n": 217,
+  "area": 3,
+  "subarea": "3.1.2 — Supervisión CNBV",
+  "tipo": "Concepto",
+  "q": "¿Qué características debe tener el acta de inicio de una visita de inspección?",
+  "opciones": {
+   "A": "Digital, con firma electrónica de la entidad",
+   "B": "Privada, sin ejemplar para la entidad visitada",
+   "C": "Circunstanciada, levantada en el lugar de la visita y firmada en dos ejemplares autógrafos (uno para la entidad y otro para la CNBV)",
+   "D": "Resumida y firmada únicamente por el inspector coordinador"
+  },
+  "correcta": "C",
+  "argumentacion": "Los Arts. 23 y 24 del Reglamento de Supervisión exigen levantar al inicio de la visita un acta circunstanciada en el lugar donde se efectúa, con lugar, hora, fecha, datos de la orden de visita, nombres del inspector coordinador, del representante legal y testigos, firmada en dos ejemplares autógrafos (uno para la entidad y otro para la CNBV); si no hay representante legal se deja citatorio. Al finalizar se levanta igualmente el acta de conclusión circunstanciada."
+ },
+ {
+  "n": 218,
+  "area": 3,
+  "subarea": "3.2.1 — GAFI y Enfoque Basado en Riesgo",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿En qué orden se enuncian los 5 pasos del Enfoque Basado en Riesgo conforme al GAFI?",
+  "opciones": {
+   "A": "Identificación, evaluación, mitigación, monitoreo y reporte",
+   "B": "Identificación, reporte, evaluación, mitigación y documentación",
+   "C": "Evaluación, identificación, reporte, mitigación, monitoreo",
+   "D": "Mitigación, monitoreo, identificación, evaluación y reporte"
+  },
+  "correcta": "A",
+  "argumentacion": "La Guía del GAFI para aplicar el EBR (R. 1 y T3.5) enuncia el ciclo: (1) identificación de amenazas, (2) evaluación de probabilidad e impacto, (3) mitigación con controles proporcionales, (4) monitoreo continuo de operaciones y perfiles, y (5) reporte de operaciones sospechosas (R. 20). Es un ciclo continuo que se retroalimenta, no una línea recta con fin."
+ },
+ {
+  "n": 219,
+  "area": 3,
+  "subarea": "3.2.1 — GAFI y Enfoque Basado en Riesgo",
+  "tipo": "Concepto",
+  "q": "¿Qué establece el GAFI sobre la mitigación de riesgos evaluados como bajos?",
+  "opciones": {
+   "A": "El EBR exime de aplicar controles cuando el riesgo se evalúa como bajo",
+   "B": "El EBR no exime a países, autoridades ni instituciones de mitigar los riesgos aunque hayan sido evaluados como bajos",
+   "C": "Solo las autoridades deben mitigar riesgos bajos; los bancos no",
+   "D": "Los riesgos bajos pueden ignorarse si el banco documenta su evaluación"
+  },
+  "correcta": "B",
+  "argumentacion": "El GAFI es enfático: un EBR no exime de mitigar riesgos bajos (párr. 11 de la Guía); 'a menor riesgo, control proporcionado pero nunca cero'. También reconoce que incluso habiendo tomado todas las medidas razonables, una institución puede seguir siendo utilizada para LA/FT (párr. 10), por lo que el monitoreo y el reporte nunca se descuidan."
+ },
+ {
+  "n": 220,
+  "area": 3,
+  "subarea": "3.2.1 — GAFI y Enfoque Basado en Riesgo",
+  "tipo": "Dato oficial",
+  "q": "¿Qué países codirigieron la Guía del Enfoque Basado en Riesgo para el Sector Bancario adoptada por el GAFI en octubre de 2014?",
+  "opciones": {
+   "A": "Reino Unido y México",
+   "B": "Estados Unidos y Japón",
+   "C": "Alemania y Francia",
+   "D": "Canadá y Australia"
+  },
+  "correcta": "A",
+  "argumentacion": "La Guía del EBR para el sector bancario (octubre 2014) fue codirigida por Reino Unido y México, con participación del sector privado; su Anexo 1 muestra prácticas de supervisión de países como Australia, Alemania, México, Holanda, Singapur, Sudáfrica, Reino Unido y EE.UU. La Guía no tiene efecto jurídico vinculante."
+ },
+ {
+  "n": 221,
+  "area": 3,
+  "subarea": "3.2.1 — GAFI y Enfoque Basado en Riesgo",
+  "tipo": "Concepto",
+  "q": "¿Qué es el 'apetito de riesgo' en el modelo de matriz de riesgo inherente vs. residual?",
+  "opciones": {
+   "A": "La probabilidad de ocurrencia de un evento de LA/FT",
+   "B": "El riesgo residual total acumulado de todo el sistema financiero",
+   "C": "El nivel de riesgo inherente máximo que permite la ley",
+   "D": "El nivel de riesgo residual que el banco está dispuesto a aceptar; si el riesgo residual lo excede, se requieren controles adicionales o salir del negocio"
+  },
+  "correcta": "D",
+  "argumentacion": "Tras calcular el riesgo inherente (antes de controles) y el riesgo residual (después de controles), el banco compara este último con su apetito de riesgo: el nivel de riesgo residual dispuesto a aceptar. Si el riesgo residual excede el apetito, se necesitan controles adicionales o se debe salir del negocio (T3.3 y T3.5)."
+ },
+ {
+  "n": 222,
+  "area": 3,
+  "subarea": "3.2.2 — Comité de Basilea",
+  "tipo": "Dato oficial",
+  "q": "¿Qué documentos previos fusionó y sustituyó el documento del Comité de Basilea de enero de 2014 sobre gestión de riesgos BC/FT?",
+  "opciones": {
+   "A": "Los Principios Básicos de Basilea II y Basilea III",
+   "B": "Debida Diligencia con la Clientela de los Bancos (2001) y Gestión Consolidada del Riesgo KYC (2004)",
+   "C": "El Marco Integral de Evaluación y Supervisión (ICAAP)",
+   "D": "Las 40 Recomendaciones del GAFI de 1990 y 2003"
+  },
+  "correcta": "B",
+  "argumentacion": "El documento 'Adecuada gestión de los riesgos relacionados con el blanqueo de capitales y la financiación del terrorismo' (enero 2014, CSBB) fusiona y sustituye a 'Debida diligencia con la clientela de los bancos' (oct. 2001) y 'Gestión consolidada del riesgo KYC' (oct. 2004). Complementa —sin modificar— las normas del GAFI."
+ },
+ {
+  "n": 223,
+  "area": 3,
+  "subarea": "3.2.2 — Comité de Basilea",
+  "tipo": "Concepto",
+  "q": "¿Qué mide obliga Basilea en la corresponsalía bancaria para verificar el perfil del banco corresponsal?",
+  "opciones": {
+   "A": "Solicitar solo el acta constitutiva del banco corresponsal",
+   "B": "Exigir que el banco corresponsal opere únicamente en México",
+   "C": "Limitar la relación a operaciones en efectivo por debajo de 645 UMA",
+   "D": "Realizar debida diligencia reforzada, evaluar la calidad de sus controles ALA/CFT, asegurarse de que no sea una 'shell bank' y obtener aprobación de la alta dirección"
+  },
+  "correcta": "D",
+  "argumentacion": "Basilea (Anexo 2) trata la banca corresponsal como actividad de alto riesgo (alto valor, información limitada del remitente, múltiples jurisdicciones) y exige: DDC reforzada sobre el corresponsal, evaluación de sus controles ALA/CFT, comprensión de su negocio, aprobación de la alta dirección, documentación de responsabilidades y verificación de que no sea una 'shell bank'."
+ },
+ {
+  "n": 224,
+  "area": 3,
+  "subarea": "3.2.2 — Comité de Basilea",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuáles son los 5 pilares del enfoque de Basilea para la gestión del riesgo BC/FT en los bancos?",
+  "opciones": {
+   "A": "Debida diligencia, identificación y verificación, políticas KYC, monitoreo continuo y gobierno corporativo",
+   "B": "Políticas, procedimientos, capacitación, auditoría y certificación",
+   "C": "Identificación, evaluación, mitigación, monitoreo y reporte",
+   "D": "Reporte, sanciones, inspección, vigilancia y corrección"
+  },
+  "correcta": "A",
+  "argumentacion": "El documento de Basilea de enero de 2014 estructura su enfoque en 5 pilares: (1) debida diligencia con la clientela, (2) identificación y verificación con documentos fiables e independientes (sin cuentas anónimas), (3) políticas KYC basadas en evaluación de riesgos, (4) monitoreo continuo de transacciones y actualización de información y (5) gobierno corporativo con tres líneas de defensa y un responsable ejecutivo de PBC/FT con recursos y autoridad."
+ },
+ {
+  "n": 225,
+  "area": 3,
+  "subarea": "3.2.2 — Comité de Basilea",
+  "tipo": "Concepto",
+  "q": "Conforme a Basilea, ¿qué riesgos plantea una gestión BC/FT insuficiente dentro de la gestión global del riesgo del banco?",
+  "opciones": {
+   "A": "Riesgo de reputación, operacional, de cumplimiento y de concentración",
+   "B": "Solo riesgo de cumplimiento",
+   "C": "Únicamente riesgo de crédito y de mercado",
+   "D": "Solo riesgo reputacional"
+  },
+  "correcta": "A",
+  "argumentacion": "Basilea identifica cuatro riesgos de una gestión BC/FT deficiente: reputacional (daño a la imagen), operacional (fallas en procesos, sistemas o personas), de cumplimiento (multas y sanciones) y de concentración (exposición excesiva a clientes, sectores o países de alto riesgo). Integrar BC/FT en la gestión global del riesgo es un imperativo de negocio, no solo un requisito legal."
+ },
+ {
+  "n": 226,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuáles son los cuatro Elementos de Riesgo que la Guía CNBV obliga a considerar en la Metodología de Evaluación de Riesgos?",
+  "opciones": {
+   "A": "Crédito, mercado, operacional y ALA/CFT",
+   "B": "Capital, liquidez, solvencia y rentabilidad",
+   "C": "Clientes, proveedores, empleados y accionistas",
+   "D": "Productos y servicios; clientes y/o usuarios; países y áreas geográficas; transacciones y canales de envío"
+  },
+  "correcta": "D",
+  "argumentacion": "La Guía CNBV para la elaboración de la Metodología de Evaluación de Riesgos define cuatro Elementos de Riesgo a nivel entidad: productos y servicios (anonimato, valor, volumen), clientes y/o usuarios (perfil), países y áreas geográficas (regímenes preferentes, corrupción) y transacciones y canales de envío (no presenciales, frecuencia, moneda)."
+ },
+ {
+  "n": 227,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Concepto",
+  "q": "¿Con qué dos dimensiones combina la Metodología de Evaluación de Riesgos la medición del riesgo?",
+  "opciones": {
+   "A": "Probabilidad de ocurrencia e impacto (medido por la concentración del negocio)",
+   "B": "Frecuencia y duración",
+   "C": "Costo y beneficio",
+   "D": "Riesgo inherente y riesgo de crédito"
+  },
+  "correcta": "A",
+  "argumentacion": "La medición de la Metodología combina probabilidad de ocurrencia (posibilidad de materialización de LA/FT a través del Sujeto Supervisado) e impacto (concentración del negocio en % de clientes, operaciones y monto). La combinación de ambas dimensiones ubica al riesgo en una categoría: bajo, medio-bajo, medio, medio-alto o alto."
+ },
+ {
+  "n": 228,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿En qué consiste la Fase II (Implementación) de la Metodología de Evaluación de Riesgos?",
+  "opciones": {
+   "A": "Poner la metodología en funcionamiento para obtener el riesgo residual (riesgo inherente menos el efecto de los mitigantes), utilizando información de al menos 12 meses",
+   "B": "Aprobar el Manual de Cumplimiento ante la CNBV",
+   "C": "Diseñar los indicadores de riesgo sin aplicarlos a la operación",
+   "D": "Certificar anualmente al Oficial de Cumplimiento"
+  },
+  "correcta": "A",
+  "argumentacion": "Las tres fases de la Metodología son: I Diseño (identificación de Elementos de Riesgo, medición y mitigantes), II Implementación (puesta en funcionamiento; se obtiene el riesgo residual con información de al menos 12 meses) y III Valoración (revisión de eficiencia y eficacia, con actualización en plazo no mayor a 12 meses desde la última implementación o cuando haya nuevos riesgos o se actualice la ENR)."
+ },
+ {
+  "n": 229,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Concepto",
+  "q": "Respecto de la documentación y aprobación de la Metodología de Evaluación de Riesgos, ¿qué es correcto?",
+  "opciones": {
+   "A": "No debe documentarse si el Sujeto Supervisado es pequeño",
+   "B": "La aprueba directamente la CNBV sin intervención del Sujeto Supervisado",
+   "C": "La somete a aprobación el Comité de Comunicación y Control, el cual presenta los resultados al Consejo de Administración, y debe conservarse al menos 5 años",
+   "D": "La aprueba únicamente el auditor externo"
+  },
+  "correcta": "C",
+  "argumentacion": "El Oficial de Cumplimiento somete la Metodología a aprobación del Comité de Comunicación y Control, y el Comité presenta los resultados al Consejo de Administración (o administrador único); la aprobación debe darse en plazo menor a 12 meses desde la última modificación y toda la información generada se conserva al menos 5 años."
+ },
+ {
+  "n": 230,
+  "area": 3,
+  "subarea": "3.3.2 — Clasificación de Clientes",
+  "tipo": "Concepto",
+  "q": "¿Qué son las cuentas 'nivel 1, 2 y 3' en las DCG de Bancos y qué permiten?",
+  "opciones": {
+   "A": "Cuentas de Grado de Riesgo bajo que pueden acogerse a medidas de debida diligencia simplificada",
+   "B": "Niveles de riesgo geográfico asignados por la SHCP",
+   "C": "Cuentas de alta concentración que exigen DDC reforzada",
+   "D": "Categorías de reporte para operaciones con personas bloqueadas"
+  },
+  "correcta": "A",
+  "argumentacion": "La DCG de Bancos (Art. 14ª Bis) contempla cuentas nivel 1, 2 y 3 asociadas a clientes de Grado de Riesgo bajo, a las que pueden aplicarse medidas de diligencia simplificada (datos básicos de identificación con verificación posterior). Las entidades no podrán aplicar medidas simplificadas cuando exista sospecha fundada o indicios de relación con LD/FT."
+ },
+ {
+  "n": 231,
+  "area": 3,
+  "subarea": "3.3.2 — Clasificación de Clientes",
+  "tipo": "Cuestionamiento directo",
+  "q": "Conforme a las DCG de Bancos, ¿qué se requiere para iniciar o proseguir una relación comercial con un cliente clasificado en Grado de Riesgo alto?",
+  "opciones": {
+   "A": "Depósito de garantía en UMA",
+   "B": "Aprobación de un directivo de la entidad",
+   "C": "Certificación del Comité de Comunicación y Control ante la CNBV",
+   "D": "Autorización previa de la UIF"
+  },
+  "correcta": "B",
+  "argumentacion": "El Art. 26ª de las DCG de Bancos exige aprobación de un directivo para iniciar o proseguir la relación con clientes de Grado de Riesgo alto, medida que se suma a la debida diligencia mejorada o reforzada: mayor información sobre actividad económica, supervisión transaccional estricta, cuestionarios de origen y destino de recursos y, para PEP extranjeras, documentación del cónyuge y dependientes."
+ },
+ {
+  "n": 232,
+  "area": 3,
+  "subarea": "3.3.3 — Evaluación Nacional de Riesgos",
+  "tipo": "Concepto",
+  "q": "¿Quién coordina la Evaluación Nacional de Riesgos (ENR) de México y a cuántas autoridades involucra su ejercicio 2023?",
+  "opciones": {
+   "A": "La Unidad de Inteligencia Financiera (UIF), con 41 autoridades federales más el sector privado",
+   "B": "La SHCP, con las instituciones de crédito",
+   "C": "El Banco de México, con las casas de bolsa",
+   "D": "La CNBV, con 8 autoridades del sistema financiero"
+  },
+  "correcta": "A",
+  "argumentacion": "La ENR es el ejercicio de autoevaluación nacional de riesgos de LD/FT/FPADM que da cumplimiento a la Recomendación 1 del GAFI. La UIF es la autoridad coordinadora de la ENR y coordinadora nacional ante el GAFI; el ejercicio 2023 involucró a 41 autoridades federales más el sector privado, con alcance nacional y componente estatal."
+ },
+ {
+  "n": 233,
+  "area": 3,
+  "subarea": "3.3.3 — Evaluación Nacional de Riesgos",
+  "tipo": "Dato oficial",
+  "q": "¿Cómo distribuye la ENR 2023 sus niveles de riesgo en la escala de 0 a 9?",
+  "opciones": {
+   "A": "Bajo (0-3); Medio (3-6); Medio-Alto (6-7); Alto (7-9)",
+   "B": "Bajo (0-2); Medio (2-4); Alto (4-6); Crítico (6-9)",
+   "C": "Bajo (1-4); Medio (5-7); Alto (8-9)",
+   "D": "Bajo (0-4); Medio (4-6); Alto (6-9)"
+  },
+  "correcta": "A",
+  "argumentacion": "La ENR 2023 evalúa cada factor en dos dimensiones (grado de impacto/facilitación y probabilidad de ocurrencia/explotación) en escala 0-9, con niveles: Bajo (0-3), Medio (3-6), Medio-Alto (6-7) y Alto (7-9). Con esa escala, el LD se calificó Medio-Alto (5-7) y el FT y la FPADM, Bajo (0-3)."
+ },
+ {
+  "n": 234,
+  "area": 3,
+  "subarea": "3.3.3 — Evaluación Nacional de Riesgos",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Qué factores emergentes incorporó la ENR 2023 que no estaban en ediciones previas?",
+  "opciones": {
+   "A": "Actividades vulnerables y comercio exterior",
+   "B": "Contratación pública y cultura constitucional",
+   "C": "Corrupción y delincuencia organizada",
+   "D": "Activos virtuales y ataques de ransomware (junto con el impacto de la pandemia de COVID-19)"
+  },
+  "correcta": "D",
+  "argumentacion": "La ENR 2023 pasó de 26 factores (2020) a 37 factores en 5 rubros e incorporó factores emergentes como activos virtuales (criptoactivos) y ataques de ransomware, además del impacto de la pandemia de COVID-19. La corrupción y la delincuencia organizada ya figuraban como amenazas principales."
+ },
+ {
+  "n": 235,
+  "area": 3,
+  "subarea": "3.3.3 — Evaluación Nacional de Riesgos",
+  "tipo": "Concepto",
+  "q": "¿Qué relación tiene la ENR con la Metodología de Evaluación de Riesgos de cada Sujeto Supervisado?",
+  "opciones": {
+   "A": "La ENR solo aplica a autoridades, no a Sujetos Supervisados",
+   "B": "La ENR es un insumo obligatorio: los Sujetos Supervisados deben analizarla y reflejar sus resultados en sus propios Indicadores de Riesgo",
+   "C": "La ENR sustituye la metodología de cada entidad",
+   "D": "La ENR se aplica únicamente cuando la CNBV lo solicite"
+  },
+  "correcta": "B",
+  "argumentacion": "La ENR es el punto de partida nacional del EBR (R. 1 GAFI) y un insumo obligatorio para la Metodología de Evaluación de Riesgos de cada Sujeto Supervisado: sus resultados deben analizarse e incorporarse a los Indicadores de Riesgo de la entidad, y una actualización de la ENR es causa para actualizar la Metodología."
+ },
+ {
+  "n": 236,
+  "area": 3,
+  "subarea": "3.3.4 — Riesgos de corrupción",
+  "tipo": "Dato oficial",
+  "q": "¿En qué año y ante qué organismo se firmó la Convención de las Naciones Unidas contra la Corrupción, conocida como Convención de Mérida?",
+  "opciones": {
+   "A": "2012, ante el GAFI",
+   "B": "1997, ante la OCDE",
+   "C": "1996, ante la OEA",
+   "D": "2003, ante la ONU"
+  },
+  "correcta": "D",
+  "argumentacion": "La Guía CNBV Anticorrupción reconoce tres convenciones clave: la Convención Interamericana contra la Corrupción (Caracas, 1996, OEA), la Convención Anti-cohecho de la OCDE (1997) y la Convención de la ONU contra la Corrupción (Mérida, 2003), que en México da marco a la persecución de los delitos de corrupción vinculados al LD."
+ },
+ {
+  "n": 237,
+  "area": 3,
+  "subarea": "3.3.4 — Riesgos de corrupción",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuáles son los delitos de corrupción que la Guía CNBV relaciona con el riesgo de lavado de dinero en el CPF?",
+  "opciones": {
+   "A": "Evasión fiscal, defraudación fiscal y contrabando",
+   "B": "Cohecho, soborno, tráfico de influencias, peculado y enriquecimiento ilícito",
+   "C": "Secuestro extorsivo, trata de personas y narcomenudeo",
+   "D": "Solo cohecho y enriquecimiento ilícito"
+  },
+  "correcta": "B",
+  "argumentacion": "La Guía CNBV Anticorrupción lista como delitos de corrupción en el CPF: cohecho (ofrecer/prometer/dar/solicitar ventaja ilegal), soborno (dar dádivas a servidor público), tráfico de influencias, peculado (apropiación de fondos públicos) y enriquecimiento ilícito. Son delitos precedentes del LD (Art. 400 Bis CPF): los recursos ilícitos requieren ocultamiento para integrarse al sistema financiero con apariencia de legalidad."
+ },
+ {
+  "n": 238,
+  "area": 3,
+  "subarea": "3.3.4 — Riesgos de corrupción",
+  "tipo": "Caso práctico",
+  "q": "Un cliente no es PEP, pero la entidad detecta una Operación Inusual con vínculos financieros hacia una PEP nacional. Conforme a la Guía CNBV Anticorrupción, ¿cómo debe tratarse ese cliente?",
+  "opciones": {
+   "A": "Eximirlo de cualquier medida adicional por no ser PEP",
+   "B": "Considerarlo una 'Persona Vulnerable': aplicar verificaciones adicionales, por ejemplo verificar si su empresa está en el listado del Art. 69-B del CFF o si es proveedora del Estado en COMPRANET, con monitoreo reforzado",
+   "C": "Reportarlo inmediatamente como Operación Inexistente",
+   "D": "Clasificarlo automáticamente como PEP"
+  },
+  "correcta": "B",
+  "argumentacion": "La Guía define a las Personas Vulnerables como clientes o usuarios que no son PEP pero representan riesgo de LD por corrupción debido a vínculos financieros identificados en una Operación Inusual con una PEP nacional. Para ellos recomienda: declaración patrimonial, verificación en el listado de operaciones presuntamente inexistentes (Art. 69-B CFF), verificación como proveedor del Estado en COMPRANET y monitoreo reforzado."
+ },
+ {
+  "n": 239,
+  "area": 3,
+  "subarea": "3.3.4 — Riesgos de corrupción",
+  "tipo": "Concepto",
+  "q": "Según la Guía CNBV Anticorrupción, ¿por qué la corrupción se vincula directamente con el lavado de dinero?",
+  "opciones": {
+   "A": "Porque la corrupción es un delito precedente: los recursos obtenidos por actos de corrupción son ilícitos y requieren mecanismos de ocultamiento para darse apariencia de legalidad",
+   "B": "Porque el GAFI excluyó la corrupción de sus 40 Recomendaciones",
+   "C": "Porque la corrupción está excluida del Art. 400 Bis del CPF",
+   "D": "Porque solo los servidores públicos pueden lavar dinero"
+  },
+  "correcta": "A",
+  "argumentacion": "La Guía explica el vínculo: los recursos de actos de corrupción son producto de delitos precedentes del LD (Art. 400 Bis CPF) y necesitan ocultamiento para integrarse con apariencia de legalidad. El GAFI reconoce que las 40 Recomendaciones también combaten la corrupción, y la R. 12 exige sistemas de gestión de riesgos para PEP."
+ },
+ {
+  "n": 240,
+  "area": 3,
+  "subarea": "3.3.1 — Metodología de Evaluación de Riesgos",
+  "tipo": "Cuestionamiento directo",
+  "q": "¿Cuáles son las cinco categorías de riesgo que establece la Guía CNBV para la Metodología de Evaluación de Riesgos?",
+  "opciones": {
+   "A": "Mínimo, bajo, medio, alto y máximo",
+   "B": "Bajo, medio, alto y sus combinaciones medio-bajo y medio-alto",
+   "C": "Bajo, aceptable, tolerable, intolerable y prohibido",
+   "D": "Bajo, medio, alto y crítico"
+  },
+  "correcta": "B",
+  "argumentacion": "La Guía CNBV define cinco categorías: Bajo (exposición mínima, controles estándar), Medio-Bajo (exposición moderada con controles adecuados), Medio (exposición significativa), Medio-Alto (exposición alta con controles reforzados) y Alto (exposición crítica, medidas intensificadas inmediatas). No confundir con la escala de la ENR 2023, que usa cuatro niveles (0-9)."
  }
 ]
