@@ -199,7 +199,6 @@ table.res td.n{font-variant-numeric:tabular-nums;text-align:right}
   <div class="cfg-modos" style="margin-top:14px;padding-top:14px;border-top:1px solid var(--borde)">
   <button class="btn sec" onclick="alternarModo()" id="btn-modo-oscuro">🌙 Modo oscuro</button>
   <button class="btn sec" onclick="fullscreen()" id="btn-fullscreen">📱 Pantalla completa</button>
-  <button class="btn sec" onclick="irIndice()">← Índice</button>
 </div>
 <p class="pie">Material de estudio no oficial · Contenido basado en el temario CNBV 2026 y las fuentes de la Biblioteca PLD/FT</p>
 </section>
@@ -289,13 +288,37 @@ var S = { etapa:"config", modo:"m100", feedback:true, orden:[], resp:{}, calif:{
 
 function $(id){ return document.getElementById(id); }
 function save(){ try{ localStorage.setItem(CLAVE, JSON.stringify(S)); }catch(e){} }
+function sanearSesion(s){
+  // Una sesión guardada por otra versión del banco (o corrupta) puede traer
+  // ids de pregunta que ya no existen, idx fuera de rango o tipos rotos.
+  // Sin esto, renderPregunta() chocaba con undefined y la app quedaba clavada
+  // en esa pregunta (bug "deja de avanzar en la 81").
+  if(!s || typeof s !== "object" || !Array.isArray(s.orden)) return null;
+  s.orden = s.orden.filter(function(n){ return POR_N[n] !== undefined; });
+  if(!s.orden.length) return null;
+  if(!s.resp || typeof s.resp !== "object" || Array.isArray(s.resp)) s.resp = {};
+  if(!s.calif || typeof s.calif !== "object" || Array.isArray(s.calif)) s.calif = {};
+  if(!Array.isArray(s.marcadas)) s.marcadas = [];
+  s.marcadas = s.marcadas.filter(function(n){ return POR_N[n] !== undefined; });
+  var i = Math.floor(Number(s.idx));
+  if(!isFinite(i) || i < 0) i = 0;
+  if(i >= s.orden.length) i = s.orden.length - 1;
+  s.idx = i;
+  if(s.etapa !== "examen" && s.etapa !== "resultados") s.etapa = "examen";
+  if(typeof s.inicio !== "number" || s.inicio <= 0) s.inicio = Date.now();
+  if(typeof s.fin !== "number" || s.fin <= s.inicio) s.fin = s.inicio + TIEMPO_MS;
+  if(s.modo !== "full" && s.modo !== "m100") s.modo = "full";
+  s.feedback = s.feedback !== false;
+  if(s.filtro !== "mal" && s.filtro !== "todas") s.filtro = "mal";
+  return s;
+}
 function load(){
   try{
     var raw = localStorage.getItem(CLAVE);
     if(!raw) return null;
     var s = JSON.parse(raw);
     if(!s || !Array.isArray(s.orden) || !s.orden.length) return null;
-    return s;
+    return sanearSesion(s);
   }catch(e){ return null; }
 }
 function shuffle(a){
@@ -375,6 +398,10 @@ function tick(){
 function actual(){ return POR_N[S.orden[S.idx]]; }
 function renderPregunta(){
   var p = actual(), cont = $("tarjeta-pregunta");
+  if(!p){
+    if(!sanearSesion(S) || !actual()){ reiniciar(); return; }
+    p = actual();
+  }
   var calif = !!S.calif[p.n];
   var sel = S.resp[p.n] || null;
   var html = "";
@@ -544,22 +571,18 @@ function alternarModo() {
   const nuevo = html.getAttribute('data-modo-oscuro') === 'true';
   html.setAttribute('data-modo-oscuro', !nuevo);
   const btn = document.getElementById('btn-modo-oscuro');
-  btn.textContent = nuevo ? '☀️ Modo claro' : '🌙 Modo oscuro';
+  if (btn) btn.textContent = nuevo ? '☀️ Modo claro' : '🌙 Modo oscuro';
 }
 function fullscreen() {
+  const body = document.body;
   if (!document.fullscreenElement) {
-    document.body.requestFullscreen().catch(() => {});
-  } else {
+    if (typeof body.requestFullscreen === 'function') {
+      const r = body.requestFullscreen();
+      if (r && typeof r.catch === 'function') r.catch(() => {});
+    }
+  } else if (typeof document.exitFullscreen === 'function') {
     document.exitFullscreen();
   }
-}
-function irIndice() {
-  const vistas = ['vista-config', 'vista-examen', 'vista-resultados'];
-  const ocultar = (id) => { const el = document.getElementById(id); if(el) el.hidden = true; };
-  const mostrar = (id) => { const el = document.getElementById(id); if(el) el.hidden = false; };
-  ocultar('vista-config'); ocultar('vista-examen'); ocultar('vista-resultados');
-  mostrar('modal-mapa');
-  if (window.ultimaPregunta) renderizarMapa(window.ultimaPregunta);
 }
 </script>
 </body>

@@ -50,8 +50,11 @@ Para subirla junto con el simulacro: coloca el archivo en **PDF** en esta carpet
 | `preguntas_nuevas.json` | 66 preguntas nuevas autoradas (conversiones + equilibradas) |
 | `_parse_banco.py` | Parser del banco original (referencia) |
 | `_compilar.py` | **Regenera** `preguntas.json` e `index.html` validando todo |
-| `_test_app.js` | Smoke test end-to-end (Chrome headless + CDP, 31 aserciones) |
+| `_test_app.js` | Smoke test end-to-end (Chrome headless + CDP, 33 aserciones) |
 | `_shots.js` | Genera las capturas de `docs/` |
+| `_HISTORIAL_MANTENIMIENTO.md` | Bitácora de cambios técnicos, cómo regenerar y republicar |
+
+> Para ver qué se corrigió recientemente (calificación inmediata y botón "✔ Terminar") y cómo republicar en GitHub Pages, revisa [`_HISTORIAL_MANTENIMIENTO.md`](./_HISTORIAL_MANTENIMIENTO.md).
 
 **Para agregar preguntas:** edita `preguntas_nuevas.json` (mismo formato: `area`, `subarea`, `tipo`, `q`, `opciones` A–D, `correcta`, `argumentacion`) y vuelve a compilar:
 
